@@ -1,0 +1,117 @@
+html { font-size: 100%; height: 100%; }
+body { font-size: 1rem; height: 100%; }
+
+.monitor-body {
+  /* background-color: #2c4151;*/
+  background-color: #182026;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: antiquewhite;
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+}
+
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.main-nav {
+  grid-area: nav;
+}
+.leftside {
+  grid-area: left-sidebar;
+}
+.rightside {
+  grid-area: right-sidebar;
+}
+.main-footer {
+  grid-area: footer;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header"
+    "left-sidebar"
+    "content"
+    "right-sidebar"
+    "footer";
+}
+
+@media (max-width: 499px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "content"
+      "footer"
+      "right-sidebar"
+      "left-sidebar";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+  h4 { font-size: 1rem; }
+  h5 { font-size: 1rem; }
+  p {font-size: .83rem; }
+  .smallText { text-align: center; font-size: .6rem;}
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "header  header"
+      "content content"
+      "footer  footer"
+      "left-sidebar left-sidebar"
+      "right-sidebar right-sidebar";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+  h4 { font-size: 1rem; }
+  h5 { font-size: 1rem; }
+  p {font-size: 1rem; }
+  .smallText { text-align: center; font-size: .7rem; }
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas:
+      "header  header  header"
+      "left-sidebar content right-sidebar"
+      "footer footer footer";
+   }
+
+   h1 { font-size: 1.8rem;   }
+   h2 { font-size: 1.6rem; }
+   h3 { font-size: 1.4rem; }
+   h4 { font-size: 1.2rem; }
+   h5 { font-size: 1.2rem; }
+   p {font-size: 1rem; }
+   .smallText { text-align: center; font-size: 1rem; }
+}
+

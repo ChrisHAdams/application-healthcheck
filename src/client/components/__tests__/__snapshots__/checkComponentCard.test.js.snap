@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Component Card Snapshot Test 1`] = `
+<div
+  className="bp3-card bp3-elevation-2"
+>
+  <h3
+    id="Name"
+  >
+    BBC
+  </h3>
+  <h4
+    id="description"
+  >
+    Check the BBC Website
+  </h4>
+  <p
+    id="type"
+  >
+    Check Type: 
+    website
+  </p>
+  <p
+    id="expectedResponseTime"
+  >
+    Expected Response Time 
+    500
+  </p>
+  <p
+    id="expectedResponseCode"
+  >
+    Expected Response Code 
+    200
+  </p>
+</div>
+`;

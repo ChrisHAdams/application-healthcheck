@@ -1,0 +1,81 @@
+{
+  "name": "application-healthcheck",
+  "version": "0.0.1",
+  "description": "Application Healthcheck",
+  "main": "index.js",
+  "scripts": {
+    "server-start": "export NODE_ENV=development; npm run babel-node -- ./index.js",
+    "server-watch": "export NODE_ENV=development; node node_modules/nodemon/bin/nodemon.js --exec babel-node --presets es2015 --watch src/server --watch config",
+    "server-test": "mocha --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
+    "client-start": "webpack --watch --config ./webpack.config.js --mode development;",
+    "client-build": "webpack --config ./webpack.config.js --mode production",
+    "babel-node": "babel-node --presets=latest",
+    "client-test": "jest",
+    "client-test:watch": "jest --watch",
+    "client-test:coverage": "jest --coverage",
+    "start": "export NODE_ENV=development; nodemon --watch src/server --watch config --exec npm run babel-node -- ./index.js",
+    "build": "babel src -d dist"
+  },
+  "jest": {
+    "setupFiles": [
+      "./test/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "rootDir": "./src/client"
+  },
+  "author": "Chris Adams",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^1.30.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "express": "^4.16.3",
+    "npm": "^6.1.0",
+    "ping": "^0.2.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "styled-components": "^3.4.5",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.11.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.5.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.18.3",
+    "react-test-renderer": "^16.4.2",
+    "sinon": "^6.0.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.4",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "^3.1.0"
+  }
+}

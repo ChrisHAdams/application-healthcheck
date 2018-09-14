@@ -1,0 +1,2164 @@
+07:36:03 - info: Starting application
+07:36:03 - info: Initializing web server module
+07:36:03 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:36:03 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:36:03 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:36:21 - info: Received socket connection.
+07:36:23 - info: Running scheduled checks
+07:36:23 - info: Running Website check BBC.
+07:36:23 - info: Running Website check Google Website.
+07:36:23 - info: Running Website check Sky Website.
+07:36:23 - info: Running Website check Google Website.
+07:36:23 - info: Running Website check Google Website.
+07:36:23 - info: Running Website check Google Website.
+07:36:23 - info: Called Google Website check.  Response code 200.  Response time 112ms.
+07:36:23 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+07:36:23 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:36:23 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+07:36:23 - info: Called Sky Website check.  Response code 200.  Response time 228ms.
+07:36:23 - info: Called BBC check.  Response code 200.  Response time 253ms.
+07:36:43 - info: Running scheduled checks
+07:36:43 - info: Running Website check BBC.
+07:36:43 - info: Running Website check Google Website.
+07:36:43 - info: Running Website check Sky Website.
+07:36:43 - info: Running Website check Google Website.
+07:36:43 - info: Running Website check Google Website.
+07:36:43 - info: Running Website check Google Website.
+07:36:43 - info: Called Google Website check.  Response code 200.  Response time 137ms.
+07:36:43 - info: Called Google Website check.  Response code 200.  Response time 148ms.
+07:36:43 - info: Called Sky Website check.  Response code 200.  Response time 159ms.
+07:36:43 - info: Called Google Website check.  Response code 200.  Response time 162ms.
+07:36:43 - info: Called Google Website check.  Response code 200.  Response time 213ms.
+07:36:43 - info: Called BBC check.  Response code 200.  Response time 229ms.
+07:37:02 - info: Received socket connection.
+07:37:03 - info: Running scheduled checks
+07:37:03 - info: Running Website check BBC.
+07:37:03 - info: Running Website check Google Website.
+07:37:03 - info: Running Website check Sky Website.
+07:37:03 - info: Running Website check Google Website.
+07:37:03 - info: Running Website check Google Website.
+07:37:03 - info: Running Website check Google Website.
+07:37:03 - info: Called Google Website check.  Response code 200.  Response time 117ms.
+07:37:03 - info: Called Google Website check.  Response code 200.  Response time 118ms.
+07:37:03 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+07:37:03 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+07:37:03 - info: Called Sky Website check.  Response code 200.  Response time 155ms.
+07:37:03 - info: Called BBC check.  Response code 200.  Response time 225ms.
+07:37:23 - info: Running scheduled checks
+07:37:23 - info: Running Website check BBC.
+07:37:23 - info: Running Website check Google Website.
+07:37:23 - info: Running Website check Sky Website.
+07:37:23 - info: Running Website check Google Website.
+07:37:23 - info: Running Website check Google Website.
+07:37:23 - info: Running Website check Google Website.
+07:37:23 - info: Called Google Website check.  Response code 200.  Response time 117ms.
+07:37:23 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:37:23 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+07:37:23 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+07:37:23 - info: Called Sky Website check.  Response code 200.  Response time 189ms.
+07:37:24 - info: Called BBC check.  Response code 200.  Response time 478ms.
+07:37:43 - info: Running scheduled checks
+07:37:43 - info: Running Website check BBC.
+07:37:43 - info: Running Website check Google Website.
+07:37:43 - info: Running Website check Sky Website.
+07:37:43 - info: Running Website check Google Website.
+07:37:43 - info: Running Website check Google Website.
+07:37:43 - info: Running Website check Google Website.
+07:37:43 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+07:37:43 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+07:37:43 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:37:43 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+07:37:43 - info: Called Sky Website check.  Response code 200.  Response time 154ms.
+07:37:43 - info: Called BBC check.  Response code 200.  Response time 430ms.
+07:38:03 - info: Running scheduled checks
+07:38:03 - info: Running Website check BBC.
+07:38:03 - info: Running Website check Google Website.
+07:38:03 - info: Running Website check Sky Website.
+07:38:03 - info: Running Website check Google Website.
+07:38:03 - info: Running Website check Google Website.
+07:38:03 - info: Running Website check Google Website.
+07:38:03 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+07:38:03 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+07:38:03 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:38:03 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+07:38:03 - info: Called Sky Website check.  Response code 200.  Response time 167ms.
+07:38:03 - info: Called BBC check.  Response code 200.  Response time 220ms.
+07:38:12 - info: Starting application
+07:38:12 - info: Initializing web server module
+07:38:12 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:38:12 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:38:12 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:38:12 - info: Received socket connection.
+07:38:23 - info: Starting application
+07:38:23 - info: Initializing web server module
+07:38:23 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:38:23 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:38:23 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:38:26 - info: Received socket connection.
+07:38:43 - info: Running scheduled checks
+07:38:43 - info: Running Website check BBC.
+07:38:43 - info: Running Website check Google Website.
+07:38:43 - info: Running Website check Sky Website.
+07:38:43 - info: Running Website check Google Website.
+07:38:43 - info: Running Website check Google Website.
+07:38:43 - info: Running Website check Google Website.
+07:38:43 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+07:38:43 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+07:38:43 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+07:38:43 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+07:38:43 - info: Called Sky Website check.  Response code 200.  Response time 215ms.
+07:38:43 - info: Called BBC check.  Response code 200.  Response time 253ms.
+07:39:03 - info: Running scheduled checks
+07:39:03 - info: Running Website check BBC.
+07:39:03 - info: Running Website check Google Website.
+07:39:03 - info: Running Website check Sky Website.
+07:39:03 - info: Running Website check Google Website.
+07:39:03 - info: Running Website check Google Website.
+07:39:03 - info: Running Website check Google Website.
+07:39:03 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:39:03 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+07:39:03 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+07:39:03 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+07:39:03 - info: Called Sky Website check.  Response code 200.  Response time 171ms.
+07:39:03 - info: Called BBC check.  Response code 200.  Response time 234ms.
+07:39:23 - info: Running scheduled checks
+07:39:23 - info: Running Website check BBC.
+07:39:23 - info: Running Website check Google Website.
+07:39:23 - info: Running Website check Sky Website.
+07:39:23 - info: Running Website check Google Website.
+07:39:23 - info: Running Website check Google Website.
+07:39:23 - info: Running Website check Google Website.
+07:39:23 - info: Called Google Website check.  Response code 200.  Response time 148ms.
+07:39:23 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+07:39:23 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+07:39:23 - info: Called Google Website check.  Response code 200.  Response time 152ms.
+07:39:23 - info: Called Sky Website check.  Response code 200.  Response time 166ms.
+07:39:23 - info: Called BBC check.  Response code 200.  Response time 267ms.
+07:39:43 - info: Running scheduled checks
+07:39:43 - info: Running Website check BBC.
+07:39:43 - info: Running Website check Google Website.
+07:39:43 - info: Running Website check Sky Website.
+07:39:43 - info: Running Website check Google Website.
+07:39:43 - info: Running Website check Google Website.
+07:39:43 - info: Running Website check Google Website.
+07:39:43 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+07:39:43 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+07:39:43 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+07:39:43 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+07:39:43 - info: Called Sky Website check.  Response code 200.  Response time 411ms.
+07:39:44 - info: Called BBC check.  Response code 200.  Response time 678ms.
+07:40:03 - info: Running scheduled checks
+07:40:03 - info: Running Website check BBC.
+07:40:03 - info: Running Website check Google Website.
+07:40:03 - info: Running Website check Sky Website.
+07:40:03 - info: Running Website check Google Website.
+07:40:03 - info: Running Website check Google Website.
+07:40:03 - info: Running Website check Google Website.
+07:40:03 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+07:40:03 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+07:40:03 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+07:40:03 - info: Called Google Website check.  Response code 200.  Response time 137ms.
+07:40:03 - info: Called Sky Website check.  Response code 200.  Response time 218ms.
+07:40:03 - info: Called BBC check.  Response code 200.  Response time 564ms.
+07:40:23 - info: Running scheduled checks
+07:40:23 - info: Running Website check BBC.
+07:40:23 - info: Running Website check Google Website.
+07:40:23 - info: Running Website check Sky Website.
+07:40:23 - info: Running Website check Google Website.
+07:40:23 - info: Running Website check Google Website.
+07:40:23 - info: Running Website check Google Website.
+07:40:23 - info: Called Google Website check.  Response code 200.  Response time 173ms.
+07:40:23 - info: Called Google Website check.  Response code 200.  Response time 175ms.
+07:40:23 - info: Called Google Website check.  Response code 200.  Response time 178ms.
+07:40:23 - info: Called Google Website check.  Response code 200.  Response time 202ms.
+07:40:23 - info: Called Sky Website check.  Response code 200.  Response time 420ms.
+07:40:23 - info: Called BBC check.  Response code 200.  Response time 426ms.
+07:40:24 - info: Received socket connection.
+07:42:22 - info: Starting application
+07:42:22 - info: Initializing web server module
+07:42:22 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:42:22 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:42:22 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:42:29 - info: Received socket connection.
+07:42:43 - info: Running scheduled checks
+07:42:43 - info: Running Website check BBC.
+07:42:43 - info: Running Website check Google Website.
+07:42:43 - info: Running Website check Sky Website.
+07:42:43 - info: Running Website check Google Website.
+07:42:43 - info: Running Website check Google Website.
+07:42:43 - info: Running Website check Google Website.
+07:42:43 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:42:43 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+07:42:43 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+07:42:43 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+07:42:43 - info: Called Sky Website check.  Response code 200.  Response time 227ms.
+07:42:43 - info: Called BBC check.  Response code 200.  Response time 242ms.
+07:43:03 - info: Running scheduled checks
+07:43:03 - info: Running Website check BBC.
+07:43:03 - info: Running Website check Google Website.
+07:43:03 - info: Running Website check Sky Website.
+07:43:03 - info: Running Website check Google Website.
+07:43:03 - info: Running Website check Google Website.
+07:43:03 - info: Running Website check Google Website.
+07:43:03 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:43:03 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+07:43:03 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+07:43:03 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+07:43:03 - info: Called Sky Website check.  Response code 200.  Response time 220ms.
+07:43:03 - info: Called BBC check.  Response code 200.  Response time 224ms.
+07:43:23 - info: Running scheduled checks
+07:43:23 - info: Running Website check BBC.
+07:43:23 - info: Running Website check Google Website.
+07:43:23 - info: Running Website check Sky Website.
+07:43:23 - info: Running Website check Google Website.
+07:43:23 - info: Running Website check Google Website.
+07:43:23 - info: Running Website check Google Website.
+07:43:23 - info: Called Google Website check.  Response code 200.  Response time 112ms.
+07:43:23 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:43:23 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:43:23 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:43:23 - info: Called Sky Website check.  Response code 200.  Response time 148ms.
+07:43:23 - info: Called BBC check.  Response code 200.  Response time 220ms.
+07:43:43 - info: Running scheduled checks
+07:43:43 - info: Running Website check BBC.
+07:43:43 - info: Running Website check Google Website.
+07:43:43 - info: Running Website check Sky Website.
+07:43:43 - info: Running Website check Google Website.
+07:43:43 - info: Running Website check Google Website.
+07:43:43 - info: Running Website check Google Website.
+07:43:43 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+07:43:43 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:43:43 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+07:43:43 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:43:43 - info: Called Sky Website check.  Response code 200.  Response time 184ms.
+07:43:43 - info: Called BBC check.  Response code 200.  Response time 251ms.
+07:44:03 - info: Running scheduled checks
+07:44:03 - info: Running Website check BBC.
+07:44:03 - info: Running Website check Google Website.
+07:44:03 - info: Running Website check Sky Website.
+07:44:03 - info: Running Website check Google Website.
+07:44:03 - info: Running Website check Google Website.
+07:44:03 - info: Running Website check Google Website.
+07:44:03 - info: Called Google Website check.  Response code 200.  Response time 114ms.
+07:44:03 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+07:44:03 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+07:44:03 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+07:44:03 - info: Called Sky Website check.  Response code 200.  Response time 158ms.
+07:44:03 - info: Called BBC check.  Response code 200.  Response time 306ms.
+07:44:23 - info: Running scheduled checks
+07:44:23 - info: Running Website check BBC.
+07:44:23 - info: Running Website check Google Website.
+07:44:23 - info: Running Website check Sky Website.
+07:44:23 - info: Running Website check Google Website.
+07:44:23 - info: Running Website check Google Website.
+07:44:23 - info: Running Website check Google Website.
+07:44:23 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+07:44:23 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:44:23 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+07:44:23 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+07:44:23 - info: Called Sky Website check.  Response code 200.  Response time 160ms.
+07:44:23 - info: Called BBC check.  Response code 200.  Response time 228ms.
+07:44:43 - info: Running scheduled checks
+07:44:43 - info: Running Website check BBC.
+07:44:43 - info: Running Website check Google Website.
+07:44:43 - info: Running Website check Sky Website.
+07:44:43 - info: Running Website check Google Website.
+07:44:43 - info: Running Website check Google Website.
+07:44:43 - info: Running Website check Google Website.
+07:44:43 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+07:44:43 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+07:44:43 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+07:44:43 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+07:44:43 - info: Called Sky Website check.  Response code 200.  Response time 177ms.
+07:44:43 - info: Called BBC check.  Response code 200.  Response time 241ms.
+07:45:03 - info: Running scheduled checks
+07:45:03 - info: Running Website check BBC.
+07:45:03 - info: Running Website check Google Website.
+07:45:03 - info: Running Website check Sky Website.
+07:45:03 - info: Running Website check Google Website.
+07:45:03 - info: Running Website check Google Website.
+07:45:03 - info: Running Website check Google Website.
+07:45:03 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+07:45:03 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:45:03 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+07:45:03 - info: Called Google Website check.  Response code 200.  Response time 139ms.
+07:45:03 - info: Called Sky Website check.  Response code 200.  Response time 189ms.
+07:45:03 - info: Called BBC check.  Response code 200.  Response time 230ms.
+07:45:19 - info: Starting application
+07:45:19 - info: Initializing web server module
+07:45:19 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:45:19 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:45:19 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:45:29 - info: Received socket connection.
+07:45:39 - info: Running scheduled checks
+07:45:39 - info: Running Website check BBC.
+07:45:39 - info: Running Website check Google Website.
+07:45:39 - info: Running Website check Sky Website.
+07:45:39 - info: Running Website check Google Website.
+07:45:39 - info: Running Website check Google Website.
+07:45:39 - info: Running Website check Google Website.
+07:45:39 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+07:45:39 - info: Called Google Website check.  Response code 200.  Response time 146ms.
+07:45:39 - info: Called Google Website check.  Response code 200.  Response time 147ms.
+07:45:39 - info: Called Google Website check.  Response code 200.  Response time 155ms.
+07:45:39 - info: Called Sky Website check.  Response code 200.  Response time 234ms.
+07:45:39 - info: Called BBC check.  Response code 200.  Response time 450ms.
+07:45:57 - info: Starting application
+07:45:57 - info: Initializing web server module
+07:45:57 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+07:45:57 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+07:45:57 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+07:46:17 - info: Running scheduled checks
+07:46:17 - info: Running Website check BBC.
+07:46:17 - info: Running Website check Google Website.
+07:46:17 - info: Running Website check Sky Website.
+07:46:17 - info: Running Website check Google Website.
+07:46:17 - info: Running Website check Google Website.
+07:46:17 - info: Running Website check Google Website.
+07:46:18 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+07:46:18 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:46:18 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+07:46:18 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+07:46:18 - info: Called Sky Website check.  Response code 200.  Response time 201ms.
+07:46:18 - info: Called BBC check.  Response code 200.  Response time 432ms.
+07:46:19 - info: Received socket connection.
+07:46:37 - info: Running scheduled checks
+07:46:37 - info: Running Website check BBC.
+07:46:37 - info: Running Website check Google Website.
+07:46:37 - info: Running Website check Sky Website.
+07:46:38 - info: Running Website check Google Website.
+07:46:38 - info: Running Website check Google Website.
+07:46:38 - info: Running Website check Google Website.
+07:46:38 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+07:46:38 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+07:46:38 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+07:46:38 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+07:46:38 - info: Called Sky Website check.  Response code 200.  Response time 171ms.
+07:46:38 - info: Called BBC check.  Response code 200.  Response time 416ms.
+07:46:58 - info: Running scheduled checks
+07:46:58 - info: Running Website check BBC.
+07:46:58 - info: Running Website check Google Website.
+07:46:58 - info: Running Website check Sky Website.
+07:46:58 - info: Running Website check Google Website.
+07:46:58 - info: Running Website check Google Website.
+07:46:58 - info: Running Website check Google Website.
+07:46:58 - info: Called Google Website check.  Response code 200.  Response time 113ms.
+07:46:58 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+07:46:58 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+07:46:58 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+07:46:58 - info: Called Sky Website check.  Response code 200.  Response time 155ms.
+07:46:58 - info: Called BBC check.  Response code 200.  Response time 433ms.
+07:47:18 - info: Running scheduled checks
+07:47:18 - info: Running Website check BBC.
+07:47:18 - info: Running Website check Google Website.
+07:47:18 - info: Running Website check Sky Website.
+07:47:18 - info: Running Website check Google Website.
+07:47:18 - info: Running Website check Google Website.
+07:47:18 - info: Running Website check Google Website.
+07:47:18 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+07:47:18 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+07:47:18 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+07:47:18 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+07:47:18 - info: Called Sky Website check.  Response code 200.  Response time 170ms.
+07:47:18 - info: Received socket connection.
+07:47:18 - info: Called BBC check.  Response code 200.  Response time 695ms.
+07:47:38 - info: Running scheduled checks
+07:47:38 - info: Running Website check BBC.
+07:47:38 - info: Running Website check Google Website.
+07:47:38 - info: Running Website check Sky Website.
+07:47:38 - info: Running Website check Google Website.
+07:47:38 - info: Running Website check Google Website.
+07:47:38 - info: Running Website check Google Website.
+07:47:38 - info: Called Google Website check.  Response code 200.  Response time 188ms.
+07:47:38 - info: Called Google Website check.  Response code 200.  Response time 244ms.
+07:47:38 - info: Called Google Website check.  Response code 200.  Response time 245ms.
+07:47:38 - info: Called Google Website check.  Response code 200.  Response time 252ms.
+07:47:38 - info: Called Sky Website check.  Response code 200.  Response time 375ms.
+10:47:54 - info: Running scheduled checks
+10:47:54 - info: Running Website check BBC.
+10:47:54 - info: Running Website check Google Website.
+10:47:54 - info: Running Website check Sky Website.
+10:47:54 - info: Running Website check Google Website.
+10:47:54 - info: Running Website check Google Website.
+10:47:54 - info: Running Website check Google Website.
+20:10:08 - info: Running scheduled checks
+20:10:08 - info: Running Website check BBC.
+20:10:08 - info: Running Website check Google Website.
+20:10:08 - info: Running Website check Sky Website.
+20:10:08 - info: Running Website check Google Website.
+20:10:08 - info: Running Website check Google Website.
+20:10:08 - info: Running Website check Google Website.
+20:10:08 - error: Error - Called BBC check.  Response code Error: getaddrinfo ENOTFOUND www.bbc.co.uk www.bbc.co.uk:80.  Response time 33734134ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 33734135ms.
+20:10:08 - error: Error - Called Sky Website check.  Response code Error: getaddrinfo ENOTFOUND www.sky.com www.sky.com:80.  Response time 33734135ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 33734133ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 33734135ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 33734134ms.
+20:10:08 - error: Error - Called BBC check.  Response code Error: getaddrinfo ENOTFOUND www.bbc.co.uk www.bbc.co.uk:80.  Response time 226ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 182ms.
+20:10:08 - error: Error - Called Sky Website check.  Response code Error: getaddrinfo ENOTFOUND www.sky.com www.sky.com:80.  Response time 181ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 179ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 181ms.
+20:10:08 - error: Error - Called Google Website check.  Response code Error: getaddrinfo ENOTFOUND www.google.com www.google.com:80.  Response time 181ms.
+20:10:09 - info: Received socket connection.
+20:10:30 - info: Running scheduled checks
+20:10:30 - info: Running Website check BBC.
+20:10:30 - info: Running Website check Google Website.
+20:10:30 - info: Running Website check Sky Website.
+20:10:30 - info: Running Website check Google Website.
+20:10:30 - info: Running Website check Google Website.
+20:10:30 - info: Running Website check Google Website.
+20:10:30 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+20:10:30 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+20:10:30 - info: Called Google Website check.  Response code 200.  Response time 152ms.
+20:10:30 - info: Called Google Website check.  Response code 200.  Response time 156ms.
+20:10:30 - info: Called Sky Website check.  Response code 200.  Response time 392ms.
+20:10:30 - info: Called BBC check.  Response code 200.  Response time 489ms.
+20:10:35 - error: Error - Called BBC check.  Response code Error: read ENETDOWN.  Response time 44577088ms.
+20:10:50 - info: Running scheduled checks
+20:10:50 - info: Running Website check BBC.
+20:10:50 - info: Running Website check Google Website.
+20:10:50 - info: Running Website check Sky Website.
+20:10:50 - info: Running Website check Google Website.
+20:10:50 - info: Running Website check Google Website.
+20:10:50 - info: Running Website check Google Website.
+20:10:50 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:10:50 - info: Called Google Website check.  Response code 200.  Response time 139ms.
+20:10:50 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+20:10:50 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+20:10:50 - info: Called Sky Website check.  Response code 200.  Response time 285ms.
+20:10:50 - info: Called BBC check.  Response code 200.  Response time 442ms.
+20:11:10 - info: Running scheduled checks
+20:11:10 - info: Running Website check BBC.
+20:11:10 - info: Running Website check Google Website.
+20:11:10 - info: Running Website check Sky Website.
+20:11:10 - info: Running Website check Google Website.
+20:11:10 - info: Running Website check Google Website.
+20:11:10 - info: Running Website check Google Website.
+20:11:10 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+20:11:10 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+20:11:10 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+20:11:10 - info: Called Google Website check.  Response code 200.  Response time 153ms.
+20:11:10 - info: Called BBC check.  Response code 200.  Response time 435ms.
+20:11:12 - info: Called Sky Website check.  Response code 200.  Response time 2123ms.
+20:11:30 - info: Running scheduled checks
+20:11:30 - info: Running Website check BBC.
+20:11:30 - info: Running Website check Google Website.
+20:11:30 - info: Running Website check Sky Website.
+20:11:30 - info: Running Website check Google Website.
+20:11:30 - info: Running Website check Google Website.
+20:11:30 - info: Running Website check Google Website.
+20:11:30 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:11:30 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+20:11:30 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:11:30 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:11:30 - info: Called Sky Website check.  Response code 200.  Response time 361ms.
+20:11:30 - info: Called BBC check.  Response code 200.  Response time 397ms.
+20:11:50 - info: Running scheduled checks
+20:11:50 - info: Running Website check BBC.
+20:11:50 - info: Running Website check Google Website.
+20:11:50 - info: Running Website check Sky Website.
+20:11:50 - info: Running Website check Google Website.
+20:11:50 - info: Running Website check Google Website.
+20:11:50 - info: Running Website check Google Website.
+20:11:50 - info: Called Google Website check.  Response code 200.  Response time 190ms.
+20:11:50 - info: Called Google Website check.  Response code 200.  Response time 195ms.
+20:11:50 - info: Called Google Website check.  Response code 200.  Response time 201ms.
+20:11:50 - info: Called Google Website check.  Response code 200.  Response time 201ms.
+20:11:50 - info: Called BBC check.  Response code 200.  Response time 468ms.
+20:11:50 - info: Called Sky Website check.  Response code 200.  Response time 509ms.
+20:12:10 - info: Running scheduled checks
+20:12:10 - info: Running Website check BBC.
+20:12:10 - info: Running Website check Google Website.
+20:12:10 - info: Running Website check Sky Website.
+20:12:10 - info: Running Website check Google Website.
+20:12:10 - info: Running Website check Google Website.
+20:12:10 - info: Running Website check Google Website.
+20:12:10 - info: Called Google Website check.  Response code 200.  Response time 112ms.
+20:12:10 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:12:10 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:12:10 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:12:10 - info: Called Sky Website check.  Response code 200.  Response time 242ms.
+20:12:10 - info: Called BBC check.  Response code 200.  Response time 482ms.
+20:12:30 - info: Running scheduled checks
+20:12:30 - info: Running Website check BBC.
+20:12:30 - info: Running Website check Google Website.
+20:12:30 - info: Running Website check Sky Website.
+20:12:30 - info: Running Website check Google Website.
+20:12:30 - info: Running Website check Google Website.
+20:12:30 - info: Running Website check Google Website.
+20:12:30 - info: Called Google Website check.  Response code 200.  Response time 118ms.
+20:12:30 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:12:30 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:12:30 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+20:12:30 - info: Called Sky Website check.  Response code 200.  Response time 270ms.
+20:12:30 - info: Called BBC check.  Response code 200.  Response time 410ms.
+20:12:50 - info: Running scheduled checks
+20:12:50 - info: Running Website check BBC.
+20:12:50 - info: Running Website check Google Website.
+20:12:50 - info: Running Website check Sky Website.
+20:12:50 - info: Running Website check Google Website.
+20:12:50 - info: Running Website check Google Website.
+20:12:50 - info: Running Website check Google Website.
+20:12:50 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:12:50 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:12:50 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:12:50 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+20:12:50 - info: Called Sky Website check.  Response code 200.  Response time 315ms.
+20:12:50 - info: Called BBC check.  Response code 200.  Response time 421ms.
+20:13:10 - info: Running scheduled checks
+20:13:10 - info: Running Website check BBC.
+20:13:10 - info: Running Website check Google Website.
+20:13:10 - info: Running Website check Sky Website.
+20:13:10 - info: Running Website check Google Website.
+20:13:10 - info: Running Website check Google Website.
+20:13:10 - info: Running Website check Google Website.
+20:13:10 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+20:13:10 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:13:10 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:13:10 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:13:10 - info: Called BBC check.  Response code 200.  Response time 233ms.
+20:13:10 - info: Called Sky Website check.  Response code 200.  Response time 328ms.
+20:13:30 - info: Running scheduled checks
+20:13:30 - info: Running Website check BBC.
+20:13:30 - info: Running Website check Google Website.
+20:13:30 - info: Running Website check Sky Website.
+20:13:30 - info: Running Website check Google Website.
+20:13:30 - info: Running Website check Google Website.
+20:13:30 - info: Running Website check Google Website.
+20:13:30 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:13:30 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:13:30 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:13:30 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:13:30 - info: Called BBC check.  Response code 200.  Response time 220ms.
+20:13:30 - info: Called Sky Website check.  Response code 200.  Response time 296ms.
+20:13:50 - info: Running scheduled checks
+20:13:50 - info: Running Website check BBC.
+20:13:50 - info: Running Website check Google Website.
+20:13:50 - info: Running Website check Sky Website.
+20:13:50 - info: Running Website check Google Website.
+20:13:50 - info: Running Website check Google Website.
+20:13:50 - info: Running Website check Google Website.
+20:13:50 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:13:50 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:13:50 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+20:13:50 - info: Called Google Website check.  Response code 200.  Response time 147ms.
+20:13:50 - info: Called BBC check.  Response code 200.  Response time 234ms.
+20:13:50 - info: Called Sky Website check.  Response code 200.  Response time 345ms.
+20:14:10 - info: Running scheduled checks
+20:14:10 - info: Running Website check BBC.
+20:14:10 - info: Running Website check Google Website.
+20:14:10 - info: Running Website check Sky Website.
+20:14:10 - info: Running Website check Google Website.
+20:14:10 - info: Running Website check Google Website.
+20:14:10 - info: Running Website check Google Website.
+20:14:10 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:14:10 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+20:14:10 - info: Called Google Website check.  Response code 200.  Response time 153ms.
+20:14:10 - info: Called Google Website check.  Response code 200.  Response time 155ms.
+20:14:10 - info: Called BBC check.  Response code 200.  Response time 313ms.
+20:14:10 - info: Called Sky Website check.  Response code 200.  Response time 325ms.
+20:14:30 - info: Running scheduled checks
+20:14:30 - info: Running Website check BBC.
+20:14:30 - info: Running Website check Google Website.
+20:14:30 - info: Running Website check Sky Website.
+20:14:30 - info: Running Website check Google Website.
+20:14:30 - info: Running Website check Google Website.
+20:14:30 - info: Running Website check Google Website.
+20:14:30 - info: Called Google Website check.  Response code 200.  Response time 192ms.
+20:14:30 - info: Called Google Website check.  Response code 200.  Response time 194ms.
+20:14:30 - info: Called Google Website check.  Response code 200.  Response time 196ms.
+20:14:30 - info: Called Google Website check.  Response code 200.  Response time 202ms.
+20:14:30 - info: Called Sky Website check.  Response code 200.  Response time 439ms.
+20:14:32 - info: Called BBC check.  Response code 200.  Response time 2233ms.
+20:14:50 - info: Running scheduled checks
+20:14:50 - info: Running Website check BBC.
+20:14:50 - info: Running Website check Google Website.
+20:14:50 - info: Running Website check Sky Website.
+20:14:50 - info: Running Website check Google Website.
+20:14:50 - info: Running Website check Google Website.
+20:14:50 - info: Running Website check Google Website.
+20:14:50 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+20:14:50 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+20:14:50 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+20:14:50 - info: Called Google Website check.  Response code 200.  Response time 156ms.
+20:14:50 - info: Called Sky Website check.  Response code 200.  Response time 272ms.
+20:14:51 - info: Called BBC check.  Response code 200.  Response time 1378ms.
+20:15:10 - info: Running scheduled checks
+20:15:10 - info: Running Website check BBC.
+20:15:10 - info: Running Website check Google Website.
+20:15:10 - info: Running Website check Sky Website.
+20:15:10 - info: Running Website check Google Website.
+20:15:10 - info: Running Website check Google Website.
+20:15:10 - info: Running Website check Google Website.
+20:15:10 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:15:10 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:15:10 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+20:15:10 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:15:10 - info: Called Sky Website check.  Response code 200.  Response time 225ms.
+20:15:10 - info: Called BBC check.  Response code 200.  Response time 391ms.
+20:15:30 - info: Running scheduled checks
+20:15:30 - info: Running Website check BBC.
+20:15:30 - info: Running Website check Google Website.
+20:15:30 - info: Running Website check Sky Website.
+20:15:30 - info: Running Website check Google Website.
+20:15:30 - info: Running Website check Google Website.
+20:15:30 - info: Running Website check Google Website.
+20:15:30 - info: Called Google Website check.  Response code 200.  Response time 117ms.
+20:15:30 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:15:30 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:15:30 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+20:15:30 - info: Called Sky Website check.  Response code 200.  Response time 273ms.
+20:15:30 - info: Called BBC check.  Response code 200.  Response time 407ms.
+20:15:50 - info: Running scheduled checks
+20:15:50 - info: Running Website check BBC.
+20:15:50 - info: Running Website check Google Website.
+20:15:50 - info: Running Website check Sky Website.
+20:15:50 - info: Running Website check Google Website.
+20:15:50 - info: Running Website check Google Website.
+20:15:50 - info: Running Website check Google Website.
+20:15:50 - info: Called Google Website check.  Response code 200.  Response time 180ms.
+20:15:50 - info: Called Google Website check.  Response code 200.  Response time 181ms.
+20:15:50 - info: Called Google Website check.  Response code 200.  Response time 197ms.
+20:15:50 - info: Called Google Website check.  Response code 200.  Response time 199ms.
+20:15:51 - info: Called Sky Website check.  Response code 200.  Response time 417ms.
+20:15:51 - info: Called BBC check.  Response code 200.  Response time 424ms.
+20:16:10 - info: Running scheduled checks
+20:16:10 - info: Running Website check BBC.
+20:16:10 - info: Running Website check Google Website.
+20:16:10 - info: Running Website check Sky Website.
+20:16:10 - info: Running Website check Google Website.
+20:16:10 - info: Running Website check Google Website.
+20:16:10 - info: Running Website check Google Website.
+20:16:10 - info: Called Google Website check.  Response code 200.  Response time 148ms.
+20:16:10 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+20:16:10 - info: Called Google Website check.  Response code 200.  Response time 153ms.
+20:16:10 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+20:16:10 - info: Called Sky Website check.  Response code 200.  Response time 271ms.
+20:16:10 - info: Called BBC check.  Response code 200.  Response time 406ms.
+20:16:30 - info: Running scheduled checks
+20:16:30 - info: Running Website check BBC.
+20:16:30 - info: Running Website check Google Website.
+20:16:30 - info: Running Website check Sky Website.
+20:16:30 - info: Running Website check Google Website.
+20:16:30 - info: Running Website check Google Website.
+20:16:30 - info: Running Website check Google Website.
+20:16:30 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:16:30 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:16:30 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:16:30 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:16:30 - info: Called Sky Website check.  Response code 200.  Response time 229ms.
+20:16:30 - info: Called BBC check.  Response code 200.  Response time 337ms.
+20:16:50 - info: Running scheduled checks
+20:16:50 - info: Running Website check BBC.
+20:16:50 - info: Running Website check Google Website.
+20:16:50 - info: Running Website check Sky Website.
+20:16:50 - info: Running Website check Google Website.
+20:16:50 - info: Running Website check Google Website.
+20:16:50 - info: Running Website check Google Website.
+20:16:50 - info: Called Google Website check.  Response code 200.  Response time 112ms.
+20:16:50 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:16:50 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:16:50 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:16:50 - info: Called Sky Website check.  Response code 200.  Response time 225ms.
+20:16:50 - info: Called BBC check.  Response code 200.  Response time 350ms.
+20:17:10 - info: Running scheduled checks
+20:17:10 - info: Running Website check BBC.
+20:17:10 - info: Running Website check Google Website.
+20:17:10 - info: Running Website check Sky Website.
+20:17:10 - info: Running Website check Google Website.
+20:17:10 - info: Running Website check Google Website.
+20:17:10 - info: Running Website check Google Website.
+20:17:10 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:17:10 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:17:10 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:17:10 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+20:17:10 - info: Called Sky Website check.  Response code 200.  Response time 262ms.
+20:17:11 - info: Called BBC check.  Response code 200.  Response time 432ms.
+20:17:30 - info: Running scheduled checks
+20:17:30 - info: Running Website check BBC.
+20:17:30 - info: Running Website check Google Website.
+20:17:30 - info: Running Website check Sky Website.
+20:17:30 - info: Running Website check Google Website.
+20:17:30 - info: Running Website check Google Website.
+20:17:30 - info: Running Website check Google Website.
+20:17:30 - info: Called Google Website check.  Response code 200.  Response time 114ms.
+20:17:30 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:17:30 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:17:30 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+20:17:30 - info: Called Sky Website check.  Response code 200.  Response time 229ms.
+20:17:31 - info: Called BBC check.  Response code 200.  Response time 417ms.
+20:17:50 - info: Running scheduled checks
+20:17:50 - info: Running Website check BBC.
+20:17:50 - info: Running Website check Google Website.
+20:17:50 - info: Running Website check Sky Website.
+20:17:50 - info: Running Website check Google Website.
+20:17:50 - info: Running Website check Google Website.
+20:17:50 - info: Running Website check Google Website.
+20:17:50 - info: Called Google Website check.  Response code 200.  Response time 118ms.
+20:17:50 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+20:17:50 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:17:50 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:17:50 - info: Called Sky Website check.  Response code 200.  Response time 237ms.
+20:17:51 - info: Called BBC check.  Response code 200.  Response time 431ms.
+20:18:10 - info: Running scheduled checks
+20:18:10 - info: Running Website check BBC.
+20:18:10 - info: Running Website check Google Website.
+20:18:10 - info: Running Website check Sky Website.
+20:18:10 - info: Running Website check Google Website.
+20:18:10 - info: Running Website check Google Website.
+20:18:10 - info: Running Website check Google Website.
+20:18:10 - info: Called Google Website check.  Response code 200.  Response time 114ms.
+20:18:10 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:18:10 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:18:10 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:18:10 - info: Called Sky Website check.  Response code 200.  Response time 220ms.
+20:18:11 - info: Called BBC check.  Response code 200.  Response time 398ms.
+20:18:30 - info: Running scheduled checks
+20:18:30 - info: Running Website check BBC.
+20:18:30 - info: Running Website check Google Website.
+20:18:30 - info: Running Website check Sky Website.
+20:18:30 - info: Running Website check Google Website.
+20:18:30 - info: Running Website check Google Website.
+20:18:30 - info: Running Website check Google Website.
+20:18:30 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+20:18:30 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:18:30 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+20:18:30 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+20:18:30 - info: Called BBC check.  Response code 200.  Response time 225ms.
+20:18:30 - info: Called Sky Website check.  Response code 200.  Response time 265ms.
+20:18:50 - info: Running scheduled checks
+20:18:50 - info: Running Website check BBC.
+20:18:50 - info: Running Website check Google Website.
+20:18:50 - info: Running Website check Sky Website.
+20:18:50 - info: Running Website check Google Website.
+20:18:50 - info: Running Website check Google Website.
+20:18:50 - info: Running Website check Google Website.
+20:18:50 - info: Called Google Website check.  Response code 200.  Response time 177ms.
+20:18:50 - info: Called Google Website check.  Response code 200.  Response time 179ms.
+20:18:50 - info: Called Google Website check.  Response code 200.  Response time 180ms.
+20:18:50 - info: Called Google Website check.  Response code 200.  Response time 182ms.
+20:18:50 - info: Called BBC check.  Response code 200.  Response time 268ms.
+20:18:50 - info: Called Sky Website check.  Response code 200.  Response time 271ms.
+20:19:10 - info: Running scheduled checks
+20:19:10 - info: Running Website check BBC.
+20:19:10 - info: Running Website check Google Website.
+20:19:10 - info: Running Website check Sky Website.
+20:19:10 - info: Running Website check Google Website.
+20:19:10 - info: Running Website check Google Website.
+20:19:10 - info: Running Website check Google Website.
+20:19:10 - info: Called Google Website check.  Response code 200.  Response time 117ms.
+20:19:10 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:19:10 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:19:10 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:19:10 - info: Called Sky Website check.  Response code 200.  Response time 225ms.
+20:19:10 - info: Called BBC check.  Response code 200.  Response time 233ms.
+20:19:30 - info: Running scheduled checks
+20:19:30 - info: Running Website check BBC.
+20:19:30 - info: Running Website check Google Website.
+20:19:30 - info: Running Website check Sky Website.
+20:19:30 - info: Running Website check Google Website.
+20:19:30 - info: Running Website check Google Website.
+20:19:30 - info: Running Website check Google Website.
+20:19:30 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:19:30 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:19:30 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:19:30 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:19:30 - info: Called BBC check.  Response code 200.  Response time 222ms.
+20:19:30 - info: Called Sky Website check.  Response code 200.  Response time 231ms.
+20:19:50 - info: Running scheduled checks
+20:19:50 - info: Running Website check BBC.
+20:19:50 - info: Running Website check Google Website.
+20:19:50 - info: Running Website check Sky Website.
+20:19:50 - info: Running Website check Google Website.
+20:19:50 - info: Running Website check Google Website.
+20:19:50 - info: Running Website check Google Website.
+20:19:50 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+20:19:50 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+20:19:50 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+20:19:50 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+20:19:50 - info: Called Sky Website check.  Response code 200.  Response time 234ms.
+20:19:50 - info: Called BBC check.  Response code 200.  Response time 271ms.
+20:20:10 - info: Running scheduled checks
+20:20:10 - info: Running Website check BBC.
+20:20:10 - info: Running Website check Google Website.
+20:20:10 - info: Running Website check Sky Website.
+20:20:10 - info: Running Website check Google Website.
+20:20:10 - info: Running Website check Google Website.
+20:20:10 - info: Running Website check Google Website.
+20:20:10 - info: Called Sky Website check.  Response code 200.  Response time 209ms.
+20:20:10 - info: Called Google Website check.  Response code 200.  Response time 222ms.
+20:20:10 - info: Called Google Website check.  Response code 200.  Response time 222ms.
+20:20:10 - info: Called Google Website check.  Response code 200.  Response time 246ms.
+20:20:10 - info: Called Google Website check.  Response code 200.  Response time 244ms.
+20:20:11 - info: Called BBC check.  Response code 200.  Response time 538ms.
+20:20:30 - info: Running scheduled checks
+20:20:30 - info: Running Website check BBC.
+20:20:30 - info: Running Website check Google Website.
+20:20:30 - info: Running Website check Sky Website.
+20:20:30 - info: Running Website check Google Website.
+20:20:30 - info: Running Website check Google Website.
+20:20:30 - info: Running Website check Google Website.
+20:20:30 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:20:30 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+20:20:30 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+20:20:30 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+20:20:30 - info: Called Sky Website check.  Response code 200.  Response time 174ms.
+20:20:31 - info: Called BBC check.  Response code 200.  Response time 311ms.
+20:21:20 - info: Starting application
+20:21:20 - info: Initializing web server module
+20:21:20 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:21:20 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:21:20 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:21:20 - info: Received socket connection.
+20:21:24 - info: Starting application
+20:21:24 - info: Initializing web server module
+20:21:24 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:21:24 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:21:24 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:21:24 - info: Received socket connection.
+20:21:44 - info: Running scheduled checks
+20:21:44 - info: Running Website check BBC.
+20:21:44 - info: Running Website check Google Website.
+20:21:44 - info: Running Website check Sky Website.
+20:21:44 - info: Running Website check Google Website.
+20:21:44 - info: Running Website check Google Website.
+20:21:44 - info: Running Website check Google Website.
+20:21:44 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:21:44 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:21:44 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:21:44 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:21:44 - info: Called Sky Website check.  Response code 200.  Response time 236ms.
+20:21:44 - info: Called BBC check.  Response code 200.  Response time 262ms.
+20:22:04 - info: Running scheduled checks
+20:22:04 - info: Running Website check BBC.
+20:22:04 - info: Running Website check Google Website.
+20:22:04 - info: Running Website check Sky Website.
+20:22:04 - info: Running Website check Google Website.
+20:22:04 - info: Running Website check Google Website.
+20:22:04 - info: Running Website check Google Website.
+20:22:04 - info: Called Google Website check.  Response code 200.  Response time 156ms.
+20:22:04 - info: Called Google Website check.  Response code 200.  Response time 156ms.
+20:22:04 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:22:04 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:22:04 - info: Called Sky Website check.  Response code 200.  Response time 250ms.
+20:22:04 - info: Called BBC check.  Response code 200.  Response time 270ms.
+20:22:24 - info: Running scheduled checks
+20:22:24 - info: Running Website check BBC.
+20:22:24 - info: Running Website check Google Website.
+20:22:24 - info: Running Website check Sky Website.
+20:22:24 - info: Running Website check Google Website.
+20:22:24 - info: Running Website check Google Website.
+20:22:24 - info: Running Website check Google Website.
+20:22:24 - info: Called Google Website check.  Response code 200.  Response time 118ms.
+20:22:24 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:22:24 - info: Called Google Website check.  Response code 200.  Response time 122ms.
+20:22:24 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:22:24 - info: Called BBC check.  Response code 200.  Response time 200ms.
+20:22:24 - info: Called Sky Website check.  Response code 200.  Response time 269ms.
+20:22:27 - info: Starting application
+20:22:27 - info: Initializing web server module
+20:22:27 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:22:27 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:22:27 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:22:28 - info: Received socket connection.
+20:22:47 - info: Running scheduled checks
+20:22:47 - info: Running Website check BBC.
+20:22:47 - info: Running Website check Google Website.
+20:22:47 - info: Running Website check Sky Website.
+20:22:47 - info: Running Website check Google Website.
+20:22:47 - info: Running Website check Google Website.
+20:22:47 - info: Running Website check Google Website.
+20:22:47 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:22:47 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:22:47 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:22:47 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+20:22:48 - info: Called Sky Website check.  Response code 200.  Response time 374ms.
+20:22:48 - info: Called BBC check.  Response code 200.  Response time 423ms.
+20:23:07 - info: Running scheduled checks
+20:23:07 - info: Running Website check BBC.
+20:23:07 - info: Running Website check Google Website.
+20:23:07 - info: Running Website check Sky Website.
+20:23:07 - info: Running Website check Google Website.
+20:23:07 - info: Running Website check Google Website.
+20:23:07 - info: Running Website check Google Website.
+20:23:09 - info: Starting application
+20:23:09 - info: Initializing web server module
+20:23:09 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:23:09 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:23:09 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:23:09 - info: Received socket connection.
+20:23:29 - info: Running scheduled checks
+20:23:29 - info: Running Website check BBC.
+20:23:29 - info: Running Website check Google Website.
+20:23:29 - info: Running Website check Sky Website.
+20:23:29 - info: Running Website check Google Website.
+20:23:29 - info: Running Website check Google Website.
+20:23:29 - info: Running Website check Google Website.
+20:23:29 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:23:29 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+20:23:29 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:23:29 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+20:23:29 - info: Called Sky Website check.  Response code 200.  Response time 254ms.
+20:23:29 - info: Called BBC check.  Response code 200.  Response time 415ms.
+20:23:49 - info: Running scheduled checks
+20:23:49 - info: Running Website check BBC.
+20:23:49 - info: Running Website check Google Website.
+20:23:49 - info: Running Website check Sky Website.
+20:23:49 - info: Running Website check Google Website.
+20:23:49 - info: Running Website check Google Website.
+20:23:49 - info: Running Website check Google Website.
+20:23:49 - info: Called Google Website check.  Response code 200.  Response time 116ms.
+20:23:49 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:23:49 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:23:49 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+20:23:49 - info: Called Sky Website check.  Response code 200.  Response time 178ms.
+20:23:49 - info: Called BBC check.  Response code 200.  Response time 339ms.
+20:23:54 - info: Starting application
+20:23:54 - info: Initializing web server module
+20:23:54 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:23:54 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:23:54 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:24:01 - info: Received socket connection.
+20:24:14 - info: Running scheduled checks
+20:24:14 - info: Running Website check BBC.
+20:24:14 - info: Running Website check Google Website.
+20:24:14 - info: Running Website check Sky Website.
+20:24:14 - info: Running Website check Google Website.
+20:24:14 - info: Running Website check Google Website.
+20:24:14 - info: Running Website check Google Website.
+20:24:14 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:24:14 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:24:14 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:24:14 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+20:24:15 - info: Called Sky Website check.  Response code 200.  Response time 205ms.
+20:24:15 - info: Called BBC check.  Response code 200.  Response time 408ms.
+20:24:34 - info: Running scheduled checks
+20:24:34 - info: Running Website check BBC.
+20:24:34 - info: Running Website check Google Website.
+20:24:34 - info: Running Website check Sky Website.
+20:24:34 - info: Running Website check Google Website.
+20:24:34 - info: Running Website check Google Website.
+20:24:34 - info: Running Website check Google Website.
+20:24:34 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:24:34 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:24:34 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:24:34 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+20:24:34 - info: Called Sky Website check.  Response code 200.  Response time 164ms.
+20:24:35 - info: Called BBC check.  Response code 200.  Response time 374ms.
+20:24:54 - info: Running scheduled checks
+20:24:54 - info: Running Website check BBC.
+20:24:54 - info: Running Website check Google Website.
+20:24:54 - info: Running Website check Sky Website.
+20:24:54 - info: Running Website check Google Website.
+20:24:54 - info: Running Website check Google Website.
+20:24:54 - info: Running Website check Google Website.
+20:24:54 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+20:24:54 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+20:24:54 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+20:24:54 - info: Called Google Website check.  Response code 200.  Response time 150ms.
+20:24:55 - info: Called Sky Website check.  Response code 200.  Response time 238ms.
+20:24:55 - info: Called BBC check.  Response code 200.  Response time 346ms.
+20:25:14 - info: Running scheduled checks
+20:25:14 - info: Running Website check BBC.
+20:25:14 - info: Running Website check Google Website.
+20:25:14 - info: Running Website check Sky Website.
+20:25:14 - info: Running Website check Google Website.
+20:25:14 - info: Running Website check Google Website.
+20:25:14 - info: Running Website check Google Website.
+20:25:14 - info: Called Google Website check.  Response code 200.  Response time 114ms.
+20:25:14 - info: Called Google Website check.  Response code 200.  Response time 118ms.
+20:25:14 - info: Called Google Website check.  Response code 200.  Response time 117ms.
+20:25:14 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:25:15 - info: Called Sky Website check.  Response code 200.  Response time 239ms.
+20:25:15 - info: Called BBC check.  Response code 200.  Response time 325ms.
+20:25:34 - info: Running scheduled checks
+20:25:34 - info: Running Website check BBC.
+20:25:34 - info: Running Website check Google Website.
+20:25:34 - info: Running Website check Sky Website.
+20:25:34 - info: Running Website check Google Website.
+20:25:34 - info: Running Website check Google Website.
+20:25:34 - info: Running Website check Google Website.
+20:25:34 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:25:34 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:25:34 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:25:34 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+20:25:35 - info: Called Sky Website check.  Response code 200.  Response time 244ms.
+20:25:35 - info: Called BBC check.  Response code 200.  Response time 355ms.
+20:25:36 - info: Received socket connection.
+20:25:54 - info: Running scheduled checks
+20:25:54 - info: Running Website check BBC.
+20:25:54 - info: Running Website check Google Website.
+20:25:54 - info: Running Website check Sky Website.
+20:25:54 - info: Running Website check Google Website.
+20:25:54 - info: Running Website check Google Website.
+20:25:54 - info: Running Website check Google Website.
+20:25:54 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:25:54 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:25:54 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:25:54 - info: Called Google Website check.  Response code 200.  Response time 131ms.
+20:25:55 - info: Called Sky Website check.  Response code 200.  Response time 234ms.
+20:25:55 - info: Called BBC check.  Response code 200.  Response time 341ms.
+20:26:14 - info: Running scheduled checks
+20:26:14 - info: Running Website check BBC.
+20:26:14 - info: Running Website check Google Website.
+20:26:14 - info: Running Website check Sky Website.
+20:26:14 - info: Running Website check Google Website.
+20:26:14 - info: Running Website check Google Website.
+20:26:14 - info: Running Website check Google Website.
+20:26:14 - info: Called Google Website check.  Response code 200.  Response time 119ms.
+20:26:14 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:26:14 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:26:14 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:26:15 - info: Called Sky Website check.  Response code 200.  Response time 242ms.
+20:26:15 - info: Called BBC check.  Response code 200.  Response time 477ms.
+20:26:17 - info: Received socket connection.
+20:26:34 - info: Running scheduled checks
+20:26:34 - info: Running Website check BBC.
+20:26:34 - info: Running Website check Google Website.
+20:26:34 - info: Running Website check Sky Website.
+20:26:34 - info: Running Website check Google Website.
+20:26:34 - info: Running Website check Google Website.
+20:26:34 - info: Running Website check Google Website.
+20:26:35 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:26:35 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:26:35 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:26:35 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:26:35 - info: Called Sky Website check.  Response code 200.  Response time 222ms.
+20:26:35 - info: Called BBC check.  Response code 200.  Response time 406ms.
+20:26:54 - info: Running scheduled checks
+20:26:54 - info: Running Website check BBC.
+20:26:54 - info: Running Website check Google Website.
+20:26:54 - info: Running Website check Sky Website.
+20:26:54 - info: Running Website check Google Website.
+20:26:54 - info: Running Website check Google Website.
+20:26:54 - info: Running Website check Google Website.
+20:26:55 - info: Called Google Website check.  Response code 200.  Response time 234ms.
+20:26:55 - info: Called Google Website check.  Response code 200.  Response time 236ms.
+20:26:55 - info: Called Google Website check.  Response code 200.  Response time 270ms.
+20:26:55 - info: Called Google Website check.  Response code 200.  Response time 273ms.
+20:26:55 - info: Called Sky Website check.  Response code 200.  Response time 437ms.
+20:26:56 - info: Called BBC check.  Response code 200.  Response time 1229ms.
+20:27:14 - info: Running scheduled checks
+20:27:14 - info: Running Website check BBC.
+20:27:14 - info: Running Website check Google Website.
+20:27:14 - info: Running Website check Sky Website.
+20:27:14 - info: Running Website check Google Website.
+20:27:14 - info: Running Website check Google Website.
+20:27:14 - info: Running Website check Google Website.
+20:27:15 - info: Called Google Website check.  Response code 200.  Response time 441ms.
+20:27:15 - info: Called Google Website check.  Response code 200.  Response time 440ms.
+20:27:15 - info: Called Google Website check.  Response code 200.  Response time 447ms.
+20:27:15 - info: Called Google Website check.  Response code 200.  Response time 446ms.
+20:27:15 - info: Called Sky Website check.  Response code 200.  Response time 741ms.
+20:27:16 - info: Called BBC check.  Response code 200.  Response time 1269ms.
+20:27:34 - info: Running scheduled checks
+20:27:34 - info: Running Website check BBC.
+20:27:34 - info: Running Website check Google Website.
+20:27:34 - info: Running Website check Sky Website.
+20:27:34 - info: Running Website check Google Website.
+20:27:34 - info: Running Website check Google Website.
+20:27:34 - info: Running Website check Google Website.
+20:27:35 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+20:27:35 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+20:27:35 - info: Called Google Website check.  Response code 200.  Response time 146ms.
+20:27:35 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+20:27:35 - info: Called BBC check.  Response code 200.  Response time 256ms.
+20:27:35 - info: Called Sky Website check.  Response code 200.  Response time 270ms.
+20:27:54 - info: Running scheduled checks
+20:27:54 - info: Running Website check BBC.
+20:27:54 - info: Running Website check Google Website.
+20:27:54 - info: Running Website check Sky Website.
+20:27:54 - info: Running Website check Google Website.
+20:27:54 - info: Running Website check Google Website.
+20:27:54 - info: Running Website check Google Website.
+20:27:55 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:27:55 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:27:55 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:27:55 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+20:27:55 - info: Called BBC check.  Response code 200.  Response time 224ms.
+20:27:55 - info: Called Sky Website check.  Response code 200.  Response time 234ms.
+20:28:14 - info: Running scheduled checks
+20:28:14 - info: Running Website check BBC.
+20:28:14 - info: Running Website check Google Website.
+20:28:14 - info: Running Website check Sky Website.
+20:28:14 - info: Running Website check Google Website.
+20:28:14 - info: Running Website check Google Website.
+20:28:14 - info: Running Website check Google Website.
+20:28:15 - info: Called Google Website check.  Response code 200.  Response time 120ms.
+20:28:15 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:28:15 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+20:28:15 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:28:15 - info: Called BBC check.  Response code 200.  Response time 209ms.
+20:28:15 - info: Called Sky Website check.  Response code 200.  Response time 233ms.
+20:28:34 - info: Running scheduled checks
+20:28:34 - info: Running Website check BBC.
+20:28:34 - info: Running Website check Google Website.
+20:28:34 - info: Running Website check Sky Website.
+20:28:34 - info: Running Website check Google Website.
+20:28:34 - info: Running Website check Google Website.
+20:28:34 - info: Running Website check Google Website.
+20:28:35 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+20:28:35 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+20:28:35 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+20:28:35 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+20:28:35 - info: Called BBC check.  Response code 200.  Response time 240ms.
+20:28:35 - info: Called Sky Website check.  Response code 200.  Response time 244ms.
+20:28:54 - info: Running scheduled checks
+20:28:54 - info: Running Website check BBC.
+20:28:54 - info: Running Website check Google Website.
+20:28:54 - info: Running Website check Sky Website.
+20:28:54 - info: Running Website check Google Website.
+20:28:54 - info: Running Website check Google Website.
+20:28:54 - info: Running Website check Google Website.
+20:28:55 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:28:55 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+20:28:55 - info: Called Google Website check.  Response code 200.  Response time 123ms.
+20:28:55 - info: Called Google Website check.  Response code 200.  Response time 126ms.
+20:28:55 - info: Called BBC check.  Response code 200.  Response time 213ms.
+20:28:55 - info: Called Sky Website check.  Response code 200.  Response time 241ms.
+20:29:14 - info: Running scheduled checks
+20:29:14 - info: Running Website check BBC.
+20:29:14 - info: Running Website check Google Website.
+20:29:14 - info: Running Website check Sky Website.
+20:29:14 - info: Running Website check Google Website.
+20:29:14 - info: Running Website check Google Website.
+20:29:14 - info: Running Website check Google Website.
+20:29:15 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+20:29:15 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+20:29:15 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+20:29:15 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+20:29:15 - info: Called BBC check.  Response code 200.  Response time 262ms.
+20:29:15 - info: Called Sky Website check.  Response code 200.  Response time 263ms.
+20:29:34 - info: Running scheduled checks
+20:29:34 - info: Running Website check BBC.
+20:29:34 - info: Running Website check Google Website.
+20:29:34 - info: Running Website check Sky Website.
+20:29:34 - info: Running Website check Google Website.
+20:29:34 - info: Running Website check Google Website.
+20:29:34 - info: Running Website check Google Website.
+20:29:35 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:29:35 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+20:29:35 - info: Called Google Website check.  Response code 200.  Response time 159ms.
+20:29:35 - info: Called Google Website check.  Response code 200.  Response time 165ms.
+20:29:35 - info: Called BBC check.  Response code 200.  Response time 259ms.
+20:29:35 - info: Called Sky Website check.  Response code 200.  Response time 282ms.
+20:29:54 - info: Running scheduled checks
+20:29:54 - info: Running Website check BBC.
+20:29:54 - info: Running Website check Google Website.
+20:29:54 - info: Running Website check Sky Website.
+20:29:54 - info: Running Website check Google Website.
+20:29:54 - info: Running Website check Google Website.
+20:29:54 - info: Running Website check Google Website.
+20:29:55 - info: Called Google Website check.  Response code 200.  Response time 139ms.
+20:29:55 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+20:29:55 - info: Called Google Website check.  Response code 200.  Response time 159ms.
+20:29:55 - info: Called Google Website check.  Response code 200.  Response time 161ms.
+20:29:55 - info: Called Sky Website check.  Response code 200.  Response time 249ms.
+20:29:55 - info: Called BBC check.  Response code 200.  Response time 253ms.
+20:30:14 - info: Running scheduled checks
+20:30:14 - info: Running Website check BBC.
+20:30:14 - info: Running Website check Google Website.
+20:30:14 - info: Running Website check Sky Website.
+20:30:14 - info: Running Website check Google Website.
+20:30:14 - info: Running Website check Google Website.
+20:30:14 - info: Running Website check Google Website.
+20:30:15 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:30:15 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:30:15 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+20:30:15 - info: Called Google Website check.  Response code 200.  Response time 161ms.
+20:30:15 - info: Called Sky Website check.  Response code 200.  Response time 279ms.
+20:30:15 - info: Called BBC check.  Response code 200.  Response time 571ms.
+20:30:34 - info: Running scheduled checks
+20:30:34 - info: Running Website check BBC.
+20:30:34 - info: Running Website check Google Website.
+20:30:34 - info: Running Website check Sky Website.
+20:30:34 - info: Running Website check Google Website.
+20:30:34 - info: Running Website check Google Website.
+20:30:34 - info: Running Website check Google Website.
+20:30:35 - info: Called Google Website check.  Response code 200.  Response time 124ms.
+20:30:35 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+20:30:35 - info: Called Google Website check.  Response code 200.  Response time 128ms.
+20:30:35 - info: Called Google Website check.  Response code 200.  Response time 127ms.
+20:30:35 - info: Called Sky Website check.  Response code 200.  Response time 224ms.
+20:30:35 - info: Called BBC check.  Response code 200.  Response time 422ms.
+20:30:54 - info: Running scheduled checks
+20:30:54 - info: Running Website check BBC.
+20:30:54 - info: Running Website check Google Website.
+20:30:54 - info: Running Website check Sky Website.
+20:30:54 - info: Running Website check Google Website.
+20:30:54 - info: Running Website check Google Website.
+20:30:54 - info: Running Website check Google Website.
+20:30:55 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+20:30:55 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+20:30:55 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+20:30:55 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+20:30:55 - info: Called Sky Website check.  Response code 200.  Response time 196ms.
+20:30:55 - info: Called BBC check.  Response code 200.  Response time 458ms.
+20:31:01 - info: Starting application
+20:31:01 - info: Initializing web server module
+20:31:01 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:31:01 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:31:01 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:31:01 - info: Received socket connection.
+20:31:07 - info: Received socket connection.
+20:31:07 - info: Received request for app options.
+20:31:21 - info: Received request for app options.
+20:31:21 - info: Received request for components/list.
+20:31:21 - info: Received request to check all components.
+20:31:21 - info: Running Website check BBC.
+20:31:22 - info: Running Website check Google Website.
+20:31:22 - info: Running Website check Sky Website.
+20:31:22 - info: Running Website check Google Website.
+20:31:22 - info: Running Website check Google Website.
+20:31:22 - info: Running Website check Google Website.
+20:31:22 - info: Running Website check Yahoo.
+20:31:22 - info: Called Google Website check.  Response code 200.  Response time 551ms.
+20:31:22 - info: Called Google Website check.  Response code 200.  Response time 715ms.
+20:31:22 - info: Called Google Website check.  Response code 200.  Response time 717ms.
+20:31:22 - info: Called Google Website check.  Response code 200.  Response time 731ms.
+20:31:23 - info: Called Sky Website check.  Response code 200.  Response time 1222ms.
+20:31:23 - info: Called Yahoo check.  Response code 200.  Response time 1580ms.
+20:31:23 - info: Called BBC check.  Response code 200.  Response time 1646ms.
+20:32:59 - info: Starting application
+20:32:59 - info: Initializing web server module
+20:32:59 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:32:59 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:32:59 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:33:08 - info: Received request for app options.
+20:33:08 - info: Received request for components/list.
+20:36:15 - info: Starting application
+20:36:15 - info: Initializing web server module
+20:36:15 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:36:15 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:36:15 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:36:20 - info: Received request for app options.
+20:36:20 - info: Received request for components/list.
+20:36:20 - info: Received request to check all components.
+20:36:20 - info: Running Website check BBC.
+20:36:20 - info: Running Website check Google Website.
+20:36:20 - info: Running Website check Sky Website.
+20:36:20 - info: Running Website check Google Website.
+20:36:20 - info: Running Website check Google Website.
+20:36:20 - info: Running Website check Google Website.
+20:36:20 - info: Running Website check Yahoo.
+20:36:20 - info: Running Website check YouTube.
+20:36:20 - info: Running Website check Lucent I.T. Services.
+20:36:20 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+20:36:20 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+20:36:20 - info: Called Google Website check.  Response code 200.  Response time 163ms.
+20:36:20 - info: Called Google Website check.  Response code 200.  Response time 161ms.
+20:36:20 - info: Called BBC check.  Response code 200.  Response time 274ms.
+20:36:20 - info: Called Sky Website check.  Response code 200.  Response time 309ms.
+20:36:21 - info: Called Yahoo check.  Response code 200.  Response time 346ms.
+20:36:21 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1155ms.
+20:36:22 - info: Called YouTube check.  Response code 200.  Response time 1357ms.
+20:36:29 - info: Received request for app options.
+20:36:29 - info: Received request for components/list.
+20:38:14 - info: Received request for app options.
+20:38:14 - info: Received request for components/list.
+20:38:14 - info: Received request to check all components.
+20:38:14 - info: Running Website check BBC.
+20:38:14 - info: Running Website check Google Website.
+20:38:14 - info: Running Website check Sky Website.
+20:38:14 - info: Running Website check Google Website.
+20:38:14 - info: Running Website check Google Website.
+20:38:14 - info: Running Website check Google Website.
+20:38:14 - info: Running Website check Yahoo.
+20:38:14 - info: Running Website check YouTube.
+20:38:14 - info: Running Website check Lucent I.T. Services.
+20:38:14 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+20:38:14 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+20:38:14 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+20:38:14 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+20:38:14 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 165ms.
+20:38:14 - info: Called Sky Website check.  Response code 200.  Response time 254ms.
+20:38:15 - info: Called BBC check.  Response code 200.  Response time 475ms.
+20:38:15 - info: Called Yahoo check.  Response code 200.  Response time 492ms.
+20:38:16 - info: Called YouTube check.  Response code 200.  Response time 1546ms.
+20:41:15 - info: Running scheduled checks
+20:41:15 - info: Running Website check BBC.
+20:41:15 - info: Running Website check Google Website.
+20:41:15 - info: Running Website check Sky Website.
+20:41:15 - info: Running Website check Google Website.
+20:41:15 - info: Running Website check Google Website.
+20:41:15 - info: Running Website check Google Website.
+20:41:15 - info: Running Website check Yahoo.
+20:41:15 - info: Running Website check YouTube.
+20:41:15 - info: Running Website check Lucent I.T. Services.
+20:41:16 - info: Called Google Website check.  Response code 200.  Response time 198ms.
+20:41:16 - info: Called Google Website check.  Response code 200.  Response time 206ms.
+20:41:16 - info: Called Google Website check.  Response code 200.  Response time 213ms.
+20:41:16 - info: Called Google Website check.  Response code 200.  Response time 233ms.
+20:41:16 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 234ms.
+20:41:16 - info: Called Sky Website check.  Response code 200.  Response time 309ms.
+20:41:16 - info: Called Yahoo check.  Response code 200.  Response time 377ms.
+20:41:16 - info: Called BBC check.  Response code 200.  Response time 925ms.
+20:41:17 - info: Called YouTube check.  Response code 200.  Response time 1220ms.
+20:54:12 - info: Starting application
+20:54:12 - info: Initializing web server module
+20:54:12 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:54:12 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:54:12 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:55:40 - info: Starting application
+20:55:40 - info: Initializing web server module
+20:55:40 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:55:40 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:55:40 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:55:57 - info: Starting application
+20:55:57 - info: Initializing web server module
+20:55:57 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:55:57 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:55:57 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+20:58:15 - info: Starting application
+20:58:15 - info: Initializing web server module
+20:58:15 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+20:58:15 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+20:58:15 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:02:38 - info: Starting application
+21:02:38 - info: Initializing web server module
+21:02:38 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:02:38 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:02:38 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:02:55 - info: Starting application
+21:02:55 - info: Initializing web server module
+21:02:55 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:02:55 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:02:55 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:07:55 - info: Running scheduled checks
+21:07:55 - info: Running Website check BBC.
+21:07:55 - info: Running Website check Google Website.
+21:07:55 - info: Running Website check Sky Website.
+21:07:55 - info: Running Website check Google Website.
+21:07:55 - info: Running Website check Google Website.
+21:07:55 - info: Running Website check Google Website.
+21:07:55 - info: Running Website check Yahoo.
+21:07:55 - info: Running Website check YouTube.
+21:07:55 - info: Running Website check Lucent I.T. Services.
+21:07:56 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+21:07:56 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+21:07:56 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+21:07:56 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+21:07:56 - info: Called Sky Website check.  Response code 200.  Response time 266ms.
+21:07:56 - info: Called Yahoo check.  Response code 200.  Response time 359ms.
+21:07:56 - info: Called BBC check.  Response code 200.  Response time 465ms.
+21:07:57 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1037ms.
+21:07:57 - info: Called YouTube check.  Response code 200.  Response time 1117ms.
+21:12:08 - info: Starting application
+21:12:08 - info: Initializing web server module
+21:12:08 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:12:08 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:12:08 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:13:49 - info: Starting application
+21:13:49 - info: Initializing web server module
+21:13:49 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:13:49 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:13:49 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:14:07 - info: Received request to run check components/id/0.
+21:14:07 - info: Running Website check BBC.
+21:14:08 - info: Called BBC check.  Response code 200.  Response time 1012ms.
+21:14:12 - info: Received request to run check components/id/9.
+21:16:03 - info: Starting application
+21:16:03 - info: Initializing web server module
+21:16:03 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:16:03 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:16:03 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:16:08 - info: Received request to run check components/id/9.
+21:17:15 - info: Starting application
+21:17:15 - info: Initializing web server module
+21:17:15 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:17:15 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:17:15 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:17:20 - info: Starting application
+21:17:20 - info: Initializing web server module
+21:17:20 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:17:20 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:17:20 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:17:24 - info: Received request to run check components/id/9.
+21:18:51 - info: Starting application
+21:18:51 - info: Initializing web server module
+21:18:51 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:18:51 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:18:51 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:19:23 - info: Received request to run check components/id/9.
+21:19:23 - info: Running server check BBC Server.
+21:19:23 - info:     Called BBC Server.  Response Code : Alive.  Response Time : 58.360.
+21:19:23 - info: Called BBC Server check.  Response code Alive.  Response time 58.360ms.
+21:19:40 - info: Received request for app options.
+21:19:40 - info: Received request for components/list.
+21:19:40 - info: Received request to check all components.
+21:19:40 - info: Running Website check BBC.
+21:19:40 - info: Running Website check Google Website.
+21:19:40 - info: Running Website check Sky Website.
+21:19:40 - info: Running Website check Google Website.
+21:19:40 - info: Running Website check Google Website.
+21:19:40 - info: Running Website check Google Website.
+21:19:40 - info: Running Website check Yahoo.
+21:19:40 - info: Running Website check YouTube.
+21:19:40 - info: Running Website check Lucent I.T. Services.
+21:19:41 - info: Running server check BBC Server.
+21:19:41 - info:     Called BBC Server.  Response Code : Alive.  Response Time : 187.330.
+21:19:41 - info: Called BBC Server check.  Response code Alive.  Response time 187.330ms.
+21:19:41 - info: Called Google Website check.  Response code 200.  Response time 711ms.
+21:19:41 - info: Called Google Website check.  Response code 200.  Response time 709ms.
+21:19:41 - info: Called Google Website check.  Response code 200.  Response time 710ms.
+21:19:41 - info: Called Google Website check.  Response code 200.  Response time 713ms.
+21:19:42 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1481ms.
+21:19:42 - info: Called Sky Website check.  Response code 200.  Response time 1518ms.
+21:19:42 - info: Called Yahoo check.  Response code 200.  Response time 1525ms.
+21:19:42 - info: Called YouTube check.  Response code 200.  Response time 2108ms.
+21:19:43 - info: Called BBC check.  Response code 200.  Response time 2286ms.
+21:21:17 - info: Starting application
+21:21:17 - info: Initializing web server module
+21:21:17 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:21:17 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:21:17 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:21:24 - info: Received request to check all components.
+21:21:24 - info: Running Website check BBC.
+21:21:24 - info: Running Website check Google Website.
+21:21:24 - info: Running Website check Sky Website.
+21:21:24 - info: Running Website check Google Website.
+21:21:24 - info: Running Website check Google Website.
+21:21:24 - info: Running Website check Google Website.
+21:21:24 - info: Running Website check Yahoo.
+21:21:24 - info: Running Website check YouTube.
+21:21:24 - info: Running Website check Lucent I.T. Services.
+21:21:24 - info: Running server check BBC Server.
+21:21:24 - info:     Called BBC Server.  Response Code : 200.  Response Time : 46.
+21:21:24 - info: Called BBC Server check.  Response code 200.  Response time 46ms.
+21:21:24 - info: Called Google Website check.  Response code 200.  Response time 155ms.
+21:21:24 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+21:21:24 - info: Called Google Website check.  Response code 200.  Response time 159ms.
+21:21:24 - info: Called Google Website check.  Response code 200.  Response time 170ms.
+21:21:24 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 197ms.
+21:21:24 - info: Called BBC check.  Response code 200.  Response time 262ms.
+21:21:24 - info: Called Sky Website check.  Response code 200.  Response time 300ms.
+21:21:24 - info: Received request for app options.
+21:21:24 - info: Received request for components/list.
+21:21:25 - info: Called Yahoo check.  Response code 200.  Response time 394ms.
+21:21:25 - info: Called YouTube check.  Response code 200.  Response time 1310ms.
+21:47:13 - info: Running scheduled checks
+21:47:13 - info: Running Website check BBC.
+21:47:13 - info: Running Website check Google Website.
+21:47:13 - info: Running Website check Sky Website.
+21:47:13 - info: Running Website check Google Website.
+21:47:13 - info: Running Website check Google Website.
+21:47:13 - info: Running Website check Google Website.
+21:47:13 - info: Running Website check Yahoo.
+21:47:13 - info: Running Website check YouTube.
+21:47:13 - info: Running Website check Lucent I.T. Services.
+21:47:13 - info: Running server check BBC Server.
+21:47:13 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+21:47:13 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+21:47:13 - info: Called Google Website check.  Response code 200.  Response time 139ms.
+21:47:13 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+21:47:13 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+21:47:13 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+21:47:13 - info: Called Sky Website check.  Response code 200.  Response time 274ms.
+21:47:13 - info: Called Yahoo check.  Response code 200.  Response time 319ms.
+21:47:14 - info: Called BBC check.  Response code 200.  Response time 783ms.
+21:47:14 - info: Called YouTube check.  Response code 200.  Response time 1071ms.
+21:47:14 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1107ms.
+21:52:13 - info: Running scheduled checks
+21:52:13 - info: Running Website check BBC.
+21:52:13 - info: Running Website check Google Website.
+21:52:13 - info: Running Website check Sky Website.
+21:52:13 - info: Running Website check Google Website.
+21:52:13 - info: Running Website check Google Website.
+21:52:13 - info: Running Website check Google Website.
+21:52:13 - info: Running Website check Yahoo.
+21:52:13 - info: Running Website check YouTube.
+21:52:13 - info: Running Website check Lucent I.T. Services.
+21:52:13 - info: Running server check BBC Server.
+21:52:13 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+21:52:13 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+21:52:13 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+21:52:13 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+21:52:13 - info: Called Google Website check.  Response code 200.  Response time 150ms.
+21:52:13 - info: Called Google Website check.  Response code 200.  Response time 152ms.
+21:52:13 - info: Called Sky Website check.  Response code 200.  Response time 252ms.
+21:52:13 - info: Called Yahoo check.  Response code 200.  Response time 271ms.
+21:52:13 - info: Called BBC check.  Response code 200.  Response time 441ms.
+21:52:14 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 976ms.
+21:52:14 - info: Called YouTube check.  Response code 200.  Response time 1102ms.
+21:57:13 - info: Running scheduled checks
+21:57:13 - info: Running Website check BBC.
+21:57:13 - info: Running Website check Google Website.
+21:57:13 - info: Running Website check Sky Website.
+21:57:13 - info: Running Website check Google Website.
+21:57:13 - info: Running Website check Google Website.
+21:57:13 - info: Running Website check Google Website.
+21:57:13 - info: Running Website check Yahoo.
+21:57:13 - info: Running Website check YouTube.
+21:57:13 - info: Running Website check Lucent I.T. Services.
+21:57:13 - info: Running server check BBC Server.
+21:57:13 - info:     Called BBC Server.  Response Code : 200.  Response Time : 27.
+21:57:13 - info: Called BBC Server check.  Response code 200.  Response time 27ms.
+21:57:13 - info: Called Google Website check.  Response code 200.  Response time 170ms.
+21:57:13 - info: Called Google Website check.  Response code 200.  Response time 171ms.
+21:57:13 - info: Called Google Website check.  Response code 200.  Response time 194ms.
+21:57:13 - info: Called Google Website check.  Response code 200.  Response time 201ms.
+21:57:13 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 229ms.
+21:57:13 - info: Called Sky Website check.  Response code 200.  Response time 308ms.
+21:57:13 - info: Called Yahoo check.  Response code 200.  Response time 484ms.
+21:57:14 - info: Called BBC check.  Response code 200.  Response time 965ms.
+21:57:15 - info: Called YouTube check.  Response code 200.  Response time 1691ms.
+21:57:23 - info: Starting application
+21:57:23 - info: Initializing web server module
+21:57:23 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:57:23 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:57:23 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:57:49 - info: Received request to run check components/id/0.
+21:57:49 - info: Running Website check BBC.
+21:57:49 - info: Called BBC check.  Response code 200.  Response time 409ms.
+21:58:37 - info: Starting application
+21:58:37 - info: Initializing web server module
+21:58:37 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+21:58:37 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+21:58:37 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+21:58:44 - info: Received request to run check components/id/0.
+21:58:44 - info: Running Website check BBC.
+21:58:45 - info: Called BBC check.  Response code 200.  Response time 1603ms.
+22:00:10 - info: Starting application
+22:00:10 - info: Initializing web server module
+22:00:10 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:00:10 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:00:10 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:00:13 - info: Received request to run check components/id/0.
+22:00:13 - info: Running Website check BBC.
+22:00:13 - error: Error - Called BBC check.  Response code Error: options.uri is a required argument.  Response time 13ms.
+22:02:57 - info: Starting application
+22:02:57 - info: Initializing web server module
+22:02:57 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:02:57 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:02:57 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:03:02 - info: Received request to run check components/id/0.
+22:03:02 - info: Running Website check BBC.
+22:03:02 - info: Called BBC check.  Response code 200.  Response time 281ms.
+22:06:12 - info: Starting application
+22:06:12 - info: Initializing web server module
+22:06:12 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:06:12 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:06:12 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:06:17 - info: Received request to run check components/id/0.
+22:06:17 - info: Running Website check BBC.
+22:06:17 - info: Called BBC check.  Response code 200.  Response time 637ms.
+22:06:48 - info: Received request to check all components.
+22:06:48 - info: Running Website check BBC.
+22:06:48 - info: Running Website check Google Website.
+22:06:48 - info: Running Website check Sky Website.
+22:06:48 - info: Running Website check Google Website.
+22:06:48 - info: Running Website check Google Website.
+22:06:48 - info: Running Website check Google Website.
+22:06:48 - info: Running Website check Yahoo.
+22:06:48 - info: Running Website check YouTube.
+22:06:49 - info: Running Website check Lucent I.T. Services.
+22:06:49 - info: Running server check BBC Server.
+22:06:49 - info:     Called BBC Server.  Response Code : 200.  Response Time : 101.
+22:06:49 - info: Called BBC Server check.  Response code 200.  Response time 101ms.
+22:06:50 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1637ms.
+22:06:50 - info: Called Google Website check.  Response code 200.  Response time 1649ms.
+22:06:50 - info: Called Google Website check.  Response code 200.  Response time 1648ms.
+22:06:50 - info: Called Google Website check.  Response code 200.  Response time 1652ms.
+22:06:50 - info: Called Google Website check.  Response code 200.  Response time 1651ms.
+22:06:51 - info: Called Yahoo check.  Response code 200.  Response time 2111ms.
+22:06:51 - info: Called Sky Website check.  Response code 200.  Response time 2453ms.
+22:06:52 - info: Called BBC check.  Response code 200.  Response time 3231ms.
+22:06:52 - info: Called YouTube check.  Response code 200.  Response time 3591ms.
+22:07:07 - info: Received request for components/list.
+22:08:41 - info: Starting application
+22:08:41 - info: Initializing web server module
+22:08:41 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:08:41 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:08:41 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:08:49 - info: Received request for components/list.
+22:09:05 - info: Received request to check all components.
+22:09:05 - info: Running Website check BBC.
+22:09:05 - info: Running Website check Google Website.
+22:09:05 - info: Running Website check Sky Website.
+22:09:05 - info: Running Website check Google Website.
+22:09:05 - info: Running Website check Google Website.
+22:09:05 - info: Running Website check Google Website.
+22:09:05 - info: Running Website check Yahoo.
+22:09:05 - info: Running Website check YouTube.
+22:09:05 - info: Running Website check Lucent I.T. Services.
+22:09:05 - info: Running server check BBC Server.
+22:09:05 - info:     Called BBC Server.  Response Code : 200.  Response Time : 36.
+22:09:05 - info: Called BBC Server check.  Response code 200.  Response time 36ms.
+22:09:05 - info: Called Google Website check.  Response code 200.  Response time 146ms.
+22:09:05 - info: Called Google Website check.  Response code 200.  Response time 148ms.
+22:09:05 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+22:09:05 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 157ms.
+22:09:05 - info: Called Sky Website check.  Response code 200.  Response time 251ms.
+22:09:05 - info: Called BBC check.  Response code 200.  Response time 264ms.
+22:09:05 - info: Called Google Website check.  Response code 200.  Response time 276ms.
+22:09:05 - info: Called Yahoo check.  Response code 200.  Response time 380ms.
+22:09:06 - info: Called YouTube check.  Response code 200.  Response time 1210ms.
+22:28:44 - info: Running scheduled checks
+22:28:44 - info: Running Website check BBC.
+22:28:44 - info: Running Website check Google Website.
+22:28:44 - info: Running Website check Sky Website.
+22:28:44 - info: Running Website check Google Website.
+22:28:44 - info: Running Website check Google Website.
+22:28:44 - info: Running Website check Google Website.
+22:28:44 - info: Running Website check Yahoo.
+22:28:44 - info: Running Website check YouTube.
+22:28:44 - info: Running Website check Lucent I.T. Services.
+22:28:44 - info: Running server check BBC Server.
+22:28:44 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+22:28:44 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+22:28:45 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+22:28:45 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+22:28:45 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+22:28:45 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+22:28:45 - info: Called Sky Website check.  Response code 200.  Response time 197ms.
+22:28:45 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 211ms.
+22:28:45 - info: Called Yahoo check.  Response code 200.  Response time 305ms.
+22:28:45 - info: Called BBC check.  Response code 200.  Response time 464ms.
+22:28:45 - info: Called YouTube check.  Response code 200.  Response time 958ms.
+22:33:44 - info: Running scheduled checks
+22:33:44 - info: Running Website check BBC.
+22:33:44 - info: Running Website check Google Website.
+22:33:44 - info: Running Website check Sky Website.
+22:33:44 - info: Running Website check Google Website.
+22:33:44 - info: Running Website check Google Website.
+22:33:44 - info: Running Website check Google Website.
+22:33:44 - info: Running Website check Yahoo.
+22:33:44 - info: Running Website check YouTube.
+22:33:44 - info: Running Website check Lucent I.T. Services.
+22:33:44 - info: Running server check BBC Server.
+22:33:44 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+22:33:44 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+22:33:45 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+22:33:45 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+22:33:45 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+22:33:45 - info: Called Google Website check.  Response code 200.  Response time 147ms.
+22:33:45 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 151ms.
+22:33:45 - info: Called Sky Website check.  Response code 200.  Response time 231ms.
+22:33:45 - info: Called Yahoo check.  Response code 200.  Response time 364ms.
+22:33:45 - info: Called BBC check.  Response code 200.  Response time 436ms.
+22:33:46 - info: Called YouTube check.  Response code 200.  Response time 1214ms.
+22:35:24 - info: Received request to check all components.
+22:35:24 - info: Running Website check BBC.
+22:35:24 - info: Running Website check Google Website.
+22:35:24 - info: Running Website check Sky Website.
+22:35:24 - info: Running Website check Google Website.
+22:35:24 - info: Running Website check Google Website.
+22:35:24 - info: Running Website check Google Website.
+22:35:24 - info: Running Website check Yahoo.
+22:35:24 - info: Running Website check YouTube.
+22:35:24 - info: Running Website check Lucent I.T. Services.
+22:35:24 - info: Running server check BBC Server.
+22:35:24 - info:     Called BBC Server.  Response Code : 200.  Response Time : 20.
+22:35:24 - info: Called BBC Server check.  Response code 200.  Response time 20ms.
+22:35:24 - info: Called Google Website check.  Response code 200.  Response time 140ms.
+22:35:24 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+22:35:24 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+22:35:24 - info: Called Google Website check.  Response code 200.  Response time 146ms.
+22:35:24 - info: Called Sky Website check.  Response code 200.  Response time 258ms.
+22:35:24 - info: Called Yahoo check.  Response code 200.  Response time 432ms.
+22:35:24 - info: Called BBC check.  Response code 200.  Response time 465ms.
+22:35:25 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1269ms.
+22:35:25 - info: Called YouTube check.  Response code 200.  Response time 1587ms.
+22:36:30 - info: Starting application
+22:36:30 - info: Initializing web server module
+22:36:30 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:36:30 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:36:30 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:36:48 - info: Received request for components/list.
+22:37:03 - info: Received request for app options.
+22:37:03 - info: Received request for components/list.
+22:37:17 - info: Received socket connection.
+22:37:17 - info: Received request for app options.
+22:41:26 - info: Starting application
+22:41:26 - info: Initializing web server module
+22:41:26 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:41:26 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:41:26 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:41:32 - info: Received socket connection.
+22:41:36 - info: Received socket connection.
+22:41:36 - info: Received request for app options.
+22:41:38 - info: Received socket connection.
+22:41:38 - info: Received request for app options.
+22:41:56 - info: Received request for components/list.
+22:43:13 - info: Starting application
+22:43:13 - info: Initializing web server module
+22:43:13 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:43:13 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:43:13 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:43:15 - info: Received socket connection.
+22:43:18 - info: Received socket connection.
+22:43:18 - info: Received request for app options.
+22:44:24 - info: Starting application
+22:44:24 - info: Initializing web server module
+22:44:24 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+22:44:24 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+22:44:24 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+22:44:27 - info: Received socket connection.
+22:44:28 - info: Received socket connection.
+22:44:28 - info: Received request for app options.
+22:44:32 - info: Received socket connection.
+22:44:32 - info: Received request for app options.
+22:44:40 - info: Received request for app options.
+22:44:40 - info: Received request for components/list.
+22:44:40 - info: Received request to check all components.
+22:44:40 - info: Running Website check BBC.
+22:44:40 - info: Running Website check Google Website.
+22:44:40 - info: Running Website check Sky Website.
+22:44:40 - info: Running Website check Google Website.
+22:44:40 - info: Running Website check Google Website.
+22:44:40 - info: Running Website check Google Website.
+22:44:40 - info: Running Website check Yahoo.
+22:44:40 - info: Running Website check YouTube.
+22:44:40 - info: Running Website check Lucent I.T. Services.
+22:44:40 - info:     Called BBC Server.  Response Code : 200.  Response Time : 44.
+22:44:40 - info: Called BBC Server check.  Response code 200.  Response time 44ms.
+22:44:41 - info: Called Google Website check.  Response code 200.  Response time 527ms.
+22:44:41 - info: Called Google Website check.  Response code 200.  Response time 530ms.
+22:44:41 - info: Called Google Website check.  Response code 200.  Response time 532ms.
+22:44:41 - info: Called Google Website check.  Response code 200.  Response time 530ms.
+22:44:41 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 715ms.
+22:44:41 - info: Called Sky Website check.  Response code 200.  Response time 847ms.
+22:44:41 - info: Called Yahoo check.  Response code 200.  Response time 1023ms.
+22:44:42 - info: Called BBC check.  Response code 200.  Response time 1630ms.
+22:44:42 - info: Called YouTube check.  Response code 200.  Response time 1659ms.
+22:44:49 - info: Received socket connection.
+22:44:49 - info: Received request for app options.
+22:44:52 - info: Received request for app options.
+22:44:52 - info: Received request for components/list.
+22:44:52 - info: Received request to check all components.
+22:44:52 - info: Running Website check BBC.
+22:44:52 - info: Running Website check Google Website.
+22:44:52 - info: Running Website check Sky Website.
+22:44:52 - info: Running Website check Google Website.
+22:44:52 - info: Running Website check Google Website.
+22:44:52 - info: Running Website check Google Website.
+22:44:52 - info: Running Website check Yahoo.
+22:44:52 - info: Running Website check YouTube.
+22:44:52 - info: Running Website check Lucent I.T. Services.
+22:44:52 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+22:44:52 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+22:44:52 - info: Called Google Website check.  Response code 200.  Response time 138ms.
+22:44:52 - info: Called Google Website check.  Response code 200.  Response time 142ms.
+22:44:52 - info: Called Google Website check.  Response code 200.  Response time 144ms.
+22:44:52 - info: Called Google Website check.  Response code 200.  Response time 146ms.
+22:44:52 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 147ms.
+22:44:52 - info: Called Sky Website check.  Response code 200.  Response time 177ms.
+22:44:52 - info: Called Yahoo check.  Response code 200.  Response time 340ms.
+22:44:52 - info: Called BBC check.  Response code 200.  Response time 505ms.
+22:44:53 - info: Called YouTube check.  Response code 200.  Response time 1343ms.
+22:46:47 - info: Received socket connection.
+22:47:28 - info: Received socket connection.
+22:49:24 - info: Running scheduled checks
+22:49:24 - info: Running Website check BBC.
+22:49:24 - info: Running Website check Google Website.
+22:49:24 - info: Running Website check Sky Website.
+22:49:24 - info: Running Website check Google Website.
+22:49:24 - info: Running Website check Google Website.
+22:49:24 - info: Running Website check Google Website.
+22:49:24 - info: Running Website check Yahoo.
+22:49:24 - info: Running Website check YouTube.
+22:49:24 - info: Running Website check Lucent I.T. Services.
+22:49:24 - info:     Called BBC Server.  Response Code : 200.  Response Time : 41.
+22:49:24 - info: Called BBC Server check.  Response code 200.  Response time 41ms.
+22:49:24 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+22:49:24 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+22:49:24 - info: Called Google Website check.  Response code 200.  Response time 161ms.
+22:49:24 - info: Called Google Website check.  Response code 200.  Response time 164ms.
+22:49:24 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 176ms.
+22:49:24 - info: Called Sky Website check.  Response code 200.  Response time 220ms.
+22:49:24 - info: Called BBC check.  Response code 200.  Response time 264ms.
+22:49:24 - info: Called Yahoo check.  Response code 200.  Response time 319ms.
+22:49:24 - info: Received socket connection.
+22:49:25 - info: Called YouTube check.  Response code 200.  Response time 1164ms.
+22:50:23 - info: Received socket connection.
+22:51:03 - info: Received socket connection.
+22:51:36 - info: Received socket connection.
+23:05:28 - info: Received socket connection.
+23:05:54 - info: Running scheduled checks
+23:05:54 - info: Running Website check BBC.
+23:05:54 - info: Running Website check Google Website.
+23:05:54 - info: Running Website check Sky Website.
+23:05:54 - info: Running Website check Google Website.
+23:05:54 - info: Running Website check Google Website.
+23:05:54 - info: Running Website check Google Website.
+23:05:54 - info: Running Website check Yahoo.
+23:05:54 - info: Running Website check YouTube.
+23:05:54 - info: Running Website check Lucent I.T. Services.
+23:05:55 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+23:05:55 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+23:05:55 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+23:05:55 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+23:05:55 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+23:05:55 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+23:05:55 - info: Called Sky Website check.  Response code 200.  Response time 188ms.
+23:05:55 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 300ms.
+23:05:55 - info: Called Yahoo check.  Response code 200.  Response time 342ms.
+23:05:55 - info: Called BBC check.  Response code 200.  Response time 447ms.
+23:05:55 - info: Called YouTube check.  Response code 200.  Response time 951ms.
+23:06:34 - info: Received socket connection.
+23:07:13 - info: Received socket connection.
+23:08:15 - info: Received socket connection.
+23:09:17 - info: Received socket connection.
+23:10:40 - info: Starting application
+23:10:40 - info: Initializing web server module
+23:10:40 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+23:10:40 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+23:10:40 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+23:10:44 - info: Received socket connection.
+23:12:16 - info: Starting application
+23:12:16 - info: Initializing web server module
+23:12:16 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+23:12:16 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+23:12:16 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+23:12:22 - info: Received socket connection.
+23:13:53 - info: Received request for app options.
+23:13:53 - info: Received request for components/list.
+23:13:53 - info: Received request to check all components.
+23:13:53 - info: Running Website check BBC.
+23:13:53 - info: Running Website check Google Website.
+23:13:53 - info: Running Website check Sky Website.
+23:13:53 - info: Running Website check Google Website.
+23:13:53 - info: Running Website check Google Website.
+23:13:53 - info: Running Website check Google Website.
+23:13:53 - info: Running Website check Yahoo.
+23:13:53 - info: Running Website check YouTube.
+23:13:53 - info: Running Website check Lucent I.T. Services.
+23:13:53 - info:     Called BBC Server.  Response Code : 200.  Response Time : 37.
+23:13:53 - info: Called BBC Server check.  Response code 200.  Response time 37ms.
+23:13:53 - info: Called Google Website check.  Response code 200.  Response time 157ms.
+23:13:53 - info: Called Google Website check.  Response code 200.  Response time 158ms.
+23:13:53 - info: Called Google Website check.  Response code 200.  Response time 162ms.
+23:13:53 - info: Called Google Website check.  Response code 200.  Response time 161ms.
+23:13:53 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 214ms.
+23:13:53 - info: Called Sky Website check.  Response code 200.  Response time 271ms.
+23:13:53 - info: Called BBC check.  Response code 200.  Response time 282ms.
+23:13:53 - info: Called Yahoo check.  Response code 200.  Response time 370ms.
+23:13:54 - info: Called YouTube check.  Response code 200.  Response time 1326ms.
+23:15:03 - info: Starting application
+23:15:03 - info: Initializing web server module
+23:15:03 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+23:15:03 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+23:15:03 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+23:25:22 - info: Starting application
+23:25:22 - info: Initializing web server module
+23:25:22 - info: Healthcheck App Started.  Live at http://Chriss-MBP:5251.
+23:25:22 - info: Get list of items to monitor.  http://Chriss-MBP:5251/api/components/list.
+23:25:22 - info: Run the monitor.  http://Chriss-MBP:5251/api/runMonitor.
+23:25:30 - info: Received request for app options.
+23:25:30 - info: Received request for components/list.
+23:25:30 - info: Received request to check all components.
+23:25:30 - info: Running Website check BBC.
+23:25:30 - info: Running Website check Google Website.
+23:25:30 - info: Running Website check Sky Website.
+23:25:30 - info: Running Website check Google Website.
+23:25:30 - info: Running Website check Google Website.
+23:25:30 - info: Running Website check Google Website.
+23:25:30 - info: Running Website check Yahoo.
+23:25:30 - info: Running Website check YouTube.
+23:25:30 - info: Running Website check Lucent I.T. Services.
+23:25:30 - info:     Called BBC Server.  Response Code : 200.  Response Time : 36.
+23:25:30 - info: Called BBC Server check.  Response code 200.  Response time 36ms.
+23:25:31 - info: Called Google Website check.  Response code 200.  Response time 153ms.
+23:25:31 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+23:25:31 - info: Called Google Website check.  Response code 200.  Response time 159ms.
+23:25:31 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+23:25:31 - info: Called Sky Website check.  Response code 200.  Response time 227ms.
+23:25:31 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 230ms.
+23:25:31 - info: Called BBC check.  Response code 200.  Response time 303ms.
+23:25:31 - info: Called Yahoo check.  Response code 200.  Response time 387ms.
+23:25:32 - info: Called YouTube check.  Response code 200.  Response time 1151ms.
+23:30:22 - info: Running scheduled checks
+23:30:22 - info: Running Website check BBC.
+23:30:22 - info: Running Website check Google Website.
+23:30:22 - info: Running Website check Sky Website.
+23:30:22 - info: Running Website check Google Website.
+23:30:22 - info: Running Website check Google Website.
+23:30:22 - info: Running Website check Google Website.
+23:30:22 - info: Running Website check Yahoo.
+23:30:22 - info: Running Website check YouTube.
+23:30:22 - info: Running Website check Lucent I.T. Services.
+23:30:22 - info:     Called BBC Server.  Response Code : 200.  Response Time : 40.
+23:30:22 - info: Called BBC Server check.  Response code 200.  Response time 40ms.
+23:30:23 - info: Called Google Website check.  Response code 200.  Response time 174ms.
+23:30:23 - info: Called Google Website check.  Response code 200.  Response time 185ms.
+23:30:23 - info: Called Google Website check.  Response code 200.  Response time 187ms.
+23:30:23 - info: Called Google Website check.  Response code 200.  Response time 188ms.
+23:30:23 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 238ms.
+23:30:23 - info: Called Sky Website check.  Response code 200.  Response time 286ms.
+23:30:23 - info: Called Yahoo check.  Response code 200.  Response time 414ms.
+23:30:23 - info: Called BBC check.  Response code 200.  Response time 571ms.
+23:30:24 - info: Called YouTube check.  Response code 200.  Response time 1149ms.
+23:31:12 - info: Received request to check all components.
+23:31:12 - info: Running Website check BBC.
+23:31:12 - info: Running Website check Google Website.
+23:31:12 - info: Running Website check Sky Website.
+23:31:12 - info: Running Website check Google Website.
+23:31:12 - info: Running Website check Google Website.
+23:31:12 - info: Running Website check Google Website.
+23:31:12 - info: Running Website check Yahoo.
+23:31:12 - info: Running Website check YouTube.
+23:31:12 - info: Running Website check Lucent I.T. Services.
+23:31:12 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+23:31:12 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+23:31:12 - info: Called Google Website check.  Response code 200.  Response time 129ms.
+23:31:12 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+23:31:12 - info: Called Google Website check.  Response code 200.  Response time 135ms.
+23:31:12 - info: Called Google Website check.  Response code 200.  Response time 139ms.
+23:31:12 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 138ms.
+23:31:13 - info: Called Sky Website check.  Response code 200.  Response time 157ms.
+23:31:13 - info: Called Yahoo check.  Response code 200.  Response time 246ms.
+23:31:13 - info: Received request for app options.
+23:31:13 - info: Received request for components/list.
+23:31:13 - info: Called BBC check.  Response code 200.  Response time 425ms.
+23:31:13 - info: Called YouTube check.  Response code 200.  Response time 1013ms.
+23:31:40 - info: Received request for app options.
+23:31:40 - info: Received request for components/list.
+23:31:40 - info: Received request to check all components.
+23:31:40 - info: Running Website check BBC.
+23:31:40 - info: Running Website check Google Website.
+23:31:40 - info: Running Website check Sky Website.
+23:31:40 - info: Running Website check Google Website.
+23:31:40 - info: Running Website check Google Website.
+23:31:40 - info: Running Website check Google Website.
+23:31:40 - info: Running Website check Yahoo.
+23:31:40 - info: Running Website check YouTube.
+23:31:40 - info: Running Website check Lucent I.T. Services.
+23:31:40 - info:     Called BBC Server.  Response Code : 200.  Response Time : 58.
+23:31:40 - info: Called BBC Server check.  Response code 200.  Response time 58ms.
+23:31:40 - info: Called Google Website check.  Response code 200.  Response time 186ms.
+23:31:40 - info: Called Google Website check.  Response code 200.  Response time 189ms.
+23:31:40 - info: Called Google Website check.  Response code 200.  Response time 202ms.
+23:31:40 - info: Called Google Website check.  Response code 200.  Response time 207ms.
+23:31:40 - info: Called Sky Website check.  Response code 200.  Response time 221ms.
+23:31:40 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 219ms.
+23:31:40 - info: Called BBC check.  Response code 200.  Response time 290ms.
+23:31:40 - info: Called Yahoo check.  Response code 200.  Response time 395ms.
+23:31:41 - info: Called YouTube check.  Response code 200.  Response time 1180ms.
+23:32:13 - info: Received request for components/list.
+23:32:30 - info: Received request for app options.
+23:32:30 - info: Received request for components/list.
+23:32:41 - info: Received socket connection.
+23:32:41 - info: Received request for app options.
+23:35:22 - info: Running scheduled checks
+23:35:22 - info: Running Website check BBC.
+23:35:22 - info: Running Website check Google Website.
+23:35:22 - info: Running Website check Sky Website.
+23:35:22 - info: Running Website check Google Website.
+23:35:22 - info: Running Website check Google Website.
+23:35:22 - info: Running Website check Google Website.
+23:35:22 - info: Running Website check Yahoo.
+23:35:22 - info: Running Website check YouTube.
+23:35:22 - info: Running Website check Lucent I.T. Services.
+23:35:22 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+23:35:22 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+23:35:23 - info: Called Google Website check.  Response code 200.  Response time 168ms.
+23:35:23 - info: Called Google Website check.  Response code 200.  Response time 168ms.
+23:35:23 - info: Called Google Website check.  Response code 200.  Response time 167ms.
+23:35:23 - info: Called Google Website check.  Response code 200.  Response time 177ms.
+23:35:23 - info: Called Sky Website check.  Response code 200.  Response time 208ms.
+23:35:23 - info: Called Yahoo check.  Response code 200.  Response time 283ms.
+23:35:23 - info: Called BBC check.  Response code 200.  Response time 470ms.
+23:35:23 - info: Called YouTube check.  Response code 200.  Response time 985ms.
+23:35:23 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 1039ms.
+23:51:40 - info: Running scheduled checks
+23:51:40 - info: Running Website check BBC.
+23:51:40 - info: Running Website check Google Website.
+23:51:40 - info: Running Website check Sky Website.
+23:51:40 - info: Running Website check Google Website.
+23:51:40 - info: Running Website check Google Website.
+23:51:40 - info: Running Website check Google Website.
+23:51:40 - info: Running Website check Yahoo.
+23:51:40 - info: Running Website check YouTube.
+23:51:40 - info: Running Website check Lucent I.T. Services.
+23:51:41 - info:     Called BBC Server.  Response Code : 200.  Response Time : 26.
+23:51:41 - info: Called BBC Server check.  Response code 200.  Response time 26ms.
+23:51:41 - info: Called Google Website check.  Response code 200.  Response time 153ms.
+23:51:41 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+23:51:41 - info: Called Google Website check.  Response code 200.  Response time 156ms.
+23:51:41 - info: Called Google Website check.  Response code 200.  Response time 154ms.
+23:51:41 - info: Called Sky Website check.  Response code 200.  Response time 201ms.
+23:51:41 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 211ms.
+23:51:41 - info: Called Yahoo check.  Response code 200.  Response time 359ms.
+23:51:41 - info: Called BBC check.  Response code 200.  Response time 449ms.
+23:51:42 - info: Called YouTube check.  Response code 200.  Response time 1595ms.
+23:51:56 - info: Received request for app options.
+23:51:56 - info: Received request for components/list.
+23:51:56 - info: Received request to check all components.
+23:51:56 - info: Running Website check BBC.
+23:51:56 - info: Running Website check Google Website.
+23:51:56 - info: Running Website check Sky Website.
+23:51:56 - info: Running Website check Google Website.
+23:51:56 - info: Running Website check Google Website.
+23:51:56 - info: Running Website check Google Website.
+23:51:56 - info: Running Website check Yahoo.
+23:51:56 - info: Running Website check YouTube.
+23:51:56 - info: Running Website check Lucent I.T. Services.
+23:51:56 - info:     Called BBC Server.  Response Code : 200.  Response Time : 56.
+23:51:56 - info: Called BBC Server check.  Response code 200.  Response time 56ms.
+23:51:56 - info: Called Google Website check.  Response code 200.  Response time 166ms.
+23:51:56 - info: Called Google Website check.  Response code 200.  Response time 170ms.
+23:51:56 - info: Called Google Website check.  Response code 200.  Response time 172ms.
+23:51:56 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 177ms.
+23:51:56 - info: Called Sky Website check.  Response code 200.  Response time 202ms.
+23:51:56 - info: Called Google Website check.  Response code 200.  Response time 203ms.
+23:51:56 - info: Called Yahoo check.  Response code 200.  Response time 327ms.
+23:51:57 - info: Called BBC check.  Response code 200.  Response time 771ms.
+23:51:57 - info: Called YouTube check.  Response code 200.  Response time 1040ms.
+23:53:13 - info: Received request to check all components.
+23:53:13 - info: Running Website check BBC.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Sky Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Yahoo.
+23:53:13 - info: Running Website check YouTube.
+23:53:13 - info: Running Website check Lucent I.T. Services.
+23:53:13 - info:     Called BBC Server.  Response Code : 200.  Response Time : 20.
+23:53:13 - info: Called BBC Server check.  Response code 200.  Response time 20ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 121ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 125ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 130ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 134ms.
+23:53:13 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 151ms.
+23:53:13 - info: Called Sky Website check.  Response code 200.  Response time 177ms.
+23:53:13 - info: Called BBC check.  Response code 200.  Response time 232ms.
+23:53:13 - info: Called Yahoo check.  Response code 200.  Response time 309ms.
+23:53:13 - info: Received request for components/list.
+23:53:13 - info: Received request for app options.
+23:53:13 - info: Received request to check all components.
+23:53:13 - info: Running Website check BBC.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Sky Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Google Website.
+23:53:13 - info: Running Website check Yahoo.
+23:53:13 - info: Running Website check YouTube.
+23:53:13 - info: Running Website check Lucent I.T. Services.
+23:53:13 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+23:53:13 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 132ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 133ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 149ms.
+23:53:13 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 153ms.
+23:53:13 - info: Called Google Website check.  Response code 200.  Response time 168ms.
+23:53:13 - info: Called Sky Website check.  Response code 200.  Response time 169ms.
+23:53:13 - info: Called BBC check.  Response code 200.  Response time 239ms.
+23:53:14 - info: Called Yahoo check.  Response code 200.  Response time 348ms.
+23:53:14 - info: Called YouTube check.  Response code 200.  Response time 1289ms.
+23:53:14 - info: Called YouTube check.  Response code 200.  Response time 964ms.
+23:53:36 - info: Received request for app options.
+23:53:36 - info: Received request for components/list.
+23:53:36 - info: Received request to check all components.
+23:53:36 - info: Running Website check BBC.
+23:53:36 - info: Running Website check Google Website.
+23:53:36 - info: Running Website check Sky Website.
+23:53:36 - info: Running Website check Google Website.
+23:53:36 - info: Running Website check Google Website.
+23:53:36 - info: Running Website check Google Website.
+23:53:36 - info: Running Website check Yahoo.
+23:53:36 - info: Running Website check YouTube.
+23:53:36 - info: Running Website check Lucent I.T. Services.
+23:53:36 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+23:53:36 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+23:53:36 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+23:53:36 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+23:53:36 - info: Called Google Website check.  Response code 200.  Response time 143ms.
+23:53:36 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+23:53:36 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 151ms.
+23:53:36 - info: Called Sky Website check.  Response code 200.  Response time 312ms.
+23:53:36 - info: Called BBC check.  Response code 200.  Response time 439ms.
+23:53:36 - info: Called Yahoo check.  Response code 200.  Response time 491ms.
+23:53:38 - info: Called YouTube check.  Response code 200.  Response time 1806ms.
+23:53:42 - info: Received request for app options.
+23:53:42 - info: Received request for components/list.
+23:53:42 - info: Received request to check all components.
+23:53:42 - info: Running Website check BBC.
+23:53:42 - info: Running Website check Google Website.
+23:53:42 - info: Running Website check Sky Website.
+23:53:42 - info: Running Website check Google Website.
+23:53:42 - info: Running Website check Google Website.
+23:53:42 - info: Running Website check Google Website.
+23:53:42 - info: Running Website check Yahoo.
+23:53:42 - info: Running Website check YouTube.
+23:53:42 - info: Running Website check Lucent I.T. Services.
+23:53:42 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+23:53:42 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+23:53:42 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+23:53:42 - info: Called Google Website check.  Response code 200.  Response time 151ms.
+23:53:42 - info: Called Google Website check.  Response code 200.  Response time 155ms.
+23:53:42 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 161ms.
+23:53:42 - info: Called Google Website check.  Response code 200.  Response time 180ms.
+23:53:42 - info: Called Sky Website check.  Response code 200.  Response time 194ms.
+23:53:42 - info: Called BBC check.  Response code 200.  Response time 260ms.
+23:53:42 - info: Called Yahoo check.  Response code 200.  Response time 282ms.
+23:53:43 - info: Called YouTube check.  Response code 200.  Response time 1142ms.
+23:53:52 - info: Received request for app options.
+23:53:52 - info: Received request for components/list.
+23:53:52 - info: Received request to check all components.
+23:53:52 - info: Running Website check BBC.
+23:53:52 - info: Running Website check Google Website.
+23:53:52 - info: Running Website check Sky Website.
+23:53:52 - info: Running Website check Google Website.
+23:53:52 - info: Running Website check Google Website.
+23:53:52 - info: Running Website check Google Website.
+23:53:52 - info: Running Website check Yahoo.
+23:53:52 - info: Running Website check YouTube.
+23:53:52 - info: Running Website check Lucent I.T. Services.
+23:53:52 - info:     Called BBC Server.  Response Code : 200.  Response Time : 22.
+23:53:52 - info: Called BBC Server check.  Response code 200.  Response time 22ms.
+23:53:52 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+23:53:52 - info: Called Google Website check.  Response code 200.  Response time 136ms.
+23:53:52 - info: Called Google Website check.  Response code 200.  Response time 141ms.
+23:53:53 - info: Called Google Website check.  Response code 200.  Response time 169ms.
+23:53:53 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 185ms.
+23:53:53 - info: Called Sky Website check.  Response code 200.  Response time 196ms.
+23:53:53 - info: Called Yahoo check.  Response code 200.  Response time 273ms.
+23:53:53 - info: Called BBC check.  Response code 200.  Response time 294ms.
+23:53:53 - info: Called YouTube check.  Response code 200.  Response time 1109ms.
+23:56:41 - info: Running scheduled checks
+23:56:41 - info: Running Website check BBC.
+23:56:41 - info: Running Website check Google Website.
+23:56:41 - info: Running Website check Sky Website.
+23:56:41 - info: Running Website check Google Website.
+23:56:41 - info: Running Website check Google Website.
+23:56:41 - info: Running Website check Google Website.
+23:56:41 - info: Running Website check Yahoo.
+23:56:41 - info: Running Website check YouTube.
+23:56:41 - info: Running Website check Lucent I.T. Services.
+23:56:41 - info:     Called BBC Server.  Response Code : 200.  Response Time : 21.
+23:56:41 - info: Called BBC Server check.  Response code 200.  Response time 21ms.
+23:56:41 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+23:56:41 - info: Called Google Website check.  Response code 200.  Response time 160ms.
+23:56:41 - info: Called Google Website check.  Response code 200.  Response time 163ms.
+23:56:41 - info: Called Google Website check.  Response code 200.  Response time 162ms.
+23:56:41 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 159ms.
+23:56:41 - info: Called Sky Website check.  Response code 200.  Response time 193ms.
+23:56:41 - info: Called BBC check.  Response code 200.  Response time 248ms.
+23:56:41 - info: Called Yahoo check.  Response code 200.  Response time 396ms.
+23:56:42 - info: Called YouTube check.  Response code 200.  Response time 1461ms.
+23:57:27 - info: Received request for app options.
+23:57:27 - info: Received request for components/list.
+23:57:27 - info: Received request to check all components.
+23:57:27 - info: Running Website check BBC.
+23:57:27 - info: Running Website check Google Website.
+23:57:27 - info: Running Website check Sky Website.
+23:57:27 - info: Running Website check Google Website.
+23:57:27 - info: Running Website check Google Website.
+23:57:27 - info: Running Website check Google Website.
+23:57:27 - info: Running Website check Yahoo.
+23:57:27 - info: Running Website check YouTube.
+23:57:27 - info: Running Website check Lucent I.T. Services.
+23:57:27 - info:     Called BBC Server.  Response Code : 200.  Response Time : 27.
+23:57:27 - info: Called BBC Server check.  Response code 200.  Response time 27ms.
+23:57:27 - info: Called Google Website check.  Response code 200.  Response time 145ms.
+23:57:27 - info: Called Google Website check.  Response code 200.  Response time 155ms.
+23:57:27 - info: Called Sky Website check.  Response code 200.  Response time 165ms.
+23:57:27 - info: Called Google Website check.  Response code 200.  Response time 170ms.
+23:57:27 - info: Called Lucent I.T. Services check.  Response code 200.  Response time 168ms.
+23:57:27 - info: Called Google Website check.  Response code 200.  Response time 172ms.
+23:57:27 - info: Called Yahoo check.  Response code 200.  Response time 296ms.
+23:57:27 - info: Called BBC check.  Response code 200.  Response time 355ms.
+23:57:28 - info: Called YouTube check.  Response code 200.  Response time 873ms.
