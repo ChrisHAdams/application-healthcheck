@@ -9,11 +9,9 @@ This application supports checking the following are available.
 2. Web Services
 3. Servers
 
-<<<<<<< HEAD
-To install, just clone the repo.
-=======
-To install, run `npm i system-healthcheck` or clone the repo.  Once downloaded, don't forget to download and install dependencies... `npm install`.
->>>>>>> 841bdda0b91a7f96d430d68ac2e4a765610347ed
+
+To install, just clone the repo.  Once downloaded, don't forget to download and install dependencies... `npm install`.
+
 
 There are some tests created for both back-end and the front-end.  To run the back-end tests, the command is `npm run-script server-test`.  To run the front-end tests, the command is `npm run-script client-test`.
 
