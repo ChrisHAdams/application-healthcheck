@@ -112,7 +112,7 @@ The server check using 'ping' to check whether a server can be reached.
     "url": "172.217.16.68",
     "expectedResults": {
       "expectedStatusCode": "Alive",
-      "expectedMaxResponseTime": 100
+      "expectedResponseTime": 100
     }
   }
 ```
@@ -130,6 +130,8 @@ The API root is `<server>:<port>/api`.  The API contains methods to list the com
 
 ### Other points
 Once the backend is started, the application runs all of the checks every 10 minutes and logs the results.  If there are any clients connected, the the backend uses sockets.io to broadcast the results to each connected client.
+
+When running the client, each component under the monitor is listed.  Once the checks have ran, Green indicates successful response within expected time.  Amber indicates successful response that exceeds the expected response time.  Red indicates a fail and is something that needs to be looked at.
 
 
 
