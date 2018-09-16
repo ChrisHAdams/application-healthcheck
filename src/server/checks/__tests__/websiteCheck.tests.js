@@ -31,9 +31,9 @@ describe('#WebsiteCheckClass', function () {
 
     expect(response.getActualResponseCode()).to.equal('Error: Invalid URI "some%20url"');
 
-    expect(log.getLogEntries()[0].type).to.equal('error');
-    expect(log.getLogEntries().length).to.equal(1);
-    expect(log.getLogEntries()[0].message).to.contain('Error: Invalid URI "some%20url"');
+    expect(log.getLogEntries()[1].type).to.equal('error');
+    expect(log.getLogEntries().length).to.equal(2);
+    expect(log.getLogEntries()[1].message).to.contain('Error: Invalid URI "some%20url"');
 
   });
 

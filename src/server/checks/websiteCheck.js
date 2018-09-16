@@ -25,6 +25,7 @@ async function makeHttpRequest(requestObj, log) {
     return requestObj;
 
   } catch (error) {
+
     const end = Date.now() - start;
 
     requestObj.setActualResponseCode(error.message);

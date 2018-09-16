@@ -2,11 +2,9 @@
 
 exports[`Check Component Card Snapshot Test 1`] = `
 <div
-  className="bp3-card bp3-elevation-2"
+  className="sc-bdVaJa dEiVuS"
 >
-  <h3
-    id="Name"
-  >
+  <h3>
     BBC
   </h3>
   <h4
@@ -21,16 +19,27 @@ exports[`Check Component Card Snapshot Test 1`] = `
     website
   </p>
   <p
-    id="expectedResponseTime"
-  >
-    Expected Response Time 
-    500
-  </p>
-  <p
     id="expectedResponseCode"
   >
-    Expected Response Code 
+    Expected Response Code: 
     200
+  </p>
+  <p
+    id="actualResponseCode"
+  >
+    Actual Response Code: 
+  </p>
+  <p
+    id="expectedResponseTime"
+  >
+    Expected Response Time: 
+    500
+    ms
+  </p>
+  <p
+    id="actualResponseTime"
+  >
+    Actual Response Time: 
   </p>
 </div>
 `;
