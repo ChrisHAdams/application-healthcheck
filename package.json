@@ -4,7 +4,7 @@
   "description": "Application Healthcheck",
   "main": "index.js",
   "scripts": {
-    "server-start": "export NODE_ENV=development; npm run babel-node -- ./index.js",
+    "start": "export NODE_ENV=development; npm run babel-node -- ./index.js",
     "server-watch": "export NODE_ENV=development; node node_modules/nodemon/bin/nodemon.js --exec babel-node --presets es2015 --watch src/server --watch config",
     "server-test": "mocha --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
     "client-start": "webpack --watch --config ./webpack.config.js --mode development;",
@@ -13,7 +13,7 @@
     "client-test": "jest",
     "client-test:watch": "jest --watch",
     "client-test:coverage": "jest --coverage",
-    "start": "export NODE_ENV=development; nodemon --watch src/server --watch config --exec npm run babel-node -- ./index.js",
+    "start-dev-server": "export NODE_ENV=development; nodemon --watch src/server --watch config --exec npm run babel-node -- ./index.js",
     "build": "babel src -d dist"
   },
   "jest": {
