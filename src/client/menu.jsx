@@ -17,9 +17,6 @@ class Menu extends React.Component {
         <NavItem eventKey={1} href="#/list">
           List
         </NavItem>
-        <NavItem eventKey={2} href="#/play">
-          Play
-        </NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;
