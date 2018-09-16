@@ -23,7 +23,8 @@ If you want to run the server out of the box, run `npm run-script start`.  This 
 
 There are three parts to the config file.  Firstly, the options object.  At the time of writing, this is only the port to run on.  The next object is the layoutElements object, this contains some key properties and values for the client.  Lastly, there is the items array.  The array contains an object for each website, api or server to monitor.
 
-`{
+```
+{
   "healthcheck": {
     "options": {
       "port": 5251
@@ -45,7 +46,8 @@ There are three parts to the config file.  Firstly, the options object.  At the 
         "expectedResponseTime": 500
       },
    ]
-}`
+}
+```
 
 #### Items to monitor
 Each item to monitor is described in a JSON object, stored in the Items array.
@@ -114,3 +116,20 @@ The server check using 'ping' to check whether a server can be reached.
     }
   }
 ```
+
+### Logging
+This application runs two sets of logs.  Firstly, an application log and secondly, a results log.  Both types start a new log each day.
+
+### Email Alerts
+This is a an area for future enhancement.
+
+### API
+This application has its own API, which is used by the application or could be called from within your own application.
+
+The API root is `<server>:<port>/api`.  The API contains methods to list the components being monitored by id, name, type or list all.  The API also contains methods to run checks by id, name or run all.  See `./src/server/routes/apiRoutes.js` for more details.
+
+### Other points
+Once the backend is started, the application runs all of the checks every 10 minutes and logs the results.  If there are any clients connected, the the backend uses sockets.io to broadcast the results to each connected client.
+
+
+
