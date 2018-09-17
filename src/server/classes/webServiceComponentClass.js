@@ -17,6 +17,14 @@ export default class WebServiceComponentClass extends ComponentClass {
     this.url = value;
   }
 
+  getHeaders() {
+    return this.headers;
+  }
+
+  setHeaders(value) {
+    this.headers = value;
+  }
+
   getPayload() {
     return this.payload;
   }
@@ -33,4 +41,23 @@ export default class WebServiceComponentClass extends ComponentClass {
     this.method = value;
   }
 
+  toJson() {
+
+    return {
+      key: this.getKey(),
+      name: this.getName(),
+      description: this.getDescription(),
+      type: this.getCheckType(),
+      url: this.getUrl(),
+      headers: this.getHeaders(),
+      method: this.getMethod(),
+      payload: this.getPayload(),
+      expectedResponseCode: this.getExpectedResponseCode(),
+      expectedResponseTime: this.getExpectedResponseTime(),
+      actualCodeResult: this.checkResponseCodeResult(),
+      actualTimeResult: this.checkResponseTimeResult(),
+      actualResponseTime: this.getActualResponseTime(),
+      actualResponseCode: this.getActualResponseCode(),
+    };
+  }
 }
