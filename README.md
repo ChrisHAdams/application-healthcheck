@@ -16,7 +16,7 @@ To install, just clone the repo.  Once downloaded, don't forget to download and 
 There are some tests created for both back-end and the front-end.  To run the back-end tests, the command is `npm run-script server-test`.  To run the front-end tests, the command is `npm run-script client-test`.
 
 ### Front-End
-The front-end is written with React.  If you want to just run it out of the box, the run `npm run-script client-build` before starting the back-end.  If you want to play with front-end or change it, then `npm run-script client-start`.  This command uses Webpack to rebuild the client on save.
+The front-end is written with React.  If you want to just run it out of the box, the run `npm run-script client-build` **before starting the back-end**.  If you want to play with front-end or change it, then `npm run-script client-start`.  This command uses Webpack to rebuild the client on save.
 
 ### Back-end
 If you want to run the server out of the box, run `npm run-script start`.  This will launch the app using details in the config file 'development.json', more on the config file later.  Or, if you want to make changes, run `npm run-script start-dev-server`.  This start the server with NODEMON and, again, uses the Development.json file.
