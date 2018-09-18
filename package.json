@@ -1,7 +1,7 @@
 {
   "name": "application-healthcheck",
-  "version": "0.0.1",
-  "description": "Application Healthcheck",
+  "version": "1.0.0",
+  "author": "Chris Adams",
   "main": "index.js",
   "keywords": ["system",
               "application",
@@ -34,7 +34,6 @@
     ],
     "rootDir": "./src/client"
   },
-  "author": "Chris Adams",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",

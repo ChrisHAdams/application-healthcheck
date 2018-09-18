@@ -1,6 +1,6 @@
 # application-healthcheck
 ## A System Healthcheck Application
-An application that monitors health/availability of websites, web-services and servers.
+An stand-alone application that monitors health/availability of websites, web-services and servers.
 
 I built this app to help monitor a system that comprises of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
 
