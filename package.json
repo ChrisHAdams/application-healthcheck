@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "Application Healthcheck",
   "main": "index.js",
+  "keywords": ["system",
+              "application",
+              "healthcheck",
+              "monitor",
+              "system healtcheck",
+              "system monitor",
+              "application healthcheck",
+              "application monitor"
+            ],
   "scripts": {
     "start": "export NODE_ENV=development; npm run babel-node -- ./index.js",
     "server-watch": "export NODE_ENV=development; node node_modules/nodemon/bin/nodemon.js --exec babel-node --presets es2015 --watch src/server --watch config",
