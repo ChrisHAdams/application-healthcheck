@@ -1,6 +1,5 @@
 const rp = require('request-promise');
 
-
 async function makeHttpRequest(requestObj, log) {
 
   const options = {
@@ -28,7 +27,7 @@ async function makeHttpRequest(requestObj, log) {
 
     const end = Date.now() - start;
 
-    requestObj.setActualResponseCode(error.statusCode);
+    requestObj.setActualResponseCode(error.message);
     requestObj.setActualResponseTime(end);
 
     log.error(`Error - ${requestObj.getResponseSummaryMessage()}`);

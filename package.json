@@ -15,7 +15,7 @@
   "scripts": {
     "start": "export NODE_ENV=development; npm run babel-node -- ./index.js",
     "server-watch": "export NODE_ENV=development; node node_modules/nodemon/bin/nodemon.js --exec babel-node --presets es2015 --watch src/server --watch config",
-    "server-test": "mocha --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
+    "test": "mocha --exit --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
     "client-start": "webpack --watch --config ./webpack.config.js --mode development;",
     "client-build": "webpack --config ./webpack.config.js --mode production",
     "babel-node": "babel-node --presets=latest",
