@@ -27,7 +27,7 @@ describe('#getDateAndTime', function () {
     const date = new Date('2011-04-11T10:20:30Z');
 
     const result = DateAndTime.getDateAndTime(date);
-    expect(result.toString()).to.equal(expectedResult);
+    expect(result.toString()).to.equal(expectedResult.toString());
   });
 
   it('should return "1971-10-16T22:00:00Z" as "19711016"', function () {
