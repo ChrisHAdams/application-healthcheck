@@ -1,4 +1,5 @@
-# application-healthcheck
+# application-healthcheck [![Build Status](https://travis-ci.org/ChrisHAdams/application-healthcheck.svg?branch=master)](https://travis-ci.org/ChrisHAdams/application-healthcheck)
+
 ## A System Healthcheck Application
 An stand-alone application that monitors health/availability of websites, web-services and servers.
 
