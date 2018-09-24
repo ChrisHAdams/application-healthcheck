@@ -44,7 +44,7 @@ function GetComponentCheckByName(healthcheckItems, name) {
 
 function GetComponentCheckByNameJsonString(healthcheckItems, name) {
 
-  return JSON.stringify(GetComponentCheckByNameJsonString(healthcheckItems, name));
+  return JSON.stringify(GetComponentCheckByName(healthcheckItems, name));
 
 }
 
@@ -61,8 +61,15 @@ function GetComponentCheckByType(healthcheckItems, type) {
     }
   }
 
-  return JSON.stringify(outputArray);
-
+  //  return JSON.stringify(outputArray);
+  return outputArray;
 }
 
-module.exports = { GetComponentCheckById, GetComponentCheckByName, GetComponentCheckByType };
+module.exports =
+{
+  GetComponentCheckById,
+  GetComponentCheckByName,
+  GetComponentCheckByType,
+  GetComponentCheckByIdJsonString,
+  GetComponentCheckByNameJsonString,
+};

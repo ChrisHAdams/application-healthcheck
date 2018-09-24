@@ -14,6 +14,8 @@ export default class ComponentClassFactory {
       object = new WebServiceComponentClass(configObject);
     } else if (configObject.checkType === 'server') {
       object = new ServerComponentClass(configObject);
+    } else {
+      object = null;
     }
 
     return object;

@@ -7,6 +7,7 @@ export default class WebServiceComponentClass extends ComponentClass {
     this.setUrl(configObject.url);
     this.setPayload(configObject.payload);
     this.setMethod(configObject.method);
+    this.setHeaders(configObject.headers);
   }
 
   getUrl() {

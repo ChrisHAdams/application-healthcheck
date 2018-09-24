@@ -10,7 +10,7 @@ async function makeServerRequest(requestObj, log) {
     const end = Date.now() - start;
     const status = response.alive ? 200 : 500;
 
-    if (status === 'Alive') {
+    if (status === 200) {
       log.info(`    Called ${requestObj.name}.  Response Code : ${status}.  Response Time : ${response.max}.`);
       requestObj.setActualResponseCode(status);
       requestObj.setActualResponseTime(response.max);

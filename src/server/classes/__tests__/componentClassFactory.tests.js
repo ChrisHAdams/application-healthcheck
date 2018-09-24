@@ -1,6 +1,7 @@
 import ComponentClassFactory from '../componentClassFactory';
 import WebsiteComponentClass from '../websiteComponentClass';
 import WebServiceComponentClass from '../webServiceComponentClass';
+import ServerComponentClass from '../serverComponentClass';
 
 const { expect } = require('chai');
 
@@ -47,6 +48,56 @@ describe('#ComponentClassFactory', function () {
     expect(Object.getPrototypeOf(checkObject)).to.equal(WebServiceComponentClass.prototype);
 
   });
+
+  it('should return a server check where checkType property is server', function () {
+
+    const mockExpectedResults = {
+      expectedStatusCode: 200,
+      expectedResponseTime: 500,
+    };
+
+    const mockCheck = {
+      key: 0,
+      name: 'Name of the service',
+      description: 'The description',
+      checkType: 'server',
+      url: 'www.someurl.co.uk',
+      payload: 'some payload',
+      method: 'method',
+      expectedResults: mockExpectedResults,
+    };
+
+    const checkObject = ComponentClassFactory.createComponentObject(mockCheck);
+
+    expect(Object.getPrototypeOf(checkObject)).to.equal(ServerComponentClass.prototype);
+
+  });
+
+
+  it('should return null where checkType property is not know by factory', function () {
+
+    const mockExpectedResults = {
+      expectedStatusCode: 200,
+      expectedResponseTime: 500,
+    };
+
+    const mockCheck = {
+      key: 0,
+      name: 'Name of the service',
+      description: 'The description',
+      checkType: 'nonsense',
+      url: 'www.someurl.co.uk',
+      payload: 'some payload',
+      method: 'method',
+      expectedResults: mockExpectedResults,
+    };
+
+    const checkObject = ComponentClassFactory.createComponentObject(mockCheck);
+
+    expect(checkObject).to.equal(null);
+
+  });
+
 
   it('should return an array of component objects', function () {
 

@@ -1,6 +1,8 @@
 
 import ComponentClass from '../componentClass';
 
+const NotYetCheckedMessage = 'Check not yet executed';
+
 const { expect } = require('chai');
 
 const mockCheck = {
@@ -108,6 +110,19 @@ describe('#ComponentClass', function () {
 
   });
 
+
+  it('should report that a check has not ran when asking for results early', function () {
+
+    const result = new ComponentClass(mockCheck);
+
+    expect(result.checkResponseCodeResult()).to.equal(NotYetCheckedMessage);
+    expect(result.getResponseCodeResultMessage()).to.equal(NotYetCheckedMessage);
+    expect(result.checkResponseTimeResult()).to.equal(NotYetCheckedMessage);
+    expect(result.getResponseTimeResultMessage()).to.equal(NotYetCheckedMessage);
+    expect(result.getResponseSummaryMessage()).to.equal('Name of the check check not yet executed.');
+    expect(result.getTimestamp()).to.equal(null);
+  });
+
   it('should allow the actualResponseTime to be set', function () {
 
     const result = new ComponentClass(mockCheck);
@@ -163,6 +178,26 @@ describe('#ComponentClass', function () {
     expect(result.checkResponseTimeResult()).to.equal('Fail');
     result.setActualResponseTime(50);
     expect(result.checkResponseTimeResult()).to.equal('Pass');
+
+  });
+
+  it('should be able to get summary messages following a check', function () {
+
+    const result = new ComponentClass(mockCheck);
+    const timestampVal = 123456789;
+
+    expect(result.getActualResponseTime()).to.equal(null);
+    expect(result.actualResponseTime).to.equal(null);
+
+    result.setTimestamp(timestampVal);
+    result.setExpectedResponseCode(200);
+    result.setActualResponseCode(200);
+    result.setExpectedResponseTime(20);
+    result.setActualResponseTime(20);
+
+    expect(result.getResponseCodeResultMessage()).to.equal('Expected Response Code is 200.\n                  Actual Response Code is 200.\n                  Result is a Pass.');
+    expect(result.getResponseTimeResultMessage()).to.equal('Expected Response Time is 20.\n                  Actual Response Time is 20.\n                  Result is a Pass.');
+    expect(result.getResponseSummaryMessage()).to.equal('Called Name of the check check.  Response code 200.  Response time 20ms.');
 
   });
 

@@ -1,3 +1,5 @@
+const NotYetCheckedMessage = 'Check not yet executed';
+
 export default class ComponentClass {
 
   constructor(configObject) {
@@ -83,8 +85,8 @@ export default class ComponentClass {
 
   checkResponseCodeResult() {
 
-    if (this.actualResponseCode == null) {
-      return 'Not yet checked.';
+    if (this.actualResponseCode === null) {
+      return NotYetCheckedMessage;
     }
 
     return this.getExpectedResponseCode() === this.getActualResponseCode() ? 'Pass' : 'Fail';
@@ -92,8 +94,8 @@ export default class ComponentClass {
 
   checkResponseTimeResult() {
 
-    if (this.actualResponseTime == null) {
-      return 'Not yet checked.';
+    if (this.actualResponseTime === null) {
+      return NotYetCheckedMessage;
     }
 
     return this.getExpectedResponseTime() >= this.getActualResponseTime() ? 'Pass' : 'Fail';
@@ -102,8 +104,8 @@ export default class ComponentClass {
   getResponseCodeResultMessage() {
     let message = '';
 
-    if (this.checkResponseCodeResult() == null) {
-      message = 'Check not yet executed.';
+    if (this.checkResponseCodeResult() === NotYetCheckedMessage) {
+      message = NotYetCheckedMessage;
     } else {
       message = `Expected Response Code is ${this.getExpectedResponseCode()}.
                   Actual Response Code is ${this.getActualResponseCode()}.
@@ -114,10 +116,10 @@ export default class ComponentClass {
   }
 
   getResponseTimeResultMessage() {
-    let message = '';
+    let message = NotYetCheckedMessage;
 
-    if (this.checkResponseTimeResult() == null) {
-      message = 'Check not yet executed.';
+    if (this.checkResponseTimeResult() === NotYetCheckedMessage) {
+      message = NotYetCheckedMessage;
     } else {
       message = `Expected Response Time is ${this.getExpectedResponseTime()}.
                   Actual Response Time is ${this.getActualResponseTime()}.
@@ -130,7 +132,7 @@ export default class ComponentClass {
   getResponseSummaryMessage() {
     let message = '';
 
-    if (this.checkResponseTimeResult() == null) {
+    if (this.actualResponseTime === null) {
       message = `${this.getName()} check not yet executed.`;
     } else {
       message = `Called ${this.getName()} check.  Response code ${this.getActualResponseCode()}.  Response time ${this.getActualResponseTime()}ms.`;

@@ -5,6 +5,7 @@ async function makeHttpRequest(requestObj, log) {
   const options = {
     uri: requestObj.url,
     resolveWithFullResponse: true,
+    timeout: 10000,
   };
 
   const start = Date.now();

@@ -12,6 +12,7 @@ const mockCheck = {
   expectedStatusCode: 200,
   expectedResponseTime: 500,
   payload: 'somepayloadvalue',
+  headers: 'someheaders',
   method: 'post',
 };
 
@@ -26,6 +27,7 @@ describe('#WebServiceComponentClass', function () {
     expect(result.checkType).to.equal(mockCheck.checkType);
     expect(result.url).to.equal(mockCheck.url);
     expect(result.payload).to.equal(mockCheck.payload);
+    expect(result.headers).to.equal(mockCheck.headers);
     expect(result.method).to.equal(mockCheck.method);
 
     expect(result.getKey()).to.equal(mockCheck.key);
@@ -34,6 +36,7 @@ describe('#WebServiceComponentClass', function () {
     expect(result.getCheckType()).to.equal(mockCheck.checkType);
     expect(result.getUrl()).to.equal(mockCheck.url);
     expect(result.getPayload()).to.equal(mockCheck.payload);
+    expect(result.getHeaders()).to.equal(mockCheck.headers);
     expect(result.getMethod()).to.equal(mockCheck.method);
 
 

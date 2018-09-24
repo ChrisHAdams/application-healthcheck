@@ -32,10 +32,4 @@ describe('#App', function () {
     expect(response.data).to.equal('API Root');
   });
 
-  it('should return a 200 after calling api/components/list', async function () {
-    expect(App.getState()).to.equal('Started');
-    const response = await axios.get(`${address}/components/list`);
-    expect(response.status).to.equal(200);
-  });
-
 });

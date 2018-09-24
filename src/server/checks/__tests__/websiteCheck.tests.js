@@ -15,11 +15,22 @@ const mockServiceConfigObject = {
   resolveWithFullResponse: true,
 };
 
+const validServiceConfigObject = {
+  key: 0,
+  name: 'Name of the check',
+  description: 'The description',
+  checkType: 'The type of check',
+  expectedResponseCode: 200,
+  expectedResponseTime: 500,
+  url: 'http://www.bbc.co.uk',
+  resolveWithFullResponse: true,
+};
+
 const Log = require('../../common/__tests__/mockLogger');
 
 let log;
 
-describe('#WebsiteCheckClass', function () {
+describe('# WebsiteCheckClass', function () {
 
   beforeEach(function () {
     log = new Log();
@@ -46,6 +57,18 @@ describe('#WebsiteCheckClass', function () {
     expect(log.getLogEntries()[0].type).to.equal('info');
     expect(log.getLogEntries().length).to.equal(1);
     expect(log.getLogEntries()[0].message).to.contain('Called http://bbc.co.uk.  Response code 200.  Response time 0ms.');
+
+  });
+
+  it('should test a real website and return a 200', async function () {
+    const websiteComponent = new WebsiteComponentClass(validServiceConfigObject);
+    const response = await WebsiteCheck.makeHttpRequest(websiteComponent, log);
+
+    expect(response.getActualResponseCode()).to.equal(200);
+
+    expect(log.getLogEntries()[0].type).to.equal('info');
+    expect(log.getLogEntries().length).to.equal(2);
+    expect(log.getLogEntries()[1].message).to.contain('Called Name of the check check.  Response code 200.');
 
   });
 

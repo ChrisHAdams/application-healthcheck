@@ -19,6 +19,21 @@ const mockServiceConfigObject = {
   body: { message: 'the message' },
 };
 
+const validServiceConfigObject = {
+  key: 0,
+  name: 'Valid Check',
+  description: 'The description',
+  checkType: 'webservice',
+  expectedResponseCode: 200,
+  expectedResponseTime: 500,
+  url: 'https://reststop.randomhouse.com/resources/authors/3446/',
+  headers: '',
+  timeout: 10000,
+  resolveWithFullResponse: true,
+  method: 'get',
+  body: { message: 'the message' },
+};
+
 const Log = require('../../common/__tests__/mockLogger');
 
 let log;
@@ -50,6 +65,18 @@ describe('#WebServiceCheckClass', function () {
     expect(log.getLogEntries()[0].type).to.equal('info');
     expect(log.getLogEntries().length).to.equal(1);
     expect(log.getLogEntries()[0].message).to.contain('Called http://bbc.co.uk.  Response code 200.  Response time 0ms.');
+
+  });
+
+  it('should test a valid webService and return a 200', async function () {
+    const webServiceComponent = new WebServiceComponentClass(validServiceConfigObject);
+    const response = await WebServiceCheck.makeWebServiceRequest(webServiceComponent, log);
+
+    expect(response.getActualResponseCode()).to.equal(200);
+
+    expect(log.getLogEntries()[0].type).to.equal('info');
+    expect(log.getLogEntries().length).to.equal(2);
+    expect(log.getLogEntries()[1].message).to.contain('Called Valid Check check.  Response code 200.');
 
   });
 

@@ -64,40 +64,22 @@
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
       },
-      {
-        "key":6,
-        "name": "Yahoo",
-        "description": "For Matt, show Yahoo is running",
-        "checkType": "website",
-        "url": "https://uk.yahoo.com/",
-        "expectedResponseCode": 400,
-        "expectedResponseTime": 400
-      },
-      {
-        "key":7,
-        "name": "YouTube",
-        "description": "Matt's most fave website.",
-        "checkType": "website",
-        "url": "https://www.youtube.com/?gl=GB&hl=en-GB",
-        "expectedResponseCode": 200,
-        "expectedResponseTime": 400
-      },
-      {
-        "key":8,
-        "name": "BBC Server",
-        "description": "Ping a BBC Server.",
-        "checkType": "server",
-        "url": "151.101.64.81",
-        "expectedResponseCode": 200,
-        "expectedResponseTime": 100
-      },
-      {"key":9,
+      {"key":6,
       "name": "Penguin",
       "description": "Check Penguin Books API.",
       "checkType": "webservice",
       "url": "https://reststop.randomhouse.com/resources/authors/3446/",
       "expectedResponseCode": 200,
       "expectedResponseTime": 600
+      },
+      {
+        "key":7,
+        "name": "Google Server",
+        "description": "Ping Google's server",
+        "checkType": "server",
+        "url": "192.168.0.28",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
       }
     ]
   }
