@@ -2,9 +2,13 @@
 const winston = require('winston');
 const Rotate = require('winston-daily-rotate-file');
 const fs = require('fs');
+const config = require('config');
 
 const env = process.env.NODE_ENV || 'development';
-const logDir = 'log';
+const logDir = config.get('healthcheck.options.appLogFolder');
+const logName = config.get('healthcheck.options.appLogName');
+
+// const logDir = 'log';
 
 // Create the log directory if it does not exist
 if (!fs.existsSync(logDir)) {
@@ -23,7 +27,7 @@ const logger = new (winston.Logger)({
     }),
     // new (require('winston-daily-rotate-file'))({
     new (Rotate)({
-      filename: `${logDir}/-app.log`,
+      filename: `${logDir}/${logName}-app.log`,
       timestamp: tsFormat,
       datePattern: 'YYYY-MM-DD',
       prepend: true,

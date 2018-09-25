@@ -50,7 +50,7 @@ function start(log) {
         log.info('Running scheduled checks');
 
         (async () => {
-          scheduledResult = await runAllComponentChecks(config.get('healthcheck.items'));
+          scheduledResult = await runAllComponentChecks(config.get('healthcheck.items'), log);
           io.emit('data', JSON.stringify(scheduledResult));
         })();
 

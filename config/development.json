@@ -1,7 +1,11 @@
 {
   "healthcheck": {
     "options": {
-      "port": 5251
+      "port": 5251,
+      "appLogFolder": "devlog",
+      "appLogName": "dev",
+      "resultLogFolder": "devresults",
+      "resultLogName": "dev"
     },
     "layoutElements": {
       "title": "Application Healthcheck",
@@ -64,13 +68,14 @@
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
       },
-      {"key":6,
-      "name": "Penguin",
-      "description": "Check Penguin Books API.",
-      "checkType": "webservice",
-      "url": "https://reststop.randomhouse.com/resources/authors/3446/",
-      "expectedResponseCode": 200,
-      "expectedResponseTime": 600
+      {
+        "key":6,
+        "name": "Penguin",
+        "description": "Check Penguin Books API.",
+        "checkType": "webservice",
+        "url": "https://reststop.randomhouse.com/resources/authors/3446/",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
       },
       {
         "key":7,

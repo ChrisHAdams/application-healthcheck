@@ -6,10 +6,10 @@ import { GetComponentCheckById, GetComponentCheckByName } from '../actions/getCo
 import { makeHttpRequest } from '../checks/websiteCheck';
 import { makeWebServiceRequest } from '../checks/webServiceCheck';
 import { makeServerRequest } from '../checks/serverCheck';
-import log from '../common/logger';
+import logger from '../common/logger';
 import resultsLogger from '../common/resultsLogger';
 
-async function runSingleCheck(checkToRun) {
+async function runSingleCheck(checkToRun, log = logger) {
 
   let response = {};
 
@@ -28,47 +28,47 @@ async function runSingleCheck(checkToRun) {
 
 }
 
-async function runAllComponentChecks(healthcheckItems) {
+async function runAllComponentChecks(healthcheckItems, log = logger) {
 
   try {
     const componentArray = ComponentClassFactory.createComponentList(healthcheckItems);
-    const promiseArray = componentArray.map(item => (runSingleCheck(item.toJson())));
+    const promiseArray = componentArray.map(item => (runSingleCheck(item.toJson(), log)));
     const results = await Promise.all(promiseArray);
     resultsLogger.info(JSON.stringify(results));
 
     return results;
 
   } catch (error) {
-    log.info(error);
+    log.error(error);
     return error;
   }
 
 }
 
-async function runComponentCheckById(healthcheckItems, id) {
+async function runComponentCheckById(healthcheckItems, id, log = logger) {
 
   const checkToRun = GetComponentCheckById(healthcheckItems, id);
   let response = {};
 
   if (checkToRun) {
-    response = await runSingleCheck(checkToRun);
+    response = await runSingleCheck(checkToRun, log);
   }
 
   return response;
 
 }
 
-async function runComponentCheckByName(healthcheckItems, name) {
+async function runComponentCheckByName(healthcheckItems, name, log = logger) {
 
   const checkToRun = GetComponentCheckByName(healthcheckItems, name);
   let response = {};
 
   if (checkToRun) {
-    response = await runSingleCheck(checkToRun);
+    response = await runSingleCheck(checkToRun, log);
   }
 
   return response;
 
 }
 
-module.exports = { runComponentCheckById, runComponentCheckByName, runAllComponentChecks };
+module.exports = { runSingleCheck, runComponentCheckById, runComponentCheckByName, runAllComponentChecks };

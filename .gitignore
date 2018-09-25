@@ -6,3 +6,9 @@
 **/.nyc_output
 **/.vscode
 **/coverage
+**/devlog
+**/devresults
+**/testlog
+**/testresults
+**/.nyc_output
+**/coverage
