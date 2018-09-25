@@ -21,7 +21,7 @@ const validServerConfigObject = {
   checkType: 'server',
   expectedResponseCode: 200,
   expectedResponseTime: 500,
-  url: 'google.com',
+  url: '192.168.0.28',
   resolveWithFullResponse: true,
 };
 
