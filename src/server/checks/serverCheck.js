@@ -6,7 +6,7 @@ async function makeServerRequest(requestObj, log) {
 
   try {
 
-    const response = await ping.promise.probe(requestObj.url, { timeout: 1.5 });
+    const response = await ping.promise.probe(requestObj.url, { timeout: 2.5 });
     const end = Date.now() - start;
     const status = response.alive ? 200 : 500;
 
