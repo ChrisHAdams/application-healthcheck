@@ -57,9 +57,7 @@
     "socket.io-client": "^2.1.1",
     "styled-components": "^3.4.5",
     "winston": "^2.4.2",
-    "winston-daily-rotate-file": "^3.1.4"
-  },
-  "devDependencies": {
+    "winston-daily-rotate-file": "^3.1.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -67,7 +65,9 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "css-loader": "^1.0.0",
