@@ -14,7 +14,7 @@
     "application monitor"
   ],
   "scripts": {
-    "start": "export PORT=5252; npm run client-build; export NODE_ENV=development; npm run babel-node -- ./index.js",
+    "start": "npm run client-build; export NODE_ENV=development; npm run babel-node -- ./index.js",
     "server-watch": "export NODE_ENV=development; node node_modules/nodemon/bin/nodemon.js --exec babel-node --presets es2015 --watch src/server --watch config",
     "test": "export NODE_ENV=test; mocha --timeout 5000 --exit --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
     "coverage": "nyc  --reporter=html --reporter=text mocha --exit --require babel-polyfill --require babel-core/register 'src/**/*.tests.js' --reporter spec",
