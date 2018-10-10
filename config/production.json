@@ -1,0 +1,123 @@
+{
+  "healthcheck": {
+    "options": {
+      "port": 5251,
+      "appLogFolder": "devlog",
+      "appLogName": "dev",
+      "resultLogFolder": "devresults",
+      "resultLogName": "dev",
+      "menutitle": "Application Healthcheck",
+      "footertext": "Designed and built by..."
+    },
+    "dashboardConfig": {
+      "dashboardTitle": "Application Dashboard",
+      "dashboardSubTitle" : "Monitoring a shed load of applications"
+    },
+    "appLandscapes":[
+      {
+        "key":0,
+        "name":"Room 101",
+        "layoutElements": {
+          "title": "Room 101",
+          "subtitle": "Monitoring Room 101"
+        },
+        "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6, 7]
+      },
+      {
+        "key":1,
+        "name":"Area 51",
+        "layoutElements": {
+          "title": "Area 51",
+          "subtitle": "Monitoring Area 51"
+        },
+        "itemsToCheck" : [0, 1, 4]
+      },
+      {
+        "key":2,
+        "name":"Some Other",
+        "layoutElements": {
+          "title": "Some Other",
+          "subtitle": "Some Other Area for issues"
+        },
+        "itemsToCheck" : [4, 1, 7, 6]
+      }
+    ],
+    "items" : [
+      {
+        "key":0,
+        "name": "BBC",
+        "description": "Ping BBC's website",
+        "checkType": "website",
+        "url": "http://www.bbc.co.uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 500
+      },
+      {
+        "key":1,
+        "name": "Google Website",
+        "description": "Ping Google's website",
+        "checkType": "website",
+        "url": "http://www.google.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":2,
+        "name": "Sky Website",
+        "description": "Ping Sky's website",
+        "checkType": "website",
+        "url": "http://www.sky.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":3,
+        "name": "Google Website",
+        "description": "Ping Google's website",
+        "checkType": "website",
+        "url": "http://www.google.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":4,
+        "name": "Google Website",
+        "description": "Ping Google's website",
+        "checkType": "website",
+        "url": "http://www.google.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":5,
+        "name": "Google Website",
+        "description": "Ping Google's website",
+        "checkType": "website",
+        "url": "http://www.google.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":6,
+        "name": "Penguin",
+        "description": "Check Penguin Books API.",
+        "checkType": "webservice",
+        "url": "https://reststop.randomhouse.com/resources/authors/3446/",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      },
+      {
+        "key":7,
+        "name": "Google Server",
+        "description": "Ping Google's server",
+        "checkType": "server",
+        "url": "192.168.0.28",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 600
+      }
+    ]
+  }
+}
+
+
+
