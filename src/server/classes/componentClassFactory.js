@@ -29,8 +29,6 @@ export default class ComponentClassFactory {
     for (let i = 0; i < componentSize; i += 1) {
       componentList.push(ComponentClassFactory.createComponentObject(configObjectArray[i]));
     }
-    console.log('In createComponentList');
-console.log(componentList);
     return componentList;
   }
 }

@@ -56,7 +56,7 @@ function start(log) {
           io.emit('data', JSON.stringify(scheduledResult));
         })();
 
-      }, 60000);
+      }, 600000);
 
       resolve();
 

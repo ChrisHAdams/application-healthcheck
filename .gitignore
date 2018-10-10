@@ -1,7 +1,6 @@
 **/log
 **/results
 **/node_modules
-**/dist
 **/coverage
 **/.nyc_output
 **/.vscode

@@ -21,7 +21,7 @@
           "title": "Room 101",
           "subtitle": "Monitoring Room 101"
         },
-        "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6, 7]
+        "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6]
       },
       {
         "key":1,
@@ -103,15 +103,6 @@
         "description": "Check Penguin Books API.",
         "checkType": "webservice",
         "url": "https://reststop.randomhouse.com/resources/authors/3446/",
-        "expectedResponseCode": 200,
-        "expectedResponseTime": 600
-      },
-      {
-        "key":7,
-        "name": "Google Server",
-        "description": "Ping Google's server",
-        "checkType": "server",
-        "url": "192.168.0.28",
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
       }
