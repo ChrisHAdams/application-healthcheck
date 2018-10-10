@@ -10,7 +10,7 @@
       "footertext": "Designed and built by..."
     },
     "dashboardConfig": {
-      "dashboardTitle": "Application Dashboard",
+      "dashboardTitle": "Website Dashboard",
       "dashboardSubTitle" : "Monitoring a shed load of websites"
     },
     "appLandscapes":[
@@ -25,7 +25,7 @@
       },
       {
         "key":1,
-        "name":"News",
+        "name":"News Sites",
         "layoutElements": {
           "title": "News Site",
           "subtitle": "Monitoring News Sites"
@@ -158,14 +158,14 @@
         "checkType": "website",
         "url": "http://bbc.com/news/uk",
         "expectedResponseCode": 200,
-        "expectedResponseTime": 300
+        "expectedResponseTime": 400
       },
       {
         "key":13,
         "name": "Guardian",
         "description": "Check the Guardian.",
         "checkType": "website",
-        "url": "http://theguardian/uk",
+        "url": "http://theguardian.com/uk",
         "expectedResponseCode": 200,
         "expectedResponseTime": 300
       },
