@@ -6,40 +6,40 @@
       "appLogName": "dev",
       "resultLogFolder": "devresults",
       "resultLogName": "dev",
-      "menutitle": "Application Healthcheck",
+      "menutitle": "Website Healthcheck",
       "footertext": "Designed and built by..."
     },
     "dashboardConfig": {
       "dashboardTitle": "Application Dashboard",
-      "dashboardSubTitle" : "Monitoring a shed load of applications"
+      "dashboardSubTitle" : "Monitoring a shed load of websites"
     },
     "appLandscapes":[
       {
         "key":0,
-        "name":"Room 101",
+        "name":"Favourites",
         "layoutElements": {
-          "title": "Room 101",
-          "subtitle": "Monitoring Room 101"
+          "title": "Favourites",
+          "subtitle": "Some Favourite Sites"
         },
-        "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6]
+        "itemsToCheck" : [0, 1, 2, 4, 7, 10]
       },
       {
         "key":1,
-        "name":"Area 51",
+        "name":"News",
         "layoutElements": {
-          "title": "Area 51",
-          "subtitle": "Monitoring Area 51"
+          "title": "News Site",
+          "subtitle": "Monitoring News Sites"
         },
-        "itemsToCheck" : [0, 1, 4]
+        "itemsToCheck" : [12, 13, 14, 15]
       },
       {
-        "key":2,
-        "name":"Some Other",
+        "key":3,
+        "name":"Social Media",
         "layoutElements": {
-          "title": "Some Other",
-          "subtitle": "Some Other Area for issues"
+          "title": "Social Media",
+          "subtitle": "Some Popular Social Media Sites"
         },
-        "itemsToCheck" : [4, 1, 7, 6]
+        "itemsToCheck" : [5, 7, 9]
       }
     ],
     "items" : [
@@ -72,39 +72,120 @@
       },
       {
         "key":3,
-        "name": "Google Website",
+        "name": "Google (UK) Website",
         "description": "Ping Google's website",
         "checkType": "website",
-        "url": "http://www.google.com",
+        "url": "http://www.google.co.uk",
         "expectedResponseCode": 200,
-        "expectedResponseTime": 600
+        "expectedResponseTime": 200
       },
       {
         "key":4,
-        "name": "Google Website",
-        "description": "Ping Google's website",
+        "name": "YouTube",
+        "description": "Ping YouTube's website",
         "checkType": "website",
-        "url": "http://www.google.com",
+        "url": "http://www.youtube.com",
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
       },
       {
         "key":5,
-        "name": "Google Website",
+        "name": "Facebook",
         "description": "Ping Google's website",
         "checkType": "website",
-        "url": "http://www.google.com",
+        "url": "http://www.facebook.com",
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
       },
       {
         "key":6,
-        "name": "Penguin",
+        "name": "Penguin API",
         "description": "Check Penguin Books API.",
         "checkType": "webservice",
         "url": "https://reststop.randomhouse.com/resources/authors/3446/",
         "expectedResponseCode": 200,
         "expectedResponseTime": 600
+      },
+      {
+        "key":7,
+        "name": "Twitter",
+        "description": "Check Penguin Books API.",
+        "checkType": "website",
+        "url": "http://twitter.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":8,
+        "name": "Yahoo",
+        "description": "Check Yahoo's site.",
+        "checkType": "website",
+        "url": "http://yahoo.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":9,
+        "name": "LinkedIn",
+        "description": "Check LinkedIn.",
+        "checkType": "website",
+        "url": "http://linkedin.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":10,
+        "name": "Amazon (UK)",
+        "description": "Check Amazon UK website.",
+        "checkType": "website",
+        "url": "http://amazon.co.uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":11,
+        "name": "Amazon",
+        "description": "Check Amazon.",
+        "checkType": "website",
+        "url": "http://amazon.com",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":12,
+        "name": "BBC News",
+        "description": "Check BBC News.",
+        "checkType": "website",
+        "url": "http://bbc.com/news/uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":13,
+        "name": "Guardian",
+        "description": "Check the Guardian.",
+        "checkType": "website",
+        "url": "http://theguardian/uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":14,
+        "name": "Telegraph",
+        "description": "Check the Telegraph.",
+        "checkType": "website",
+        "url": "http://telegraph.co.uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
+      },
+      {
+        "key":15,
+        "name": "Independent",
+        "description": "Check the Independent.",
+        "checkType": "website",
+        "url": "http://independent.co.uk",
+        "expectedResponseCode": 200,
+        "expectedResponseTime": 300
       }
     ]
   }
