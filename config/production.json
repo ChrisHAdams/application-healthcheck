@@ -2,10 +2,10 @@
   "healthcheck": {
     "options": {
       "port": 5251,
-      "appLogFolder": "devlog",
-      "appLogName": "dev",
-      "resultLogFolder": "devresults",
-      "resultLogName": "dev",
+      "appLogFolder": "productionlog",
+      "appLogName": "prod",
+      "resultLogFolder": "prodresults",
+      "resultLogName": "prod",
       "menutitle": "Website Healthcheck",
       "footertext": "Designed and built by..."
     },
