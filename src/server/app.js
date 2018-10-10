@@ -24,7 +24,7 @@ function start(log) {
     app.use('/', express.static(path.join(settings.PROJECT_DIR, 'dist/public')));
 
     app.get('/', (req, res) => {
-      res.sendFile('index.html');
+      res.sendFile('index.html', { root: path.join(settings.PROJECT_DIR, 'dist/public') });
     });
 
     app.use('/api', apiRoutes);
