@@ -1,3 +1,4 @@
+import LandscapeClassFactory from '../server/classes/landscapeClassFactory';
 import { runAllComponentChecks } from '../server/actions/runComponentChecks';
 
 const config = require('config');
@@ -9,7 +10,7 @@ const settings = require('../../settings');
 const ioSockets = require('socket.io');
 
 const app = express();
-const appPort = config.get('healthcheck.options.port');
+const appPort = process.env.PORT || config.get('healthcheck.options.port');
 
 let server;
 let state = 'Shutdown';
@@ -51,10 +52,11 @@ function start(log) {
 
         (async () => {
           scheduledResult = await runAllComponentChecks(config.get('healthcheck.items'), log);
+          //log.info(JSON.stringify(scheduledResult));
           io.emit('data', JSON.stringify(scheduledResult));
         })();
 
-      }, 600000);
+      }, 60000);
 
       resolve();
 

@@ -1,3 +1,4 @@
+
 import ComponentClassFactory from '../classes/componentClassFactory';
 import WebsiteComponentClass from '../classes/websiteComponentClass';
 import WebServiceComponentClass from '../classes/webServiceComponentClass';
@@ -6,6 +7,7 @@ import { GetComponentCheckById, GetComponentCheckByName } from '../actions/getCo
 import { makeHttpRequest } from '../checks/websiteCheck';
 import { makeWebServiceRequest } from '../checks/webServiceCheck';
 import { makeServerRequest } from '../checks/serverCheck';
+
 import logger from '../common/logger';
 import resultsLogger from '../common/resultsLogger';
 
@@ -28,10 +30,10 @@ async function runSingleCheck(checkToRun, log = logger) {
 
 }
 
-async function runAllComponentChecks(healthcheckItems, log = logger) {
+async function runAllComponentChecks(items, log = logger) {
 
   try {
-    const componentArray = ComponentClassFactory.createComponentList(healthcheckItems);
+    const componentArray = ComponentClassFactory.createComponentList(items);
     const promiseArray = componentArray.map(item => (runSingleCheck(item.toJson(), log)));
     const results = await Promise.all(promiseArray);
     resultsLogger.info(JSON.stringify(results));
@@ -71,4 +73,8 @@ async function runComponentCheckByName(healthcheckItems, name, log = logger) {
 
 }
 
-module.exports = { runSingleCheck, runComponentCheckById, runComponentCheckByName, runAllComponentChecks };
+module.exports = {
+  runSingleCheck,
+  runComponentCheckById,
+  runComponentCheckByName,
+  runAllComponentChecks };

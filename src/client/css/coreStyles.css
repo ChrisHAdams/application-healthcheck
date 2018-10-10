@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, p {
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 20px;  /* Changed from 20px */
   grid-template-areas:
     "header"
     "left-sidebar"
@@ -49,13 +49,14 @@ h1, h2, h3, h4, h5, p {
     "footer";
 }
 
+
 .contentGrid {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Changed from 300px */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .wrapper {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -80,8 +81,8 @@ h1, h2, h3, h4, h5, p {
 
   .contentGrid {
     display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    /* Changed from 300px */
   }
 }
 
@@ -99,7 +100,7 @@ h1, h2, h3, h4, h5, p {
   .contentGrid {
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));   /* Changed from 250px */
   }
 
   nav ul {

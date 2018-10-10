@@ -5,14 +5,43 @@
       "appLogFolder": "devlog",
       "appLogName": "dev",
       "resultLogFolder": "devresults",
-      "resultLogName": "dev"
-    },
-    "layoutElements": {
-      "title": "Application Healthcheck",
-      "subtitle": " Development Instance",
+      "resultLogName": "dev",
       "menutitle": "Application Healthcheck",
       "footertext": "Designed and built by..."
     },
+    "dashboardConfig": {
+      "dashboardTitle": "Application Dashboard",
+      "dashboardSubTitle" : "Monitoring a shed load of applications"
+    },
+    "appLandscapes":[
+      {
+        "key":0,
+        "name":"Room 101",
+        "layoutElements": {
+          "title": "Room 101",
+          "subtitle": "Monitoring Room 101"
+        },
+        "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6, 7]
+      },
+      {
+        "key":1,
+        "name":"Area 51",
+        "layoutElements": {
+          "title": "Area 51",
+          "subtitle": "Monitoring Area 51"
+        },
+        "itemsToCheck" : [0, 1, 4]
+      },
+      {
+        "key":2,
+        "name":"Some Other",
+        "layoutElements": {
+          "title": "Some Other",
+          "subtitle": "Some Other Area for issues"
+        },
+        "itemsToCheck" : [4, 1, 7, 6]
+      }
+    ],
     "items" : [
       {
         "key":0,
@@ -89,3 +118,6 @@
     ]
   }
 }
+
+
+

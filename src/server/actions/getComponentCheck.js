@@ -10,6 +10,7 @@ function GetComponentCheckById(healthcheckItems, id) {
 
     if (intId === componentArray[i].getKey()) {
       outputObj = componentArray[i].toJson();
+
       break;
     }
   }

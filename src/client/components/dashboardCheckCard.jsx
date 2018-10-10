@@ -26,7 +26,7 @@ const borderColorChooser = (data) => {
   return background;
 };
 
-function CheckComponentCard(props) {
+function DashboardCheckCard(props) {
 
   const Card = Styled.div`
   border-radius: 3px;
@@ -37,26 +37,23 @@ function CheckComponentCard(props) {
 
   background-color: ${bgColorChooser(props)};
   border: ${borderColorChooser(props)};
-
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `;
+
+  const Span = Styled.span`
+
+  `;
+
   return (
     <Card id={props.id}>
-    <h3>{props.name}</h3>
-    <h4 id='description'>{props.description}</h4>
-    <p id='type'>Check Type: {props.type}</p>
-    <p id='expectedResponseCode'>Expected Response Code: {props.expectedResponseCode}</p>
-    {props.actualResponseCode !== null &&
-      <p id='actualResponseCode'>Actual Response Code: {props.actualResponseCode}</p>
-    }
-    <p id='expectedResponseTime'>Expected Response Time: {props.expectedResponseTime}ms</p>
-    {props.actualResponseTime !== null &&
-      <p id='actualResponseTime'>Actual Response Time: {props.actualResponseTime}</p>
-    }
+      <h4>{props.name}</h4>
     </Card>
   );
 }
 
-CheckComponentCard.propTypes = {
+DashboardCheckCard.propTypes = {
   id: PropTypes.number,
   name: PropTypes.string,
   description: PropTypes.string,
@@ -72,4 +69,4 @@ CheckComponentCard.propTypes = {
   actuaTimeResult: PropTypes.string,
 };
 
-export default CheckComponentCard;
+export default DashboardCheckCard;

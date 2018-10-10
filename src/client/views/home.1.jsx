@@ -2,10 +2,10 @@ import React from 'react';
 import io from 'socket.io-client';
 import Menu from '../menu.jsx';
 import { getTimeStamp } from '../common/dateAndTimeFunctions';
-import { getOptions, getDashboard, getLandscapes, getAllComponentChecks, runAllComponentChecks } from '../common/apiFunctions';
-import DashboardPanelList from '../components/dashboardPanelList.jsx';
+import { getOptions, getDashboard, getAllComponentChecks, runAllComponentChecks } from '../common/apiFunctions';
+import CheckComponentCardList from '../components/checkComponentCardList.jsx';
 import '../css/coreStyles.css';
-import { getSocketUrl } from '../common/common';
+
 
 class Home extends React.Component {
 
@@ -20,8 +20,6 @@ class Home extends React.Component {
       footertext: '',
       componentChecks: [],
       lastCheckedTime: '',
-      landscapes: [],
-      port: '',
     };
 
   }
@@ -33,31 +31,6 @@ class Home extends React.Component {
         this.setState({
           menutitle: res.menutitle,
           footertext: res.footertext,
-          port: res.port,
-        });
-
-        const socket = io(getSocketUrl(res.port));
-        socket.on('connect', function () { console.log(`Connecting to ${getSocketUrl(res.port)}`); });
-
-        socket.on('message', (result) => {
-          console.log(result);
-        });
-
-        socket.on('data', (result) => {
-          const timeStamp = getTimeStamp();
-          this.setState({
-            componentChecks: JSON.parse(result),
-            lastCheckedTime: timeStamp,
-          });
-
-        });
-
-      });
-
-    getLandscapes()
-      .then((res) => {
-        this.setState({
-          landscapes: res,
         });
       });
 
@@ -83,6 +56,23 @@ class Home extends React.Component {
             });
           });
       });
+
+    const socket = io();
+    socket.on('connect', function () { console.log('Connecting...'); });
+
+    socket.on('message', (result) => {
+      console.log(result);
+    });
+
+    socket.on('data', (result) => {
+      const timeStamp = getTimeStamp();
+      this.setState({
+        componentChecks: JSON.parse(result),
+        lastCheckedTime: timeStamp,
+      });
+
+    });
+
   }
 
   render() {
@@ -91,7 +81,7 @@ class Home extends React.Component {
         <div className="wrapper">
 
           <header className="main-head">
-            <Menu/>
+            <Menu menuTitle={this.state.menutitle}/>
           </header>
 
           <div className="leftside" />
@@ -102,12 +92,7 @@ class Home extends React.Component {
             <h2>{this.state.dashboardTitle}</h2>
             <h3>{this.state.dashboardSubTitle}</h3>
             <p>Last checked at {this.state.lastCheckedTime}.</p>
-
-            <DashboardPanelList
-              landscapes={this.state.landscapes}
-              componentChecks={this.state.componentChecks}
-            />
-
+            <CheckComponentCardList componentChecks={this.state.componentChecks}/>
           </div>
 
           <footer className="main-footer">

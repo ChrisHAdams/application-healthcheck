@@ -1,8 +1,10 @@
 import express from 'express';
 import config from 'config';
+import ListAppLandscapes from '../actions/listAppLandscapes';
 import ListChecks from '../actions/listComponentChecks';
+import { GetLandscapeById, GetLandscapeByName } from '../actions/getLandscapes';
 import { GetComponentCheckById, GetComponentCheckByName, GetComponentCheckByType } from '../actions/getComponentCheck';
-import { runComponentCheckById, runComponentCheckByName, runAllComponentChecks } from '../actions/runComponentChecks';
+import { runComponentCheckById, runComponentCheckByName, runAllComponentChecks, runComponentChecksForLandscape } from '../actions/runComponentChecks';
 
 import Log from '../common/logger';
 
@@ -13,14 +15,39 @@ apiRoutes.get('/', (req, res) => {
   res.status(200).send('API Root');
 });
 
-apiRoutes.get('/components/list', (req, res) => {
-  Log.info('Received request for components/list.');
+apiRoutes.get('/dashboard', (req, res) => {
+  Log.info('Received request for dashboard.');
+  res.status(200).send(JSON.stringify(config.get('healthcheck.dashboardConfig')));
+});
+
+apiRoutes.get('/landscapes/list', (req, res) => {
+  Log.info('Received request for landscapes/list.');
+  res.status(200).send(JSON.stringify(ListAppLandscapes(config.get('healthcheck.appLandscapes'))));
+});
+
+apiRoutes.get('/landscapes/id/:id', (req, res) => {
+  Log.info(`Received request for landscapes/id/${req.params.id}.`);
+  res.status(200).send(JSON.stringify(GetLandscapeById(config.get('healthcheck.appLandscapes'), req.params.id)));
+});
+
+apiRoutes.get('/landscapes/name/:name', (req, res) => {
+  Log.info(`Received request for landscapes/name/${req.params.name}.`);
+  res.status(200).send(JSON.stringify(GetLandscapeByName(config.get('healthcheck.appLandscapes'), req.params.name)));
+});
+
+apiRoutes.get('/landscapes/:id/components/list', (req, res) => {
+  Log.info(`Received request for /landscapes/${req.params.id}/components/list.`);
   res.status(200).send(ListChecks(config.get('healthcheck.items')));
 });
 
-apiRoutes.get('/components/id/:id', (req, res) => {
-  Log.info(`Received request for components/id/${req.params.id}.`);
+apiRoutes.get('/landscapes/:landscapeId/components/id/:id', (req, res) => {
+  Log.info(`Received request for /landscapes/${req.params.landscapeId}/components/id/${req.params.id}.`);
   res.status(200).send(GetComponentCheckById(config.get('healthcheck.items'), req.params.id));
+});
+
+apiRoutes.get('/components/list', (req, res) => {
+  Log.info('Received request for /components/list.');
+  res.status(200).send(ListChecks(config.get('healthcheck.items')));
 });
 
 apiRoutes.get('/components/name/:componentName', (req, res) => {
@@ -35,7 +62,15 @@ apiRoutes.get('/components/type/:typeName', (req, res) => {
 
 apiRoutes.get('/options', (req, res) => {
   Log.info('Received request for app options.');
-  res.status(200).send(config.get('healthcheck.layoutElements'));
+
+  let options = JSON.parse(JSON.stringify(config.get('healthcheck.options')));
+console.log(options);
+  if ((process.env.PORT !== options.port) && (process.env.PORT > 0)) {
+console.log(process.env.PORT);
+    options.port = process.env.PORT;
+  }
+  console.log(options);
+  res.status(200).send(JSON.stringify(options));
 });
 
 apiRoutes.get('/components/check/all/', (req, res) => {
