@@ -40,7 +40,7 @@ describe('#API Routes', function () {
 
   it('should return a 200 after calling api/components/id/0', async function () {
     expect(App.getState()).to.equal('Started');
-    const response = await axios.get(`${address}/components/id/0`);
+    const response = await axios.get(`${address}/components/check/id/0`);
     expect(response.status).to.equal(200);
     expect(response.data.key).to.equal(0);
   });

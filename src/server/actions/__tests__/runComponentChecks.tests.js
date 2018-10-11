@@ -17,10 +17,10 @@ const ValidServerCheck = {
   key: 1,
   name: 'Valid check',
   description: 'The description',
-  checkType: 'server',
+  checkType: 'website',
   expectedResponseCode: 200,
   expectedResponseTime: 500,
-  url: '192.168.0.28',
+  url: 'http://www.google.co.uk',
   resolveWithFullResponse: true,
 };
 
@@ -28,7 +28,7 @@ const InvalidServerCheck = {
   key: 1,
   name: 'Valid check',
   description: 'The description',
-  checkType: 'nonsense',
+  checkType: 'nonsense-check',
   expectedResponseCode: 200,
   expectedResponseTime: 500,
   url: '192.168.0.28',

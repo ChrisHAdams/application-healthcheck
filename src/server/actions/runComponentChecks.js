@@ -15,18 +15,25 @@ async function runSingleCheck(checkToRun, log = logger) {
 
   let response = {};
 
-  if (String(checkToRun.type).valueOf() === String('website').valueOf()) {
-    const websiteComponent = new WebsiteComponentClass(checkToRun);
-    response = await makeHttpRequest(websiteComponent, log);
-  } else if (checkToRun.type === 'webservice') {
-    const webServiceComponent = new WebServiceComponentClass(checkToRun);
-    response = await makeWebServiceRequest(webServiceComponent, log);
-  } else if (checkToRun.type === 'server') {
-    const serverComponent = new ServerComponentClass(checkToRun);
-    response = await makeServerRequest(serverComponent, log);
-  }
+  try {
 
-  return response.toJson();
+    if (String(checkToRun.type).valueOf() === String('website').valueOf()) {
+      const websiteComponent = new WebsiteComponentClass(checkToRun);
+      response = await makeHttpRequest(websiteComponent, log);
+    } else if (checkToRun.type === 'webservice') {
+      const webServiceComponent = new WebServiceComponentClass(checkToRun);
+      response = await makeWebServiceRequest(webServiceComponent, log);
+    } else if (checkToRun.type === 'server') {
+      const serverComponent = new ServerComponentClass(checkToRun);
+      response = await makeServerRequest(serverComponent, log);
+    }
+
+    return response.toJson();
+
+  } catch (error) {
+    log.error(error);
+    return error;
+  }
 
 }
 
