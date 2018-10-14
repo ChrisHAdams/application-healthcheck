@@ -1,6 +1,6 @@
 {
   "name": "application-healthcheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Chris Adams",
   "main": "index.js",
   "keywords": [
