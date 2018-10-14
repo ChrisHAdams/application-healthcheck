@@ -47,6 +47,7 @@ describe('#ServerCheckClass', function () {
 
   });
 
+  /*
   it('should check a valid URL and return Alive', async function () {
     const serverComponent = new ServerComponentClass(validServerConfigObject);
     const response = await ServerCheck.makeServerRequest(serverComponent, log);
@@ -58,5 +59,6 @@ describe('#ServerCheckClass', function () {
 
 
   });
+*/
 
 });

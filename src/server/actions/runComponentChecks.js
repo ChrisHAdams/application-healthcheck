@@ -84,4 +84,5 @@ module.exports = {
   runSingleCheck,
   runComponentCheckById,
   runComponentCheckByName,
-  runAllComponentChecks };
+  runAllComponentChecks,
+};

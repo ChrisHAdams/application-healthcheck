@@ -2,7 +2,6 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 import CheckComponentCard from '../checkComponentCard.jsx';
-//import { Expect as expect } from 'jest';
 
 test('Check Component Card Snapshot Test', () => {
 

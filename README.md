@@ -5,7 +5,7 @@ An stand-alone application that monitors health/availability of websites, web-se
 
 I built this app to help monitor a system that comprises of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
 
-This application supports checking the following are available.
+This application supports checking the following assets:-
 1. Webpages/websites
 2. Web Services
 3. Servers
@@ -24,38 +24,70 @@ If you want to run the server out of the box, run `npm run-script start`.  This 
 
 ### Config.json file
 
-There are three parts to the config file.  Firstly, the options object.  At the time of writing, this is only the port to run on.  The next object is the layoutElements object, this contains some key properties and values for the client.  Lastly, there is the items array.  The array contains an object for each website, api or server to monitor.
+The Config.json stores all the configuration for the application as well as assets to monitor.  In order for the app to load the config, the name of the file needs to match the PROCESS.ENV value.
 
+There are four parts to the config file.  Options, Dashboard, Landscapes and Items.
+
+#### Options
+
+##### port
+The port that the application is running on.  If running with PM2 or NGINX and a port number is passed in, then this will override the port in cofig.
+
+App Log Folder and App Log Name defines the folder and file name for the event log.  Similarly, Results Log Folder and Result Log Name dictate the folder and file to store the results from the checks.
+
+Menu title and footer text are self explanatory.
+
+**Example Options**
 ```
-{
-  "healthcheck": {
-    "options": {
-      "port": 5251
-    },
+  "options": {
+    "port": 9999,
+    "appLogFolder": "devlog",
+    "appLogName": "dev",
+    "resultLogFolder": "devresults",
+    "resultLogName": "dev",
+    "menutitle": "Application Healthcheck",
+    "footertext": "Designed and built by..."
+  }
+```
+
+#### Dashboard Config
+
+The main/home page of the application is a Dashboard.  The Dashboard is broken up by 'Landscapes' (more on these later).  This part of the config file only contains the Title and Subtitle string for the dashboard.
+
+**Example Dashboard Config**
+```
+  "dashboardConfig": {
+    "dashboardTitle": "Application Dashboard",
+    "dashboardSubTitle" : "Monitoring a shed load of applications"
+  }
+```
+
+#### Landscapes
+
+Landscapes are a means of 'grouping' like assets by your choosing in the dashboard.  You could use landscapes
+to group assets by functional areas (HR, Finance, Ops) or by type (websites, web-services, servers).  Each defined landscape results in a menu item and 'page'.
+
+Key and name are self-explanatory.  The layout elements object describe the title and subtitle for the dashboard.
+
+The items to check is an array of checks to associate with the dashboard.
+
+**Example Dashboard Config**
+```
+  {
+    "key":0,
+    "name":"Room 101",
     "layoutElements": {
-      "title": "Application Healthcheck",
-      "subtitle": " Development Instance",
-      "menutitle": "Application Healthcheck",
-      "footertext": "Designed and built by..."
+      "title": "Room 101",
+      "subtitle": "Monitoring Room 101"
     },
-    "items" : [
-      {
-        "key":0,
-        "name": "BBC",
-        "description": "Ping BBC's website",
-        "checkType": "website",
-        "url": "http://www.bbc.co.uk",
-        "expectedResponseCode": 200,
-        "expectedResponseTime": 500
-      },
-   ]
-}
+    "itemsToCheck" : [0, 1, 2, 3, 4, 5, 6, 7]
+  },
 ```
 
 #### Items to monitor
 Each item to monitor is described in a JSON object, stored in the Items array.
 
-This module checks websites, web services and servers.  Following are examples on how to set up each.
+This app checks websites, web services and servers.  Following are examples on how to set up each.
 
 ##### Website Checks
 
