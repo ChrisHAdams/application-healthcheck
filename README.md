@@ -5,6 +5,10 @@ An stand-alone application that monitors health/availability of websites, web-se
 
 I built this app to help monitor a system that comprises of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
 
+I know it's not a novel idea, but lots of commercial solutions can be exepensive, too sophisticated and instrusive.  This is a deliberately lightweight solution that doesn't require any user agents to be installed.
+
+An example of this can be found at [Heroku](https://application-healthcheck.herokuapp.com/#/).
+
 This application supports checking the following assets:-
 1. Webpages/websites
 2. Web Services
