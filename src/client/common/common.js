@@ -13,8 +13,13 @@ function filterResults(keyArray, resultsArray) {
 }
 
 function getSocketUrl(port) {
+  console.log(`${window.location.hostname}`);
 
-  return `${window.location.protocol}//${window.location.hostname}:${port}`;
+  if (window.location.hostname.toString().includes('local')) {
+    return `localhost:${port}`;
+  }
+
+  return `${window.location.hostname}`;
 
 }
 

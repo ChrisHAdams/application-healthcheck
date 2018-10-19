@@ -69,6 +69,10 @@ apiRoutes.get('/options', (req, res) => {
     options.port = process.env.PORT;
   }
 
+  var internalUri = req.originalUrl;
+  var externalUri = req.get('X-Real-URI') || internalUri;
+  options.basePath = externalUri.substr(0, externalUri.length - internalUri.length + 1);
+
   res.status(200).send(JSON.stringify(options));
 });
 

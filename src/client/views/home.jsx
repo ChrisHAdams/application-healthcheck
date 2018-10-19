@@ -36,8 +36,12 @@ class Home extends React.Component {
           port: res.port,
         });
 
-        const socket = io(getSocketUrl(res.port));
-        socket.on('connect', function () { console.log(`Connecting to ${getSocketUrl(res.port)}`); });
+        const socketUrl = getSocketUrl(res.port);
+
+        console.log(`Attempting to connect to sockets at ${socketUrl}.`);
+
+        const socket = io(socketUrl, { path: `${res.basePath}socket.io` });
+        socket.on('connect', function () { console.log(`Connected to ${socketUrl}`); });
 
         socket.on('message', (result) => {
           console.log(result);
@@ -45,6 +49,8 @@ class Home extends React.Component {
 
         socket.on('data', (result) => {
           const timeStamp = getTimeStamp();
+          console.log(`${timeStamp} - Receiving next batch of healtchcheck results.`);
+
           this.setState({
             componentChecks: JSON.parse(result),
             lastCheckedTime: timeStamp,

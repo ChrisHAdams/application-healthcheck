@@ -4,9 +4,11 @@ import Menu from '../menu.jsx';
 import { getTimeStamp } from '../common/dateAndTimeFunctions';
 import { runComponentChecksByIds } from '../common/apiFunctions';
 import { filterResults } from '../common/common';
+import { getOptions, getAllComponentChecks, runAllComponentChecks } from '../common/apiFunctions';
 import CheckComponentCardList from '../components/checkComponentCardList.jsx';
 import '../css/coreStyles.css';
 import PropTypes from 'prop-types';
+import { getSocketUrl } from '../common/common';
 
 class LandscapeMonitor extends React.Component {
 
@@ -23,6 +25,40 @@ class LandscapeMonitor extends React.Component {
 
   componentDidMount() {
 
+    getOptions()
+      .then((res) => {
+        this.setState({
+          menutitle: res.menutitle,
+          footertext: res.footertext,
+          port: res.port,
+        });
+
+        const socketUrl = getSocketUrl(res.port);
+
+        console.log(`Attempting to connect to sockets at ${socketUrl}.`);
+
+        const socket = io(socketUrl, { path: `${res.basePath}socket.io` });
+        socket.on('connect', function () { console.log(`Connected to ${socketUrl}`); });
+
+        socket.on('message', (result) => {
+          console.log(result);
+        });
+
+        socket.on('data', (result) => {
+          const timeStamp = getTimeStamp();
+          console.log(`${timeStamp} - Receiving next batch of healtchcheck results.`);
+
+          const filteredResults = filterResults(this.props.landscape.items, JSON.parse(result));
+
+          this.setState({
+            componentChecks: filteredResults,
+            lastCheckedTime: timeStamp,
+          });
+
+        });
+
+    });
+
     runComponentChecksByIds(this.props.landscape.items)
       .then((res) => {
 
@@ -32,23 +68,6 @@ class LandscapeMonitor extends React.Component {
           lastCheckedTime: timeStamp,
         });
       });
-
-    const socket = io();
-    socket.on('connect', function () { console.log('Connecting...'); });
-
-    socket.on('message', (result) => {
-      console.log(result);
-    });
-
-    socket.on('data', (result) => {
-      const timeStamp = getTimeStamp();
-      const filteredResults = filterResults(this.props.landscape.items, JSON.parse(result));
-      this.setState({
-        componentChecks: filteredResults,
-        lastCheckedTime: timeStamp,
-      });
-
-    });
 
   }
 
