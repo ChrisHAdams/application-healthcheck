@@ -47,18 +47,4 @@ describe('#ServerCheckClass', function () {
 
   });
 
-  /*
-  it('should check a valid URL and return Alive', async function () {
-    const serverComponent = new ServerComponentClass(validServerConfigObject);
-    const response = await ServerCheck.makeServerRequest(serverComponent, log);
-
-    expect(response.getActualResponseCode()).to.equal(200);
-    expect(log.getLogEntries()[1].type).to.equal('info');
-    expect(log.getLogEntries()[1].message).to.contain('Called Name of the check check.  Response code 200.  Response time');
-    expect(log.getLogEntries().length).to.equal(2);
-
-
-  });
-*/
-
 });

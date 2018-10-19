@@ -13,7 +13,9 @@ function filterResults(keyArray, resultsArray) {
 }
 
 function getSocketUrl(port) {
-  return `http://${window.location.hostname}:${port}`;
+
+  return `${window.location.protocol}//${window.location.hostname}:${port}`;
+
 }
 
 export { filterResults, getSocketUrl };

@@ -10,6 +10,7 @@ function DashboardPanelList(props) {
 
     landscapeList = props.landscapes.map(landscape => {
       return <DashboardPanel
+      key={landscape.key}
           landscape={landscape}
           componentChecks={props.componentChecks}
         />
