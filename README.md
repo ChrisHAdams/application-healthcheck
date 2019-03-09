@@ -3,7 +3,7 @@
 ## A System Healthcheck Application
 An stand-alone application that monitors health/availability of websites, web-services and servers.
 
-I built this app to help monitor a system that comprises of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
+I built this app to help monitor a system that is comprised of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
 
 I know it's not a novel idea, but lots of commercial solutions can be exepensive, too sophisticated and instrusive.  This is a deliberately lightweight solution that doesn't require any user agents to be installed.
 
@@ -24,7 +24,7 @@ There are some tests created for both back-end and the front-end.  To run the ba
 The front-end is written with React.  If you want to just run it out of the box, the run `npm run-script client-build` **before starting the back-end**.  If you want to play with front-end or change it, then `npm run-script client-start`.  This command uses Webpack to rebuild the client on save.
 
 ### Back-end
-If you want to run the server out of the box, run `npm run-script start`.  This will launch the app using details in the config file 'development.json', more on the config file later.  Or, if you want to make changes, run `npm run-script start-dev-server`.  This start the server with NODEMON and, again, uses the Development.json file.
+If you want to run the server out of the box, run `npm run-script start`.  This will launch the app using details in the config file 'development.json', more on the config file later.  Or, if you want to make changes, run `npm run-script start-dev-server`.  This starts the server with NODEMON and, again, uses the Development.json file.
 
 ### Config.json file
 
