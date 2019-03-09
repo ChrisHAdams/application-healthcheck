@@ -1,11 +1,11 @@
-# application-healthcheck [![Build Status](https://travis-ci.org/ChrisHAdams/application-healthcheck.svg?branch=master)](https://travis-ci.org/ChrisHAdams/application-healthcheck)
+# application-healthcheck [![Build Status](https://travis-ci.org/ChrisHAdams/application-healthcheck.svg?branch=master)](https://travis-ci.org/ChrisHAdams/application-healthcheck)  [![Github Downloads (total)](https://img.shields.io/github/downloads/kotlin-graphics/kotlin-unsigned/total.svg)]()
 
 ## A System Healthcheck Application
 An stand-alone application that monitors health/availability of websites, web-services and servers.
 
 I built this app to help monitor a system that is comprised of several APIs, databases, web applications etc. to provide instant feedback when one or more components go down or are performing below expectations.
 
-I know it's not a novel idea, but lots of commercial solutions can be exepensive, too sophisticated and instrusive.  This is a deliberately lightweight solution that doesn't require any user agents to be installed.
+I know it's not a novel idea, but lots of commercial solutions can be exepensive, too sophisticated and intrusive.  This is a deliberately lightweight solution that doesn't require any user agents to be installed.
 
 An example of this can be found at [Heroku](https://application-healthcheck.herokuapp.com/#/).
 
