@@ -25,7 +25,8 @@
     "client-test:watch": "jest --watch",
     "client-test:coverage": "jest --coverage",
     "start-dev-server": "export NODE_ENV=development; nodemon --watch src/server --watch config --exec npm run babel-node -- ./index.js",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "jest": {
     "setupFiles": [
@@ -90,5 +91,6 @@
     "webpack": "^4.16.4",
     "webpack-bundle-analyzer": "^3.0.2",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "heroku-run-build-script": true
 }
