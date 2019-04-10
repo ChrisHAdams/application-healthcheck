@@ -1,4 +1,4 @@
-# application-healthcheck [![Build Status](https://travis-ci.org/ChrisHAdams/application-healthcheck.svg?branch=master)](https://travis-ci.org/ChrisHAdams/application-healthcheck)  [![Github Downloads (total)](https://img.shields.io/github/downloads/kotlin-graphics/kotlin-unsigned/total.svg)]()
+# application-healthcheck [![Build Status](https://travis-ci.org/ChrisHAdams/application-healthcheck.svg?branch=master)](https://travis-ci.org/ChrisHAdams/application-healthcheck)  [![Github Downloads (total)](https://img.shields.io/github/downloads/ChrisHAdams/application-healthcheck/total.svg)]()
 
 ## A System Healthcheck Application
 An stand-alone application that monitors health/availability of websites, web-services and servers.
