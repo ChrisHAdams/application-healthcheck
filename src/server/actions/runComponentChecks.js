@@ -41,6 +41,7 @@ async function runAllComponentChecks(items, log = logger) {
 
   try {
     const componentArray = ComponentClassFactory.createComponentList(items);
+    console.log(items);
     const promiseArray = componentArray.map(item => (runSingleCheck(item.toJson(), log)));
     const results = await Promise.all(promiseArray);
     resultsLogger.info(JSON.stringify(results));
