@@ -1,4 +1,5 @@
-const rp = require('request-promise');
+//const rp = require('request-promise');
+import rp from 'request-promise';
 
 async function makeWebServiceRequest(requestObj, log) {
 
@@ -40,4 +41,4 @@ async function makeWebServiceRequest(requestObj, log) {
 
 }
 
-module.exports = { makeWebServiceRequest };
+export { makeWebServiceRequest };

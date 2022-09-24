@@ -1,5 +1,7 @@
-import WebServer from './src/server/app';
-import Log from './src/server/common/logger';
+import WebServer from './src/server/app.js';
+import Log from './src/server/common/logger.js';
+
+const webServer = new WebServer();
 
 async function startup() {
 
@@ -8,10 +10,12 @@ async function startup() {
   try {
     Log.info('Initializing web server module');
 
-    await WebServer.start(Log);
+    webServer.init(Log);
+
+    await webServer.start(Log);
 
   } catch (err) {
-    Log.error(err);
+    Log.error(err.toString());
 
     process.exit(1); // Non-zero failure code
   }
@@ -22,7 +26,7 @@ startup();
 
 process.on('SIGTERM', function () {
 
-  WebServer.shutdown().then(function () {
+  webServer.shutdown().then(function () {
     Log.info("SIGTERM Received.  Shutting down.")
     process.exit(0);
   });

@@ -1,4 +1,4 @@
-import LandscapeClassFactory from '../classes/landscapeListFactory';
+import LandscapeClassFactory from '../classes/landscapeListFactory.js';
 import Config from 'config';
 
 function GetLandscapeById(id) {
@@ -53,7 +53,7 @@ function GetLandscapeByNameFromArray(landscapes, name) {
 
 }
 
-module.exports =
+export
 {
   GetLandscapeById,
   GetLandscapeByName,

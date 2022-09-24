@@ -1,4 +1,4 @@
-import AssetBase from './assetBase';
+import AssetBase from './assetBase.js';
 
 export default class WebServiceComponentClass extends AssetBase {
 

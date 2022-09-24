@@ -1,4 +1,4 @@
-import LandscapeListFactory from '../classes/landscapeListFactory';
+import LandscapeListFactory from '../classes/landscapeListFactory.js';
 import Config from 'config';
 
 
@@ -21,4 +21,4 @@ function ListAppLandscapesFromArray(appLandscapes) {
 
 }
 
-module.exports = { ListAppLandscapes, ListAppLandscapesFromArray };
+export { ListAppLandscapes, ListAppLandscapesFromArray };

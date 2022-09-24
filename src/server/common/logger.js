@@ -1,7 +1,15 @@
+/*
 const winston = require('winston');
 const Rotate = require('winston-daily-rotate-file');
 const fs = require('fs');
 const config = require('config');
+*/
+
+import winston from 'winston';
+import Rotate from 'winston-daily-rotate-file';
+import fs from 'fs';
+import config from 'config';
+
 
 //const env = process.env.NODE_ENV || 'development';
 const env = process.env.NODE_ENV;
@@ -9,6 +17,7 @@ const logDir = config.get('healthcheck.options.appLogFolder');
 const logName = config.get('healthcheck.options.appLogName');
 
 let loggingLevel = '';
+let logger;
 
 if (env == 'development' || env == 'test') {
 
@@ -25,7 +34,7 @@ if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
 
-const logger = winston.createLogger({
+export default logger = winston.createLogger({
   transports: [
     // colorize the output to the console
     new (winston.transports.Console)({
@@ -55,5 +64,5 @@ const logger = winston.createLogger({
   ],
 });
 
-module.exports = logger;
+//export { logger };
 

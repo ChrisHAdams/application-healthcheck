@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { HashRouter as Router, Route , Routes} from 'react-router-dom';
 import { getLandscapes } from './common/apiFunctions';
 import LandscapeMonitor from './views/landscapeMonitor.jsx';
 import Home from './views/home.jsx';
@@ -10,8 +11,13 @@ import Layout from './views/layout';
 import LiveView from './views/liveView';
 import SingleCheckMonitor from './views/singleCheckMonitor';
 
+import { createRoot } from 'react-dom/client';
+const container = document.getElementById('app');
+const root = createRoot(container);
+
 getLandscapes()
   .then((res) => {
+
 
     let routesVar = res.map((landscape) =>
 
@@ -22,23 +28,23 @@ getLandscapes()
     />
   );
 
-    render(
+    root.render(
       <>
 
             <Router>
-            <div>
-              <Route exact path="/" component={Home}/>
+            <Routes>
+              <Route exact path="/" element={< Home />}/>
               {routesVar}
-              <Route path="/allChecks" component={AllChecks}/>
-              <Route path="/liveView" component={LiveView}/>
-              <Route path="/list" component={List}/>
-              <Route path="/layout" component={Layout}/>
-              <Route path="/singleCheckMonitor" component={SingleCheckMonitor} />
-    />
-            </div>
+              <Route path="/allChecks" element={< AllChecks />}/>
+              <Route path="/liveView" element={< LiveView />}/>
+              <Route path="/list" element={< List />}/>
+              <Route path="/layout" element={< Layout />}/>
+              <Route path="/singleCheckMonitor" element={< SingleCheckMonitor/>} />
+
+            </Routes>
           </Router>
-      </>,
-      document.getElementById('app'),
+      </>
     );
+
 
   });

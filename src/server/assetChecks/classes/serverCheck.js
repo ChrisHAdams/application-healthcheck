@@ -1,4 +1,5 @@
-const ping = require('ping');
+//const ping = require('ping');
+import ping from 'ping';
 
 async function makeServerRequest(requestObj, log) {
 
@@ -42,4 +43,4 @@ async function makeServerRequest(requestObj, log) {
 
 }
 
-module.exports = { makeServerRequest };
+export { makeServerRequest };

@@ -1,4 +1,5 @@
-const rp = require('request-promise');
+//const rp = require('request-promise');
+import rp from 'request-promise';
 
 async function makeHttpRequest(requestObj, log) {
 
@@ -37,4 +38,4 @@ async function makeHttpRequest(requestObj, log) {
   }
 }
 
-module.exports = { makeHttpRequest };
+export { makeHttpRequest };

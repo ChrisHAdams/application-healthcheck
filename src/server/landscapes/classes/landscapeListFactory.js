@@ -1,4 +1,4 @@
-import LandscapeClass from './landscapeClass';
+import LandscapeClass from './landscapeClass.js';
 import Config from 'config';
 
 export default class LandscapeListFactory {

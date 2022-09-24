@@ -1,21 +1,18 @@
 import express from 'express';
 import config from 'config';
-import { ListAppLandscapes } from '../landscapes/actions/listAppLandscapes';
-import { GetLandscapeById, GetLandscapeByName } from '../landscapes/actions/getLandscapes';
-import { getAllAssets, getAssetsByLandscapeId, getAssetById, getAssetByName, getAssetsByType } from '../assets/actions/getAssets';
-import { runAllAssetChecks, runAssetCheckById } from '../assetChecks/actions/runAssetChecks';
+import { ListAppLandscapes } from '../landscapes/actions/listAppLandscapes.js';
+import { GetLandscapeById, GetLandscapeByName } from '../landscapes/actions/getLandscapes.js';
+import { getAllAssets, getAssetsByLandscapeId, getAssetById, getAssetByName, getAssetsByType } from '../assets/actions/getAssets.js';
+import { runAllAssetChecks, runAssetCheckById } from '../assetChecks/actions/runAssetChecks.js';
 
 //import { runComponentCheckById, runComponentCheckByName, runAllComponentChecks } from '../actions/runComponentChecks';
 
 //import ListChecks from '../actions/listComponentChecks';
 
+import Log from '../common/logger.js';
+let apiRoutes;
 
-
-
-import Log from '../common/logger';
-
-
-const apiRoutes = express.Router();
+export default apiRoutes = express.Router();
 
 apiRoutes.get('/', (req, res) => {
   res.status(200).send('This is the API Root.');
@@ -111,25 +108,3 @@ apiRoutes.get('/assets/check/id/:id', (req, res) => {
 
 });
 
-/*
-
-apiRoutes.get('/components/check/id/:id', (req, res) => {
-  Log.info(`Received request to run check components/id/${req.params.id}.`);
-  // res.status(200).send(runComponentCheckById(config.get('healthcheck.items'), req.params.id));
-  runComponentCheckById(config.get('healthcheck.items'), req.params.id).then((result) => {
-    res.status(200).send(JSON.stringify(result));
-  });
-});
-
-apiRoutes.get('/components/check/name/:name', (req, res) => {
-  Log.info(`Received request to run check components/name/${req.params.name}.`);
-
-  runComponentCheckByName(config.get('healthcheck.items'), req.params.name).then((result) => {
-    res.status(200).send(JSON.stringify(result));
-  });
-
-});
-
-*/
-
-module.exports = apiRoutes;

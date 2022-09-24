@@ -4,15 +4,15 @@ import Styled from 'styled-components';
 import DashboardCheckCard from './dashboardCheckCard.jsx';
 import { filterResults } from '../common/common';
 
-function DashboardPanel(props) {
-
-  const Panel = Styled.div`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 1em;
-  background-color: #293447;
-  border: 2px solid #48aff0;
+const Panel = Styled.div`
+border-radius: 3px;
+padding: 0.25em 1em;
+margin: 1em;
+background-color: #293447;
+border: 2px solid #48aff0;
 `;
+
+function DashboardPanel(props) {
 
 
   const panelChecks = filterResults(props.landscape.itemsToCheck, props.componentChecks);

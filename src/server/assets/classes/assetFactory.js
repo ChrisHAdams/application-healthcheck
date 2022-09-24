@@ -1,6 +1,6 @@
-import WebsiteAssetClass from './websiteAsset';
-import WebServiceAssetClass from './webServiceAsset';
-import ServerAssetClass from './serverAsset';
+import WebsiteAssetClass from './websiteAsset.js';
+import WebServiceAssetClass from './webServiceAsset.js';
+import ServerAssetClass from './serverAsset.js';
 
 export default class AssetCheckFactory {
 

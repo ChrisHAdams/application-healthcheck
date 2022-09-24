@@ -26,28 +26,94 @@ const borderColorChooser = (data) => {
   return background;
 };
 
+function getPassedStyle() {
 
-function DashboardCheckCard(props) {
-
-  const Card = Styled.div`
+  return Styled.div`
   border-radius: 3px;
   padding: 0.25em 1em;
   margin: 1em;
   background-color: #293447;
   border: 2px solid #48aff0;
 
-  background-color: ${bgColorChooser(props)};
-  border: ${borderColorChooser(props)};
+  background-color: '#397542';
+  border: '2.5px solid #58b766';
   align-items: center;
   justify-content: center;
   text-align: center;
 `;
 
-  const Span = Styled.span`
+}
 
-  `;
+function getFailedSlaStyle() {
+
+  return Styled.div`
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 1em;
+  background-color: #293447;
+  border: 2px solid #48aff0;
+
+  background-color: '#99620f';
+  border: '2.5px solid #db8c15';
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+`;
+
+}
+
+function getFailedStyle() {
+
+  return Styled.div`
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 1em;
+  background-color:'#8e150c';
+  border: '2.5px solid #d61e11';
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+`;
+
+}
+
+function getInitialStyle() {
+
+  return Styled.div`
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 1em;
+  background-color: #293447;
+  border: 2px solid #48aff0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+`;
+
+}
+
+const Span = Styled.span`
+
+`;
+
+function DashboardCheckCard(props) {
 
 
+  let Card;
+
+  if(!props.actualCodeResult) {
+    if(props.actualCodeResult === 'Pass') {
+      Card = getPassedStyle();
+    } else if ((props.actualTimeResult === 'Fail') && (data.actualCodeResult === 'Pass') ) {
+      Card = getFailedSlaStyle();
+    } else if (props.actualCodeResult === 'Fail') {
+      Card = getFailedStyle();
+    } else {
+      Card = getInitialStyle();
+    }
+  } else {
+    Card = getInitialStyle();
+  }
 
   return (
     <Card id={props.id}>

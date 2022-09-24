@@ -1,14 +1,29 @@
-import { runAllAssetChecks } from '../server/assetChecks/actions/runAssetChecks';
+import { runAllAssetChecks } from '../server/assetChecks/actions/runAssetChecks.js';
+import httpshutdown from 'http-shutdown'; //.extend()
 
+import config from 'config';
+//const config = require('config');
 
-const config = require('config');
-const os = require('os');
-const express = require('express');
-const apiRoutes = require('./routes/apiRoutes.js');
-const path = require('path');
-const settings = require('../../settings');
-const ioSockets = require('socket.io');
-require('http-shutdown').extend();
+//const os = require('os');
+import os from 'os';
+
+//const express = require('express');
+import express from 'express';
+
+//const apiRoutes = require('./routes/apiRoutes.js');
+import apiRoutes from './routes/apiRoutes.js';
+
+//const path = require('path');
+import path from 'path';
+
+//const settings = require('../../settings');
+import settings from '../../settings.js';
+
+//const ioSockets = require('socket.io');
+//import ioSockets from 'socket.io';
+//import from 'socket.io' as ioSockets;
+import { Server as ioSockets } from "socket.io";
+
 const app = express();
 const appPort = process.env.PORT || config.get('healthcheck.options.port');
 
@@ -16,101 +31,99 @@ let server;
 let state = 'Shutdown';
 let io;
 
-const http = require('http');
+//import http from 'http';
+import * as http from 'http';
 
-function start(log) {
+export default class WebServer {
 
-  return new Promise((resolve, reject) => {
+  constructor(){
 
-    app.use('/', express.static(path.join(settings.PROJECT_DIR, 'dist')));
+  }
 
-    app.get('/', (req, res) => {
-      res.sendFile('index.html', { root: path.join(settings.PROJECT_DIR, 'dist') });
-    });
+  init(log) {
+    log.info("YO");
+  }
 
-    app.use('/api', apiRoutes);
+  start(log) {
 
-    server = http.createServer(app).listen(appPort, () => {
+    return new Promise((resolve, reject) => {
 
-      log.info(`Healthcheck App Started.  Live at http://${os.hostname()}:${appPort}.`);
-      log.info(`Get list of items to monitor.  http://${os.hostname()}:${appPort}/api/components/list.`);
-      log.info(`Run the monitor.  http://${os.hostname()}:${appPort}/api/runMonitor.`);
+      app.use('/', express.static(path.join(settings.PROJECT_DIR, 'dist')));
 
-      state = 'Started';
-
-
-      io = ioSockets(server);
-
-      io.on('connection', function (socket) {
-        log.info('Received socket connection.');
-        socket.emit('message', 'You are connected!');
-        socket.broadcast.emit('message', 'Another client has just connected!');
+      app.get('/', (req, res) => {
+        res.sendFile('index.html', { root: path.join(settings.PROJECT_DIR, 'dist') });
       });
 
+      app.use('/api', apiRoutes);
 
-      let scheduledResult;
+      server = http.createServer(app).listen(appPort, () => {
 
-      setInterval(function () {
-        log.info('Running scheduled checks');
+        log.info(`Healthcheck App Started.  Live at http://${os.hostname()}:${appPort}.`);
+        log.info(`Get list of items to monitor.  http://${os.hostname()}:${appPort}/api/components/list.`);
+        log.info(`Run the monitor.  http://${os.hostname()}:${appPort}/api/runMonitor.`);
 
-        (async () => {
-          scheduledResult = await runAllAssetChecks(log);
-          io.emit('data', JSON.stringify(scheduledResult));
-        })();
+        state = 'Started';
 
 
-      }, 30000);
+        io = new ioSockets(server);
 
-      resolve();
+        io.on('connection', function (socket) {
+          log.info('Received socket connection.');
+          socket.emit('message', 'You are connected!');
+          socket.broadcast.emit('message', 'Another client has just connected!');
+        });
 
-    }).on('error', function (e) {
-      log.info(e);
-      reject();
 
-    }).withShutdown();
+        let scheduledResult;
 
-  });
+        setInterval(function () {
+          log.info('Running scheduled checks');
 
-}
+          (async () => {
+            scheduledResult = await runAllAssetChecks(log);
+            io.emit('data', JSON.stringify(scheduledResult));
+          })();
 
-function shutdown(log) {
 
-  return new Promise((resolve, reject) => {
+        }, 30000);
 
-    state = 'Shutting down';
-    log.info('Shutting down.');
+        resolve();
 
-    server.shutdown(function () {
-      state="Shutdown";
-      log.info('Server state : ' + getState());
-      resolve();
-    });
-  });
+      }).on('error', function (e) {
+        log.info(e);
+        reject();
 
-}
-
-/*
-    }).on('error', function (e) {
-      // Handle your error here
-      log.info(e);
-      reject();
+      });
 
     });
 
-  });
+  }
+
+  shutdown(log) {
+
+    return new Promise((resolve, reject) => {
+
+      state = 'Shutting down';
+      log.info('Shutting down.');
+
+      server.shutdown(function () {
+        state="Shutdown";
+        log.info('Server state : ' + getState());
+        resolve();
+      });
+    });
+
+  }
+
+
+  getApiRoot() {
+    return `http://${os.hostname()}:${appPort}/api`;
+  }
+
+  getState() {
+    return state;
+  }
 
 }
-*/
 
-function getApiRoot() {
-  return `http://${os.hostname()}:${appPort}/api`;
-}
 
-function getState() {
-  return state;
-}
-
-module.exports.start = start;
-module.exports.shutdown = shutdown;
-module.exports.getState = getState;
-module.exports.getApiRoot = getApiRoot;

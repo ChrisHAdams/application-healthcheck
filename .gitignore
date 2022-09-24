@@ -1,6 +1,8 @@
 node_modules
 node_modules
 .cache
+.parcel-cache
 devlog
 devresults
 coverage
+dist

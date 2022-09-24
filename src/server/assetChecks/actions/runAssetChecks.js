@@ -1,16 +1,16 @@
 
-import AssetFactory from '../../assets/classes/assetFactory';
-import WebsiteAssetClass from '../../assets/classes/websiteAsset';
-import WebServiceAssetClass from '../../assets/classes/webServiceAsset';
-import ServerAssetClass from '../../assets/classes/serverAsset';
+import AssetFactory from '../../assets/classes/assetFactory.js';
+import WebsiteAssetClass from '../../assets/classes/websiteAsset.js';
+import WebServiceAssetClass from '../../assets/classes/webServiceAsset.js';
+import ServerAssetClass from '../../assets/classes/serverAsset.js';
 import Config from 'config';
-import { getAssetByIdFromArray, getAssetByNameFromArray } from '../../assets/actions/getAssets';
-import { makeHttpRequest } from '../classes/websiteCheck';
-import { makeWebServiceRequest } from '../classes/webServiceCheck';
-import { makeServerRequest } from '../classes/serverCheck';
+import { getAssetByIdFromArray, getAssetByNameFromArray } from '../../assets/actions/getAssets.js';
+import { makeHttpRequest } from '../classes/websiteCheck.js';
+import { makeWebServiceRequest } from '../classes/webServiceCheck.js';
+import { makeServerRequest } from '../classes/serverCheck.js';
 
-import logger from '../../common/logger';
-import resultsLogger from '../../common/resultsLogger';
+import logger from '../../common/logger.js';
+import resultsLogger from '../../common/resultsLogger.js';
 
 async function runSingleCheck(checkToRun, log = logger) {
 
@@ -94,7 +94,7 @@ async function runAssetCheckByNameFromArray(healthcheckItems, name, log = logger
 
 }
 
-module.exports = {
+export {
   runSingleCheck,
   runAssetCheckById,
   runAssetCheckByName,

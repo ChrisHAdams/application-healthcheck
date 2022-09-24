@@ -1,6 +1,6 @@
 import Config from 'config';
-import AssetFactory from '../classes/AssetFactory';
-import { GetLandscapeById } from '../../landscapes/actions/getLandscapes';
+import AssetFactory from '../classes/AssetFactory.js';
+import { GetLandscapeById } from '../../landscapes/actions/getLandscapes.js';
 
 function getAssetById(id) {
 
@@ -139,8 +139,7 @@ function getAssetsByLandscapeId(landscapeId) {
 
 }
 
-module.exports =
-{
+export {
   getAssetById,
   getAssetByIdFromArray,
   getAssetByName,

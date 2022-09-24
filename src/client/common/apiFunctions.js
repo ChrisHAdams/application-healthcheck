@@ -16,7 +16,7 @@ export async function getLandscapes() {
 
   try {
     const response = await axios.get('/api/landscapes/list');
-
+console.log (response);
     return response.data;
   } catch (error) {
     console.error(error);
