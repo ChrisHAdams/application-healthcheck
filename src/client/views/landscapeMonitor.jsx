@@ -4,7 +4,7 @@ import Menu from '../components/menu.jsx';
 import { getTimeStamp } from '../common/dateAndTimeFunctions';
 import { runComponentChecksByIds } from '../common/apiFunctions';
 import { filterResults } from '../common/common';
-import { getOptions, getAllComponentChecks, runAllComponentChecks } from '../common/apiFunctions';
+import { getOptions } from '../common/apiFunctions';
 import CheckComponentCardList from '../components/checkComponentCardList.jsx';
 import '../css/coreStyles.css';
 import PropTypes from 'prop-types';
@@ -17,6 +17,8 @@ class LandscapeMonitor extends React.Component {
     super(props);
 
     this.state = {
+      landscapeObj: props.landscape,
+      landscapeId: props.landscape.id,
       componentChecks: [],
       lastCheckedTime: 'Not yet checked...',
     };
@@ -76,11 +78,36 @@ class LandscapeMonitor extends React.Component {
 
   }
 
+  componentDidUpdate(prevProps) {
+    // Typical usage (don't forget to compare props):
+    console.log("componentDidUpdate has fired");
+
+    if (this.props.landscape !== prevProps.landscape) {
+      console.log("Gotcha");
+
+      this.setState({landscapeObj: this.props.landscape,
+                     landscapeId: this.props.landscape.id,});
+
+      runComponentChecksByIds(this.props.landscape.itemsToCheck)
+      .then((res) => {
+        const timeStamp = getTimeStamp();
+        this.setState({
+          componentChecks: res,
+          lastCheckedTime: timeStamp,
+        });
+      });
+
+    } else {
+      console.log("Almost Gotcha");
+    }
+  }
+
   componentWillUnmount() {
     this.socket.close();
   }
 
   render() {
+    console.log("Yo");
     return (
       <div>
         <div className="wrapper">

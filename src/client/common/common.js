@@ -8,7 +8,7 @@ function filterResults(keyArray, resultsArray) {
       filteredResults.push(resultsArray[i]);
     }
   }
-
+console.log(filteredResults);
   return filteredResults;
 }
 

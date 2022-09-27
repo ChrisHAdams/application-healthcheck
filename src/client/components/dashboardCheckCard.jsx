@@ -2,29 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Styled from 'styled-components';
 
-//   background: #293447;
-
-const bgColorChooser = (data) => {
-
-  let background = '#293447';
-
-  if (data.actualCodeResult === 'Pass') background = '#397542';
-  if (data.actualTimeResult === 'Fail') background = '#99620f';
-  if (data.actualCodeResult === 'Fail') background = '#8e150c';
-
-  return background;
-};
-
-const borderColorChooser = (data) => {
-
-  let background = '2px solid #48aff0';
-
-  if (data.actualCodeResult === 'Pass') background = '2.5px solid #58b766';
-  if (data.actualTimeResult === 'Fail') background = '2.5px solid #db8c15';
-  if (data.actualCodeResult === 'Fail') background = '2.5px solid #d61e11';
-
-  return background;
-};
+const DefaultStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-4 border-sky-500 text-center";
+const PassedStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-4 bg-green-600 border-green-400 text-center";
+const PassedSlaStyle = "border-2 rounded-md pr-1 pl-2 pt-1 pb-1 m-4 bg-orange-600 border-orange-400 text-center";
+const FailedStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-4 bg-rose-600 border-rose-400 text-center";
 
 function getPassedStyle() {
 
@@ -99,26 +80,27 @@ const Span = Styled.span`
 function DashboardCheckCard(props) {
 
 
-  let Card;
+  let styleToUse;
 
-  if(!props.actualCodeResult) {
+  if(props.actualCodeResult) {
     if(props.actualCodeResult === 'Pass') {
-      Card = getPassedStyle();
-    } else if ((props.actualTimeResult === 'Fail') && (data.actualCodeResult === 'Pass') ) {
-      Card = getFailedSlaStyle();
+
+      styleToUse = PassedStyle;
+    } else if ((props.actualTimeResult === 'Fail') && (props.actualCodeResult === 'Pass') ) {
+      styleToUse = PassedSlaStyle;
     } else if (props.actualCodeResult === 'Fail') {
-      Card = getFailedStyle();
+      styleToUse = FailedStyle;
     } else {
-      Card = getInitialStyle();
+      styleToUse = DefaultStyle;
     }
   } else {
-    Card = getInitialStyle();
+    styleToUse = DefaultStyle;
   }
 
   return (
-    <Card id={props.id}>
+    <div id={props.id} className={styleToUse}>
       <h4>{props.name}</h4>
-    </Card>
+    </div>
   );
 }
 

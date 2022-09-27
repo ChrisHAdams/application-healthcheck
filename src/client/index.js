@@ -14,6 +14,7 @@ import SingleCheckMonitor from './views/singleCheckMonitor';
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('app');
 const root = createRoot(container);
+ //       render={(props) => <LandscapeMonitor {...props} landscape={landscape} />}
 
 getLandscapes()
   .then((res) => {
@@ -24,7 +25,7 @@ getLandscapes()
     <Route
       key={landscape.key}
       path={"/landscapeMonitor-"+landscape.key}
-      render={(props) => <LandscapeMonitor {...props} landscape={landscape} />}
+      element={< LandscapeMonitor landscape={landscape} />}
     />
   );
 

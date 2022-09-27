@@ -1,66 +1,52 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Styled from 'styled-components';
-
 import {Link} from 'react-router-dom'
 
-//   background: #293447;
-
-const bgColorChooser = (data) => {
-
-  let background = '#293447';
-
-  if (data.actualCodeResult === 'Pass') background = '#397542';
-  if (data.actualTimeResult === 'Fail') background = '#99620f';
-  if (data.actualCodeResult === 'Fail') background = '#8e150c';
-
-  return background;
-};
-
-const borderColorChooser = (data) => {
-
-  let background = '2px solid #48aff0';
-
-  if (data.actualCodeResult === 'Pass') background = '2.5px solid #58b766';
-  if (data.actualTimeResult === 'Fail') background = '2.5px solid #db8c15';
-  if (data.actualCodeResult === 'Fail') background = '2.5px solid #d61e11';
-
-  return background;
-};
+const DefaultStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-2 border-sky-500";
+const PassedStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-2 bg-green-600 border-green-400";
+const PassedSlaStyle = "border-2 rounded-md pr-1 pl-2 pt-1 pb-1 m-2 bg-orange-600 border-orange-400";
+const FailedStyle = "border-2 rounded-md pr-1 pl-1 pt-2 pb-1 m-2 bg-rose-600 border-rose-400";
 
 function CheckComponentCard(props) {
 
-  const Card = Styled.div`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 1em;
-  background-color: #293447;
-  border: 2px solid #48aff0;
 
-  background-color: ${bgColorChooser(props)};
-  border: ${borderColorChooser(props)};
+  const newTo = {
+    pathname: "/singleCheckMonitor",
+    checkId: props.id
+  };
 
-`;
+  console.log(props);
 
-const newTo = {
-  pathname: "/singleCheckMonitor",
-  checkId: props.id
-};
+  let styleToUse;
+
+  if(props.actualCodeResult) {
+    if(props.actualCodeResult === 'Pass') {
+      styleToUse = PassedStyle;
+    } else if ((props.actualTimeResult === 'Fail') && (props.actualCodeResult === 'Pass') ) {
+      styleToUse = PassedSlaStyle;
+    } else if (props.actualCodeResult === 'Fail') {
+      styleToUse = FailedStyle;
+    } else {
+      styleToUse = DefaultStyle;
+    }
+  } else {
+    styleToUse = DefaultStyle;
+  }
 
   return (
-    <Card id={props.id}>
-    <Link to={newTo}><h3>{props.name}</h3></Link>
-    <h4 id='description'>{props.description}</h4>
-    <p id='type'>Check Type: {props.type}</p>
-    <p id='expectedResponseCode'>Expected Response Code: {props.expectedResponseCode}</p>
-    {props.actualResponseCode !== null &&
-      <p id='actualResponseCode'>Actual Response Code: {props.actualResponseCode}</p>
-    }
-    <p id='expectedResponseTime'>Expected Response Time: {props.expectedResponseTime}ms</p>
-    {props.actualResponseTime !== null &&
-      <p id='actualResponseTime'>Actual Response Time: {props.actualResponseTime}</p>
-    }
-    </Card>
+    <div id={props.id} className={styleToUse}>
+      <Link to={newTo}><h3>{props.name}</h3></Link>
+      <h4 id='description'>{props.description}</h4>
+      <p id='type'>Check Type: {props.type}</p>
+      <p id='expectedResponseCode'>Expected Response Code: {props.expectedResponseCode}</p>
+      {props.actualResponseCode !== null &&
+        <p id='actualResponseCode'>Actual Response Code: {props.actualResponseCode}</p>
+      }
+      <p id='expectedResponseTime'>Expected Response Time: {props.expectedResponseTime}ms</p>
+      {props.actualResponseTime !== null &&
+        <p id='actualResponseTime'>Actual Response Time: {props.actualResponseTime}</p>
+      }
+    </div>
   );
 }
 

@@ -12,6 +12,8 @@ background-color: #293447;
 border: 2px solid #48aff0;
 `;
 
+const BasicStyle = "border-2 rounded-md pr-1 pl-1 pt-1 pb-1 m-4 border-sky-500";
+
 function DashboardPanel(props) {
 
 
@@ -35,12 +37,21 @@ function DashboardPanel(props) {
     }
   );
 
-  return (
-    <Panel id={props.landscape.id}>
+  /*
+      <Panel id={props.landscape.id} >
       <h3>{props.landscape.layoutElements.title}</h3>
       <h4 id='description'>{props.landscape.layoutElements.subtitle}</h4>
       {dashboardCards}
     </Panel>
+*/
+  return (
+
+
+    <div id={props.landscape.id} className={BasicStyle}>
+      <h3>{props.landscape.layoutElements.title}</h3>
+      <h4 id='description'>{props.landscape.layoutElements.subtitle}</h4>
+      {dashboardCards}
+    </div>
   );
 }
 

@@ -41,7 +41,7 @@ export default class WebServer {
   }
 
   init(log) {
-    log.info("YO");
+    log.info("Initialising Web Server");
   }
 
   start(log) {
@@ -85,7 +85,7 @@ export default class WebServer {
           })();
 
 
-        }, 30000);
+        }, 300000);
 
         resolve();
 
