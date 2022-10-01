@@ -1,41 +1,51 @@
-const App = require('../../app');
-const Log = require('../../mocks/mockLogger');
-const axios = require('axios');
+//const App = require('../../app');
+//const Log = require('../../mocks/mockLogger');
+//const axios = require('axios');
+
+import WebServer from '../../app';
+import Log from '../../mocks/mockLogger';
+import axios from 'axios';
+
+let App;
+const log = new Log();
 
 describe('#API Routes', function () {
 
-  let log;
   let address;
 
-  beforeAll(async function (done) {
+  beforeAll(async function () {
 
-    log = new Log();
+    jest.setTimeout(20000);
+
+
     log.info("In beforeAll, starting app");
 
-    await App.start(log);
+    App = new WebServer(log);
+    App.init();
 
+    await App.start();
     expect(App.getState()).toEqual('Started');
 
-    done();
 
   });
 
-  afterAll(async function (done) {
+  afterAll(async function () {
+
+    jest.setTimeout(20000);
 
     log.info("In afterAll calling shutdown");
 
     if(App.getState() === 'Shutdown') {
 
       log.info("App already down.  No need to shutdown");
-      done();
+
 
     } else {
 
-      await App.shutdown(log);
+      await App.shutdown();
       log.info("In afterAll after calling shutdown");
       expect(App.getState()).toEqual('Shutdown');
 
-      done();
     }
   });
 
@@ -184,7 +194,7 @@ describe('#API Routes', function () {
     expect(App.getState()).toEqual('Started');
 
     const response = await axios.get("http://localhost:5251/api/assets/type/website");
-    console.log(response.data);
+
     expect(response.status).toEqual(200);
     expect(response.data.type).toEqual('website');
     expect(response.data.itemsToCheck.length).toEqual(6);
@@ -196,6 +206,8 @@ describe('#API Routes', function () {
   });
 
   it('should return a 200 and check all assets', async () =>  {
+
+    jest.setTimeout(90 * 1000);
 
     expect(App.getState()).toEqual('Started');
 

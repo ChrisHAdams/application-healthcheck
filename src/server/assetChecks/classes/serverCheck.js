@@ -43,4 +43,4 @@ async function makeServerRequest(requestObj, log) {
 
 }
 
-export { makeServerRequest };
+export { makeServerRequest};

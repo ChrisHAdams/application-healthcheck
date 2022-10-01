@@ -31,20 +31,22 @@ let server;
 let state = 'Shutdown';
 let io;
 
+
 //import http from 'http';
 import * as http from 'http';
 
 export default class WebServer {
 
-  constructor(){
-
+  constructor(log){
+    this.log = log;
   }
 
-  init(log) {
-    log.info("Initialising Web Server");
+  init() {
+    this.log.info("Initialising Web Server");
   }
 
-  start(log) {
+  start() {
+    let log = this.log;
 
     return new Promise((resolve, reject) => {
 
@@ -99,6 +101,25 @@ export default class WebServer {
 
   }
 
+  shutdown() {
+
+    let log = this.log;
+
+    return new Promise((resolve, reject) => {
+
+      state = 'Shutting down';
+      log.info('Shutting down.');
+
+      server.close(function () {
+        state="Shutdown";
+        //log.info('Server state : ' + getState());
+        resolve();
+      });
+    });
+
+  }
+
+  /*
   shutdown(log) {
 
     return new Promise((resolve, reject) => {
@@ -114,6 +135,7 @@ export default class WebServer {
     });
 
   }
+  */
 
 
   getApiRoot() {

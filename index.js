@@ -1,7 +1,7 @@
 import WebServer from './src/server/app.js';
 import Log from './src/server/common/logger.js';
 
-const webServer = new WebServer();
+const webServer = new WebServer(Log);
 
 async function startup() {
 
@@ -10,9 +10,9 @@ async function startup() {
   try {
     Log.info('Initializing web server module');
 
-    webServer.init(Log);
+    webServer.init();
 
-    await webServer.start(Log);
+    await webServer.start();
 
   } catch (err) {
     Log.error(err.toString());

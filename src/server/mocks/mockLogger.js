@@ -1,21 +1,23 @@
-function MockLogger() {
-  this.log = [];
+export default class Log {
 
-  function info(messageValue) {
+  log = [];
+
+  constructor(){
+
+  }
+
+  info(messageValue) {
     this.log.push({ type: 'info', message: messageValue });
   }
 
-  function error(messageValue) {
+  error(messageValue) {
     this.log.push({ type: 'error', message: messageValue });
   }
 
-  function getLogEntries() {
+  getLogEntries() {
     return this.log;
   }
 
-  this.info = info;
-  this.error = error;
-  this.getLogEntries = getLogEntries;
 }
 
-module.exports = MockLogger;
+

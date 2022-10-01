@@ -1,5 +1,5 @@
 import WebServiceAssetClass from '../../assets/classes/webServiceAsset';
-import WebServiceCheck from '../classes/webServiceCheck';
+import { makeWebServiceRequest } from '../classes/webServiceCheck.js';
 import MockwebServiceCheck from '../../mocks/mockWebServiceCheckClass';
 
 const mockServiceConfigObject = {
@@ -32,7 +32,7 @@ const validServiceConfigObject = {
   body: { message: 'the message' },
 };
 
-const Log = require('../../mocks/mockLogger');
+import Log from '../../mocks/mockLogger';
 
 let log;
 
@@ -44,7 +44,7 @@ describe('#WebServiceCheckClass', function () {
 
   it('should reject an invalid URL and log an error', async function () {
     const webServiceComponent = new WebServiceAssetClass(mockServiceConfigObject);
-    const response = await WebServiceCheck.makeWebServiceRequest(webServiceComponent, log);
+    const response = await makeWebServiceRequest(webServiceComponent, log);
 
     expect(response.getActualResponseCode()).toEqual('Error: Invalid URI "some%20url"');
     expect(log.getLogEntries()[1].type).toEqual('error');
@@ -68,7 +68,7 @@ describe('#WebServiceCheckClass', function () {
 
   it('should test a valid webService and return a 200', async function () {
     const webServiceComponent = new WebServiceAssetClass(validServiceConfigObject);
-    const response = await WebServiceCheck.makeWebServiceRequest(webServiceComponent, log);
+    const response = await makeWebServiceRequest(webServiceComponent, log);
 
     expect(response.getActualResponseCode()).toEqual(200);
 

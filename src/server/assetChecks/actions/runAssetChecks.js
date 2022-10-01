@@ -52,7 +52,7 @@ async function runAllAssetChecksFromArray(items, log = logger) {
 
   let returnArray = [];
 
-  results.forEach(element => returnArray.push(element.toJson()));
+  results.forEach(element => returnArray.push(element));
 
   const time = Date.now();
 
@@ -61,9 +61,6 @@ async function runAllAssetChecksFromArray(items, log = logger) {
     items: returnArray
   };
 
-  resultsLogger.info(obj);
-
-  //return results;
   return returnArray;
 
 }
@@ -71,8 +68,9 @@ async function runAllAssetChecksFromArray(items, log = logger) {
 async function runAssetCheckById(id, log = logger) {
 
   let result = await runAssetCheckByIdFromArray(Config.get('healthcheck.items'), id, log);
-  return result.toJson();
-  //return await runAssetCheckByIdFromArray(Config.get('healthcheck.items'), id, log);
+
+  //return result.toJson();
+  return result;
 
 }
 

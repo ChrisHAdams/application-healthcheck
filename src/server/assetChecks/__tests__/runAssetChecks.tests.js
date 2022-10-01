@@ -4,14 +4,15 @@ import { runSingleCheck,
          runAssetCheckByNameFromArray,
          runAssetCheckByName,
          runAllAssetChecks,
-         runAllAssetChecksFromArray } from '../actions/runAssetChecks';
+         runAllAssetChecksFromArray } from '../actions/runAssetChecks.js';
 
 import WebsiteAssetClass from '../../assets/classes/websiteAsset';
 import WebServiceAssetClass from '../../assets/classes/webServiceAsset';
 import ServerAssetClass from '../../assets/classes/serverAsset';
 
-const MockLogger = require('../../mocks/mockLogger');
-
+//const MockLogger = require('../../mocks/mockLogger');
+import Log from '../../mocks/mockLogger';
+const MockLogger = Log;
 var log;
 
 const validWebsiteAssetObject = {
@@ -131,7 +132,6 @@ describe('#runAssetChecks', function () {
     const response = await runSingleCheck(new ServerAssetClass(validServerAssetObject), log);
 
     expect(response.getActualResponseCode()).toEqual(200);
-    //expect(response.getActualResponseTime()).toBeLessThan(700);
     expect(response.checkResponseTimeResult()).toEqual('Pass');
     expect(response.checkResponseCodeResult()).toEqual('Pass');
 
@@ -304,7 +304,6 @@ describe('#runAssetChecks', function () {
     const response = await runAllAssetChecks(log);
 
     expect(response.length).toEqual(8);
-
     expect(response[0].getName()).toEqual('BBC');
 
     expect(response[6].getName()).toEqual('Penguin');

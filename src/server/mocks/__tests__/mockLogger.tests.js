@@ -1,6 +1,8 @@
 
 //const { expect } = require('chai');
-const Log = require('../mockLogger');
+//const Log = require('../mockLogger');
+
+import Log from '../mockLogger';
 
 let log;
 
@@ -8,6 +10,7 @@ describe('#dummyLogger', function () {
 
   beforeEach(function () {
     log = new Log();
+    //log = Log;
   });
 
   it('should be able to log info messages', function () {

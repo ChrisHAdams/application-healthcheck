@@ -1,7 +1,7 @@
-import ServerCheck from '../classes/serverCheck';
+import { makeServerRequest } from '../classes/serverCheck.js';
 import ServerAsset from '../../assets/classes/serverAsset';
 import MockServerCheck from '../../mocks/mockServerCheckClass';
-
+import Log from '../../mocks/mockLogger';
 
 const mockServerConfigObject = {
   key: 0,
@@ -36,8 +36,6 @@ const validServerConfigObject = {
   resolveWithFullResponse: true,
 };
 
-const Log = require('../../mocks/mockLogger');
-
 let log;
 
 describe('#ServerCheckClass', function () {
@@ -47,8 +45,9 @@ describe('#ServerCheckClass', function () {
   });
 
   it('should reject an invalid URL and log an error', async function () {
+
     const serverComponent = new ServerAsset(mockServerConfigObject);
-    const response = await ServerCheck.makeServerRequest(serverComponent, log);
+    const response = await makeServerRequest(serverComponent, log);
 
     expect(response.getActualResponseCode()).toEqual(500);
     expect(log.getLogEntries()[1].type).toEqual('info');
@@ -60,7 +59,7 @@ describe('#ServerCheckClass', function () {
 
   it('should reject an empty URL and log an error', async function () {
     const serverComponent = new ServerAsset(invalidServerConfigObject);
-    const response = await ServerCheck.makeServerRequest(serverComponent, log);
+    const response = await makeServerRequest(serverComponent, log);
 
     expect(response.getActualResponseCode()).toEqual('No URL');
     expect(log.getLogEntries()[0].type).toEqual('error');
@@ -72,7 +71,7 @@ describe('#ServerCheckClass', function () {
 
   it('should return response time and code for valid URL', async function () {
     const serverComponent = new ServerAsset(validServerConfigObject);
-    const response = await ServerCheck.makeServerRequest(serverComponent, log);
+    const response = await makeServerRequest(serverComponent, log);
 
     expect(response.getActualResponseCode()).toEqual(200);
     expect(log.getLogEntries()[0].type).toEqual('info');

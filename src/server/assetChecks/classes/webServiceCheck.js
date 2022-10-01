@@ -41,4 +41,4 @@ async function makeWebServiceRequest(requestObj, log) {
 
 }
 
-export { makeWebServiceRequest };
+export { makeWebServiceRequest }

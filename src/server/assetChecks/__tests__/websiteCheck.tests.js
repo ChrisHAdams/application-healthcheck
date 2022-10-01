@@ -1,5 +1,5 @@
 import WebsiteAssetClass from '../../assets/classes/websiteAsset';
-import WebsiteCheck from '../classes/websiteCheck';
+import { makeHttpRequest } from '../classes/websiteCheck.js';
 import MockWebsiteCheck from '../../mocks/mockWebsiteCheckClass';
 
 
@@ -25,7 +25,7 @@ const validServiceConfigObject = {
   resolveWithFullResponse: true,
 };
 
-const Log = require('../../mocks/mockLogger');
+import Log from '../../mocks/mockLogger';
 
 let log;
 
@@ -37,7 +37,7 @@ describe('# WebsiteCheckClass', function () {
 
   it('should reject an invalid URL and log an error', async function () {
     const websiteComponent = new WebsiteAssetClass(mockServiceConfigObject);
-    const response = await WebsiteCheck.makeHttpRequest(websiteComponent, log);
+    const response = await makeHttpRequest(websiteComponent, log);
 
     expect(response.getActualResponseCode()).toEqual('Error: Invalid URI "some%20url"');
     expect(log.getLogEntries()[1].type).toEqual('error');
@@ -61,7 +61,7 @@ describe('# WebsiteCheckClass', function () {
 
   it('should test a real website and return a 200', async function () {
     const websiteComponent = new WebsiteAssetClass(validServiceConfigObject);
-    const response = await WebsiteCheck.makeHttpRequest(websiteComponent, log);
+    const response = await makeHttpRequest(websiteComponent, log);
 
     expect(response.getActualResponseCode()).toEqual(200);
 
